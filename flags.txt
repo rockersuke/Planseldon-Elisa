@@ -1,0 +1,10 @@
+100 - Examinar pared en loc 1
+101 - MODO (0: fácil, 255: difícil)
+102 - Pergamino leido
+103 - Relieve examinado
+104 - Figura examinada
+105 - Puerta abierta
+106 - Loc 2 visitada
+107 - Espejo roto
+108 - Flag de frases aleatorias de ambiente
+109 - Frases de ambiente bloqueadas

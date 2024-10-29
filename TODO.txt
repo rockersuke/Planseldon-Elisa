@@ -1,0 +1,52 @@
+1 *** PRIMERA LOCALIDAD ***
+
+Acciones posibles:
+
+> Examinar colchón
+Se trata de un delicado lecho de plumas bordado con tela púrpura. Está colocado sobre una rica alfombra persa.  Un escalofrío de espanto os recorre al pensar qué uso pretende darle el nigromante con vos si antes no lográis escapar.
+
+> Empujar colchón ó > Tirar de colchón ó > Retirar colchón ó > Apartar colchón ó >Levantar colchón
+Empujáis el colchón hacia un rincón de la celda. Ahora la alfombra ha quedado descubierta.
+
+> Examinar alfombra
+Su tacto es muy suave. Por lo que permite ver la luz de la luna, está finamente tejida y decorada con motivos florales.
+
+> Coger alfombra
+Es demasiado grande para que os la podáis llevar.
+
+> Retirar Alfombra ó > Empujar alfombra ó > Tirar de Alfombra ó > Apartar alfombra ó > Levantar alfombra
+Empujáis la alfombra hacia el otro rincón de la celda y... ¡Debajo hay algo! Parece un trozo de tela... 
+
+
+
+2 *** SEGUNDA LOCALIDAD ***
+
+> Coger velas ó > Examinar velas ó > Quemar (lo que sea) en velas
+Las velas deben haber sido creadas por algún sortilegio pues cuando intentáis tocarlas o quemar algo en ellas es como si no existieran.
+
+3. Resolución de la aventura 
+
+Una vez hemos leído el pergamino (salvo que al jugador se le cruce una neurona y no caiga en ello, que todo es posible) hay que volver a la celda, colocar otra vez la alfombra en el suelo, sentarse en ella y pronunciar las palabras mágicas. La alfombra se pondrá a levitar y saldrá volando rumbo a Avalón...
+
+> Sentarme en la alfombra ó >Sentar en la alfombra ó > Sentarse en la alfombra (antes de haberla colocado)
+Primero debéis volver a extenderla en el suelo.
+
+> Extender alfombra en el suelo ó > Extender alfombra ó > Colocar alfombra ó > Poner alfombra
+Ahora la alfombra está otra vez extendida en medio de la celda.
+
+> Sentarme en la alfombra ó > Sentar en la alfombra ó > Sentarse en la alfombra
+Estáis sentada en la alfombra
+
+> Recitar/decir/pronunciar hechizo/conjuro/sortilegio/palabras mágicas ó Recitar/decir/pronunciar "In girum imus nocte et consumimur igni"
+La alfombra comienza a levitar y sale sin ninguna dificultad por la gran ventana de la  celda volando hacia el occidente... en poco tiempo dejáis atrás las frías arenas del desierto y antes de lo que nunca hubierais imaginado divisáis las amables campiñas de Galia, los queridos bosques de Armórica y por fin... la querida Isla de Avalón. 
+¡Enhorabuena, doña Elisa habéis escapado la torre del brujo y habéis salvado vuestro precioso cuerpo de ser mancillado por el repugnante nigromante! 
+
+FINIS CORONAT OPVS 
+
+
+
+Respuestas a añadir 
+
+>> Recitar/decir/pronunciar hechizo/conjuro/sortilegio/palabras mágicas ó Recitar/decir/pronunciar "In girum imus nocte et consumimur igni" (sin estar sentada en la alfombra)
+La alfombra comienza a levitar lentamente y… ¡antes de que podáis reaccionar, sale disparada por la ventana! De inmediato sentís que los labios se os secan, el estómago se retuerce en un nudo de nervios, y una opresión oscura nubla vuestra vista. La celda se envuelve en sombras más densas, como si fueran el símbolo inevitable del fin de vuestra última esperanza de escapar.
+

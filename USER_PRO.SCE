@@ -1,0 +1,166 @@
+/PRO 7
+
+; Texto "arriba."
+
+_       _       WINDOW 1
+                WINAT textrow2 0
+                WINSIZE ROWS 127
+                CLS
+
+/PRO 8
+
+; Texto "abajo."
+
+_       _       WINDOW 1
+                WINAT textrow1 0
+                WINSIZE ROWS 127
+                CLS
+
+/PRO 9
+
+; Recoloca la ventana de texto.
+
+_       _       PICTURE [Player]
+                PROCESS 8
+                DONE
+
+_       _       PROCESS 7
+
+/PRO 10
+
+; Salidas
+
+_       _       AT 1
+                MESSAGE 0
+
+_       _       AT 2
+                MESSAGE 1
+
+/PRO 11
+
+; Actualiza barra de estado
+
+_       _       WINDOW 2
+                CLS
+
+; Si no hay luz, lo indica en la barra de estado y sale del proceso.
+
+_       _       NOTZERO DarkF
+                MES 20
+                DONE
+
+; Imprime el texto de la localidad en la barra.
+; Si a¤ades m s localidades tras el uso de trizbort,
+; Puedes poner su texto aqu¡ con una condici¢n del tipo:
+; _  _       AT n§ de loc
+;            MES XX
+; siendo XX el mensaje donde has puesto el texto a poner en la barra.
+
+_       _       AT 1
+                MES 16
+
+_       _       AT 2
+                MES 17
+                
+_       _       AT 3
+                MES 15
+                
+_       _       AT 4
+                MES 15
+
+_       _       WINDOW 1
+
+/PRO 12
+
+; Finaliza el juego si los turnos son m s de 99 (modo f cil)
+; o de 20 (modo dif¡cil)
+
+_       _       ZERO 101
+                EQ Turns 100
+                PROCESS 13
+                
+_       _       NOTZERO 101
+                EQ Turns 21
+                PROCESS 13
+                
+/PRO 13
+
+; Mensajes de fin de juego (llega el brujo)
+
+_       _       AT 2
+                MES 26
+                MES 28
+                MES 33
+                MES 34
+                MES 30
+                MESSAGE 31
+                END
+                
+_       _       MES 32
+                MES 28
+                MES 27
+                MES 30
+                MESSAGE 31
+                END
+
+/PRO 14
+
+; Examinar/leer el pergamino
+
+_       _       AT 1
+                MESSAGE 38
+                
+_       _       AT 2
+                MESSAGE 39
+                SET 102                
+
+/PRO 15
+
+; Examinar puerta en loc 1
+
+_       _       MESSAGE 35
+                ZERO 105
+                MESSAGE 8
+                DONE
+
+_       _       MESSAGE 51
+
+/PRO 16
+
+; Abrir/Empujar puerta en loc 1
+
+_       _       NOTAT 1
+                NOTDONE
+                
+_       _       ZERO 105
+                MESSAGE 50
+                DONE
+                
+_       _       MESSAGE 51
+
+/PRO 17
+
+; Salir/Saltar por la ventana en loc. 1
+
+_       _       AT 2
+                MESSAGE 62
+                DONE
+
+_       _       MES 58
+                MESSAGE 59
+
+/PRO 18
+
+; Empuja espejo/marco en loc 2
+
+_       _       ZERO 107
+                MES 82
+                MES 87
+                MES 84
+                MESSAGE 86
+                DONE
+                
+_       _       MES 82
+                MES 88
+                MES 84
+                MESSAGE 86

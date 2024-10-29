@@ -1,0 +1,9 @@
+*.DDB
+*.EXE
+*.lnk
+*.pdf
+*.session
+*.txt
+*.webp
+!flags.txt
+!TODO.txt
