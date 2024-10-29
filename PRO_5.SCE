@@ -508,6 +508,12 @@ TOCAR   ESPEJ   AT 2
 TOCAR   ESPEJ   AT 2
                 MESSAGE 63
 
+TOCAR   FIGUR   AT 1
+                NOTZERO 103
+                SET 104
+                MESSAGE 47
+                DONE
+
 TOCAR   FRASC   AT 2
                 MESSAGE 89
 

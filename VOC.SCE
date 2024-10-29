@@ -151,6 +151,7 @@ TIRAL   40      verb
 TIRAT   40      verb
 GIRAR   40      verb
 GIRA    40      verb
+GIRAL   40      verb
 ABRIR   41      verb
 ABRE    41      verb
 ABREL   41      verb
