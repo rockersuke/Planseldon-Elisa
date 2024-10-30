@@ -8,3 +8,6 @@
 107 - Espejo roto
 108 - Flag de frases aleatorias de ambiente
 109 - Frases de ambiente bloqueadas
+110 - Colchón apartado
+111 - Alfombra apartada
+

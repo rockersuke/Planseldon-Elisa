@@ -262,3 +262,29 @@ Lanz is con desesperaci¢n un grito de socorro, con la d‚bil esperanza de que alg
 Intent is quemar _ con la llama de las velas, pero... 
 /107
 Sopl is con energ¡a hacia las velas, pero las llamas revelan su naturaleza m gica neg ndose a desaparecer.
+/108
+Se trata de un delicado lecho de plumas bordado con tela p£rpura. 
+/109
+Est  colocado sobre una rica alfombra persa. 
+/110
+Un escalofr¡o de espanto os recorre al pensar qu‚ uso pretende darle el nigromante con vos si antes no logr is escapar.
+/111
+Empuj is el colch¢n hacia un rinc¢n de la celda. Ahora la alfombra ha quedado descubierta.
+/112
+Su tacto es muy suave.
+/113
+No alcanz is a verla bien en la penumbra 
+/114
+ Por lo que permite ver la luz de la luna, est  finamente tejida y decorada con motivos florales.
+/115
+Es demasiado grande para que os la pod is llevar.
+/116
+No pod‚is cogerla bien 
+/117
+ya que la mayor parte de ella est  bajo el colch¢n.
+/118
+No pod‚is moverla bien 
+/119
+Empuj is la alfombra hacia el otro rinc¢n de la celda y... ­Debajo hay algo! Parece un trozo de tela...
+/120
+Trat is de relajaros y pensar... 

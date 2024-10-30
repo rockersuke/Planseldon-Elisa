@@ -58,6 +58,84 @@ PASIL   _       AT 1
                 MESSAGE 50
                 DONE
 
+; *** ACCIONES ALFOMBRA ***
+
+COGER   ALFOM   AT 1
+                NOTZERO 110
+                MESSAGE 115
+                DONE
+                
+COGER   ALFOM   AT 1
+                MES 116
+                MESSAGE 117
+                DONE
+
+EMPUJ   ALFOM   AT 1
+                ZERO 110
+                MES 118
+                MESSAGE 117
+                DONE
+                
+EMPUJ   ALFOM   AT 1
+                ZERO 111
+                SET 111
+                MESSAGE 119
+                CREATE 2
+                DONE
+
+EMPUJ   ALFOM   AT 1
+                MESSAGE 49
+
+EX      ALFOM   AT 1
+                NOTZERO 110
+                MES 112
+                MESSAGE 114
+                DONE
+
+EX      ALFOM   AT 1
+                MES 113
+                MESSAGE 117
+                DONE
+
+ROMPE   ALFOM   AT 1
+                MESSAGE 101
+
+TOCAR   ALFOM   AT 1
+                MESSAGE 112
+
+; *** ACCIONES COLCH‡N ***
+
+COGER   COLCH   AT 1
+                MESSAGE 12
+                DONE
+
+EMPUJ   COLCH   AT 1
+                ZERO 110
+                SET 110
+                MESSAGE 111
+                DONE
+                
+EMPUJ   COLCH   AT 1
+                MESSAGE 49
+
+EX      COLCH   AT 1
+                ZERO 110
+                MES 108
+                MES 109
+                MESSAGE 110
+                DONE
+                
+EX      COLCH   AT 1
+                MES 108
+                MESSAGE 110
+                DONE
+
+ROMPE   COLCH   AT 1
+                MESSAGE 101
+                
+TOCAR   COLCH   AT 1
+                MESSAGE 89
+
 ; *** ACCIONES EXAMINAR ***
 
 EX      BIBLI   AT 2
@@ -271,10 +349,6 @@ COGER   CODIC   AT 2
                 MESSAGE 45
                 DONE
 
-COGER   COLCH   AT 1
-                MESSAGE 12
-                DONE
-
 COGER   ESPEJ   AT 2
                 NOTZERO 107
                 MESSAGE 95
@@ -419,6 +493,9 @@ QUEMA   TELA    AT 2
                 MES 106
                 MESSAGE 37
 
+RELAJ   _       MES 120
+                MESSAGE 103
+
 ROMPE   CODIC   AT 2
                 MESSAGE 101
 
@@ -492,9 +569,6 @@ TOCAR   CANDE   AT 2
                 MESSAGE 37
 
 TOCAR   CODIC   AT 2
-                MESSAGE 89
-
-TOCAR   COLCH   AT 1
                 MESSAGE 89
 
 TOCAR   CRIST   AT 2

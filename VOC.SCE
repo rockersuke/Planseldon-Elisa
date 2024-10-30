@@ -152,6 +152,9 @@ TIRAT   40      verb
 GIRAR   40      verb
 GIRA    40      verb
 GIRAL   40      verb
+RETIR   40      verb
+APART   40      verb
+LEVAN   40      verb
 ABRIR   41      verb
 ABRE    41      verb
 ABREL   41      verb
@@ -179,6 +182,9 @@ GRITA   52      verb
 QUEMA   53      verb
 APAGA   54      verb
 SOPLA   54      verb
+RELAJ   55      verb
+PENSA   55      verb
+PIENS   55      verb
 ;
 ; Preposiciones
 ;
