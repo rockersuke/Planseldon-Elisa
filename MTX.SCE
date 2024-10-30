@@ -288,3 +288,11 @@ No pod‚is moverla bien
 Empuj is la alfombra hacia el otro rinc¢n de la celda y... ­Debajo hay algo! Parece un trozo de tela...
 /120
 Trat is de relajaros y pensar... 
+/121
+Ahora la alfombra est  
+/122
+otra vez extendida en medio
+/123
+medio enrollada, apartada en un rinc¢n
+/124
+ de la celda.

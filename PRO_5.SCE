@@ -87,6 +87,23 @@ EMPUJ   ALFOM   AT 1
                 MESSAGE 49
 
 EX      ALFOM   AT 1
+                NOTZERO 112
+                MES 121
+                MES 122
+                MES 124
+                SPACE
+                MES 112
+                MESSAGE 114
+                DONE
+
+EX      ALFOM   AT 1
+                NOTZERO 111
+                MES 121
+                MES 123
+                MESSAGE 124
+                DONE
+
+EX      ALFOM   AT 1
                 NOTZERO 110
                 MES 112
                 MESSAGE 114
@@ -96,6 +113,18 @@ EX      ALFOM   AT 1
                 MES 113
                 MESSAGE 117
                 DONE
+
+EXTEN   ALFOM   AT 1
+                NOTZERO 112
+                MESSAGE 49
+                DONE
+
+EXTEN   ALFOM   AT 1
+                NOTZERO 111
+                SET 112
+                MES 121
+                MES 122
+                MESSAGE 124
 
 ROMPE   ALFOM   AT 1
                 MESSAGE 101

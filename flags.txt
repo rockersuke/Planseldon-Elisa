@@ -10,4 +10,5 @@
 109 - Frases de ambiente bloqueadas
 110 - Colchón apartado
 111 - Alfombra apartada
+112 - Alfombra extendida
 

@@ -185,6 +185,9 @@ SOPLA   54      verb
 RELAJ   55      verb
 PENSA   55      verb
 PIENS   55      verb
+EXTEN   56      verb
+EXTIE   56
+DESEN   56      verb
 ;
 ; Preposiciones
 ;
