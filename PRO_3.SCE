@@ -9,6 +9,7 @@ _       _       AT 1
 
 _       _       AT 2
                 SET 106
+                CLEAR 113
                 MESSAGE 20
 
 ; Listado de objetos (si no est  oscuro).

@@ -11,4 +11,6 @@
 110 - Colchón apartado
 111 - Alfombra apartada
 112 - Alfombra extendida
+113 - Sentada en la alfombra
+114 - Colchón examinado
 

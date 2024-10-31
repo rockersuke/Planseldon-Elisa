@@ -83,7 +83,7 @@ A trav‚s de la ventana la p lida luz de la noche parece brillar con resplandores
 desvanecido. Su mirada lasciva os envuelve como una oscura serpiente... sent¡s sus repugnantes manos acariciar con deseo vuestra delicada piel y despu‚s... todo se vuelve gritos, horror y tinieblas....
 
 
- FIN
+   FIN
 
 /32
 De pronto el
@@ -296,3 +296,30 @@ otra vez extendida en medio
 medio enrollada, apartada en un rinc¢n
 /124
  de la celda.
+/125
+El conjuro requiere que la alfombra est‚ debidamente extendida en toda su amplitud sobre el suelo.
+/126
+Primero deb‚is volver a extenderla en el suelo.
+/127
+La alfombra comienza a levitar lentamente y... ­antes de que pod is reaccionar, sale disparada por la ventana! De inmediato sent¡s que los labios se os secan, el est¢mago se retuerce en un nudo de nervios, y una opresi¢n oscura nubla vuestra vista. 
+/128
+La alfombra comienza a levitar y sale sin ninguna dificultad por la gran ventana de la  celda volando hacia el occidente... en poco tiempo dej is atr s las fr¡as arenas del desierto y antes de lo que nunca hubierais imaginado divis is las amables campi¤as de Galia, los queridos bosques de Arm¢rica y por fin... la querida Isla de Aval¢n.
+
+
+­Enhorabuena, do¤a Elisa hab‚is escapado la torre del brujo y hab‚is salvado vuestro precioso cuerpo de ser mancillado por el repugnante nigromante! 
+
+
+   FINIS CORONAT OPVS
+
+/129
+No conoc‚is ning£n conjuro que recitar.
+/130
+La celda se envuelve en sombras m s densas, como si fueran el s¡mbolo inevitable del fin de vuestra £ltima esperanza de escapar.
+/131
+Est is sentada en la alfombra.
+/132
+Para sentaros apropiadamente en la alfombra ‚sta debe estar extendida sobre el suelo.
+/133
+En vuestro estado de nervios no pod‚is permanecer quieta en un mismo sitio. Os levant is de la alfombra.
+/134
+¨A qu‚ alfombra os refer¡s?

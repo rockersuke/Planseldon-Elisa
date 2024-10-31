@@ -4,6 +4,15 @@
 ; Se le llama desde PRO 1.
 ; Se ejecuta justo antes de que el parser pida una nueva ¢rden o sentencia l¢gica
 
+; Se levanta de la alfombra
+
+_       _       AT 1
+                NOTZERO 113
+                NOTEQ 33 57
+                CLEAR 113
+                MESSAGE 133
+                DONE
+
 ; Mensajes de ambientaci¢n, con la probabilidad de una vez cada 5 tuirnos
 
 ; Mensajes de ambiente bloqueados en loc 3 y 4 (pantalla nivel dificultad)

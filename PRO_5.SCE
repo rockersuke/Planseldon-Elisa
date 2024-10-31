@@ -60,6 +60,11 @@ PASIL   _       AT 1
 
 ; *** ACCIONES ALFOMBRA ***
 
+_       ALFOM   AT 1
+                ZERO 114
+                MESSAGE 134
+                DONE
+                
 COGER   ALFOM   AT 1
                 NOTZERO 110
                 MESSAGE 115
@@ -125,10 +130,29 @@ EXTEN   ALFOM   AT 1
                 MES 121
                 MES 122
                 MESSAGE 124
+                DONE
+                
+EXTEN   ALFOM   AT 1
+                MES 118
+                MESSAGE 117
 
 ROMPE   ALFOM   AT 1
                 MESSAGE 101
 
+SENTA   ALFOM   AT 1
+                NOTZERO 113
+                MESSAGE 49
+                DONE
+
+SENTA   ALFOM   AT 1
+                NOTZERO 112
+                SET 113
+                MESSAGE 131
+                DONE
+                
+SENTA   ALFOM   AT 1
+                MESSAGE 132
+                
 TOCAR   ALFOM   AT 1
                 MESSAGE 112
 
@@ -141,6 +165,7 @@ COGER   COLCH   AT 1
 EMPUJ   COLCH   AT 1
                 ZERO 110
                 SET 110
+                SET 114
                 MESSAGE 111
                 DONE
                 
@@ -152,11 +177,13 @@ EX      COLCH   AT 1
                 MES 108
                 MES 109
                 MESSAGE 110
+                SET 114
                 DONE
                 
 EX      COLCH   AT 1
                 MES 108
                 MESSAGE 110
+                SET 114
                 DONE
 
 ROMPE   COLCH   AT 1
@@ -164,6 +191,29 @@ ROMPE   COLCH   AT 1
                 
 TOCAR   COLCH   AT 1
                 MESSAGE 89
+
+; *** ACCIONES CONJURO ***
+
+RECIT   CONJU   AT 1
+                ZERO 102
+                MESSAGE 129
+                DONE
+
+RECIT   CONJU   AT 1
+                ZERO 112
+                MESSAGE 125
+                DONE
+                
+RECIT   CONJU   AT 1
+                NOTZERO 113
+                MESSAGE 128
+                END
+                
+RECIT   CONJU   AT 1
+                MES 127
+                MESSAGE 130
+                ZERO 101
+                LET Turns 97
 
 ; *** ACCIONES EXAMINAR ***
 

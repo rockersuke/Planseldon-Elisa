@@ -79,18 +79,18 @@ MUNEC   71      noun
 MU¥EC   71      noun
 MANO    71      noun
 MANOS   71      noun
-SUELO	72	noun
-TECHO	73	noun
-CRIST	74	noun
+SUELO	72      noun
+TECHO	73      noun
+CRIST	74      noun
 MARCO   75      noun
 RUBI    75      noun
-COLCH	76	noun
-CAMA	76	noun
-ALFOM	77	noun
-CONJU	78	noun
-HECHI	78	noun
-PALAB	78	noun
-VACIO	79	noun
+COLCH	76      noun
+CAMA	76      noun
+ALFOM	77      noun
+CONJU	78      noun
+HECHI	78      noun
+PALAB	78      noun
+VACIO	79      noun
 VIDA    80      noun
 ;
 ; Verbos
@@ -186,8 +186,10 @@ RELAJ   55      verb
 PENSA   55      verb
 PIENS   55      verb
 EXTEN   56      verb
-EXTIE   56
+EXTIE   56      verb
 DESEN   56      verb
+SENTA   57      verb
+SIENT   57      verb
 ;
 ; Preposiciones
 ;
