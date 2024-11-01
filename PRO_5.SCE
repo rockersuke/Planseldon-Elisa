@@ -225,6 +225,7 @@ RECIT   CONJU   NOTZERO 113
                 WINDOW 2
                 CLS
                 MES 139
+                WINDOW 1
                 END
                 
 RECIT   CONJU   MES 127
