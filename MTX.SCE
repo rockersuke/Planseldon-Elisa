@@ -323,3 +323,23 @@ Para sentaros apropiadamente en la alfombra ‚sta debe estar extendida sobre el s
 En vuestro estado de nervios no pod‚is permanecer quieta en un mismo sitio. Os levant is de la alfombra.
 /134
 ¨A qu‚ alfombra os refer¡s?
+/135
+Recit is el conjuro que hab‚is memorizado... sin ning£n efecto.
+/136
+Est is en tal estado de tensi¢n que ni vos misma entend‚is lo que acab is de decir.
+/137
+ AYUDA AFECTADOS DANA VALENCIA
+/138
+Do¤a Elisa de Aval¢n se termin¢ de escribir a finales de Octubre de 2024, coincidiendo con las desastrosas inundaci¢nes que asolaron el sur y el levante de Espa¤a causando numerosas p‚rdidas materiales y humanas.
+
+
+Nuestros mayores  nimos para todos las personas afectadas.
+
+
+Quienes lo dese‚is pod‚is colaborar con el evento solidario que la asociaci¢n RetroParla (www.retroparla.com) organiza el 9 de Noviembre de 2024.
+
+
+   GRACIAS Y UN ABRAZO A TODAS Y TODOS.
+
+/139
+ DO¥A ELISA DE AVALON

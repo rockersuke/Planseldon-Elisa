@@ -194,23 +194,40 @@ TOCAR   COLCH   AT 1
 
 ; *** ACCIONES CONJURO ***
 
-RECIT   CONJU   AT 1
-                ZERO 102
+RECIT   _       PROCESS 19
+                ISNDONE
+                MESSAGE 136
+                DONE
+
+RECIT   CONJU   ZERO 102
                 MESSAGE 129
                 DONE
 
-RECIT   CONJU   AT 1
-                ZERO 112
+RECIT   CONJU   AT 2
+                MESSAGE 135
+                DONE
+
+RECIT   CONJU   ZERO 112
                 MESSAGE 125
                 DONE
                 
-RECIT   CONJU   AT 1
-                NOTZERO 113
+RECIT   CONJU   NOTZERO 113
                 MESSAGE 128
+                ANYKEY
+                CLS
+                WINDOW 2
+                CLS
+                MES 137
+                WINDOW 1
+                MESSAGE 138
+                ANYKEY
+                CLS
+                WINDOW 2
+                CLS
+                MES 139
                 END
                 
-RECIT   CONJU   AT 1
-                MES 127
+RECIT   CONJU   MES 127
                 MESSAGE 130
                 ZERO 101
                 LET Turns 97

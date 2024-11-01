@@ -164,3 +164,23 @@ _       _       MES 82
                 MES 88
                 MES 84
                 MESSAGE 86
+
+/PRO 19
+
+; Recitar conjuro (literalmente)
+
+_       CONJU   DONE       
+
+_       _       PARSE 1
+                NOTDONE
+
+IN      GIRUM   ADJECT1 IMUS
+                NOUN2 NOCTE
+                ADJECT2 ET
+                PREP CONSU
+                ADVERB IGNI
+                NOTZERO 102
+                SYNONYM RECIT CONJU
+                DONE
+
+_       _       NOTDONE

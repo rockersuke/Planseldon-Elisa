@@ -48,11 +48,11 @@ TODAS   20      noun
 ;
 ; Nombres
 ;
-LAMPA	50      noun
-VENTA	51      noun
+LAMPA   50      noun
+VENTA   51      noun
 PARED   52      noun
 LUNA    53      noun
-ESTRE	54      noun
+ESTRE   54      noun
 1       55      noun
 2       56      noun
 PUERT   57      noun
@@ -79,19 +79,23 @@ MUNEC   71      noun
 MU¥EC   71      noun
 MANO    71      noun
 MANOS   71      noun
-SUELO	72      noun
-TECHO	73      noun
-CRIST	74      noun
+SUELO   72      noun
+TECHO   73      noun
+CRIST   74      noun
 MARCO   75      noun
 RUBI    75      noun
-COLCH	76      noun
-CAMA	76      noun
-ALFOM	77      noun
-CONJU	78      noun
-HECHI	78      noun
-PALAB	78      noun
-VACIO	79      noun
+COLCH   76      noun
+CAMA    76      noun
+ALFOM   77      noun
+CONJU   78      noun
+HECHI   78      noun
+PALAB   78      noun
+MAGIC   78      noun
+SORTI   78      noun  
+VACIO   79      noun
 VIDA    80      noun
+GIRUM   81      noun
+NOCTE   82      noun
 ;
 ; Verbos
 ;
@@ -120,6 +124,7 @@ RAMLO   29      verb
 EX      30      verb
 EXAMI   30      verb
 DECIR   31      verb
+DI      31      verb
 PREGUNT 31      verb
 HABLAR  31      verb
 RECIT   31      verb
@@ -190,6 +195,7 @@ EXTIE   56      verb
 DESEN   56      verb
 SENTA   57      verb
 SIENT   57      verb
+IN      58      verb
 ;
 ; Preposiciones
 ;
@@ -201,9 +207,18 @@ TRAVES  5       preposition
 BAJO    7       preposition
 JUNTO   8       preposition
 MENOS   13      preposition
+CONSU   14      preposition
 ;
 ; Pronombres
 ;
+; Adjeticos
+;
+IMUS    1       adjective
+ET      2       adjective
+;
+; Adverbios
+;
+IGNI    1       adverb
 ;
 ; Conjunciones (mal llamadas "conjugation" en el DAAD). :-)
 ;
