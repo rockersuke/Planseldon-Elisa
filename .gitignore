@@ -1,10 +1,13 @@
 *.BAT
 *.DDB
+*.DSK
 *.EXE
 *.lnk
 *.pdf
 *.session
+*.TAP
 *.txt
+*.TXT
 *.webp
 !flags.txt
 !TODO.txt
