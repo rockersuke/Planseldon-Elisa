@@ -347,6 +347,8 @@ LEER    NECRO   PRESENT 4
 
 QUEMA   NECRO   CARRIED 4
                 AT 2
+                SETCO 4
+                MES 106
                 MESSAGE 37
                 DONE
 
