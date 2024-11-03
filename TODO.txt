@@ -25,18 +25,9 @@ La alfombra comienza a levitar y sale sin ninguna dificultad por la gran ventana
 
 FINIS CORONAT OPVS 
 
-Respuestas a añadir 
-
->> Recitar/decir/pronunciar hechizo/conjuro/sortilegio/palabras mágicas ó Recitar/decir/pronunciar "In girum imus nocte et consumimur igni" (sin estar sentada en la alfombra)
-La alfombra comienza a levitar lentamente y… ¡antes de que podáis reaccionar, sale disparada por la ventana! De inmediato sentís que los labios se os secan, el estómago se retuerce en un nudo de nervios, y una opresión oscura nubla vuestra vista. La celda se envuelve en sombras más densas, como si fueran el símbolo inevitable del fin de vuestra última esperanza de escapar.
-
 MEJORAS Y CORRECCIONES
 
-Mejoras y correcciones:
-
-4) Parece que la palabra lámpara, no la reconoce si va acentuada.
-
- 8) Ampliar el mensaje:
+8) Ampliar el mensaje:
 Por un aterrador segundo os tienta la idea de escapar de vuestro destino dejando tan solo un cuerpo inerte en manos del oscuro hechicero... Quizás quitaros la vida y abandonar el mundo por vuestra propia mano sea mejor que el destino que os aguarda en manos del nigromante... pero una vez más las palabras de Merlín vienen a devolveros la cordura: "Nunca perdáis la esperanza... Cuando el miedo os atenace... ¡Apostad siempre por la vida!"
 
 

@@ -147,7 +147,10 @@ VACIAR  36      verb
 VOLVER  37      verb
 VUELVE  37      verb
 LEER    38      verb
+LEERL   38      verb
 LEE     38      verb
+LEELO   38      verb
+LEELA   38      verb
 FROTA   39      verb
 EMPUJ   40      verb
 MOVER   40      verb

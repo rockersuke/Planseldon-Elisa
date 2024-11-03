@@ -183,6 +183,9 @@ TOCAR   BIBLI   AT 2
 ; *** ACCIONES CODIC ***
 ;
 
+_       CODIC   PRESENT 4
+                SYNONYM _ NECRO
+
 COGER   CODIC   AT 2
                 ISAT 4 0
                 MES 149
@@ -305,8 +308,32 @@ XYZZY   _       MES 143
                 MESSAGE 144
 
 ;
+; *** ACCIONES TELA ***
+;
+
+EX      TELA    PRESENT 2
+                MESSAGE 43
+                SWAP 2 1
+                DONE
+
+QUEMA   TELA    AT 2
+                CARRIED 2
+                SETCO 2
+                MES 106
+                MESSAGE 37
+
+ROMPE   TELA    PRESENT 2
+                MESSAGE 101
+
+TOCAR   TELA    PRESENT 2
+                MESSAGE 89
+
+;
 ; *** ACCIONES NECRONOMICON ***
 ;
+
+; Como aqu¡ se puede llegar tras un SYNONYM que alza el flag interno
+; de DONE hay que hacer malabarismos con los DONE y NOTDONE
 
 EX      NECRO   PRESENT 4
                 MESSAGE 152
@@ -316,6 +343,102 @@ LEER    NECRO   PRESENT 4
                 MES 153
                 MESSAGE 154
                 DONE
+
+QUEMA   NECRO   CARRIED 4
+                AT 2
+                MESSAGE 37
+                DONE
+
+ROMPE   NECRO   PRESENT 4
+                MESSAGE 101
+                DONE
+                
+TOCAR   NECRO   PRESENT 4
+                MESSAGE 89
+                DONE
+                
+; Salimos de la tabla salvo que la acci¢n sea COGER o DEJAR    
+                
+_       NECRO   NOTEQ 33 20
+                NOTEQ 33 21
+                NOTDONE                
+
+;
+; *** ACCIONES PERGAMINO ***
+;
+
+ACERC   PERGA   AT 1
+                CARRIED 1
+                NOUN2 VENTA
+                MESSAGE 72
+                DONE
+
+ACERC   PERGA   CARRIED 1
+                NOUN2 VENTA
+                MESSAGE 81
+
+EX      PERGA   AT 1
+                CARRIED 1
+                NOUN2 VENTA
+                MESSAGE 72
+                DONE
+
+EX      PERGA   AT 1
+                CARRIED 1
+                NOUN2 LUNA
+                MESSAGE 72
+                DONE
+
+EX      PERGA   CARRIED 1
+                NOUN2 VENTA
+                MESSAGE 81
+                DONE
+                
+EX      PERGA   CARRIED 1
+                NOUN2 LUNA
+                MESSAGE 81
+                DONE
+
+EX      PERGA   PRESENT 1
+                PROCESS 14
+                DONE
+
+LEE     PERGA   AT 1
+                CARRIED 1
+                NOUN2 VENTA
+                MESSAGE 72
+                DONE
+                
+LEE     PERGA   AT 1
+                CARRIED 1
+                NOUN2 LUNA
+                MESSAGE 72
+                DONE
+
+LEE     PERGA   CARRIED 1
+                NOUN2 VENTA
+                MESSAGE 81
+                DONE
+                
+LEE     PERGA   CARRIED 1
+                NOUN2 LUNA
+                MESSAGE 81
+                DONE
+
+LEE     PERGA   PRESENT 1
+                PROCESS 14
+
+QUEMA   PERGA   AT 2
+                CARRIED 1
+                SETCO 1
+                MES 106
+                MESSAGE 37
+
+ROMPE   PERGA   PRESENT 1
+                MESSAGE 101
+
+TOCAR   PERGA   PRESENT 1
+                MESSAGE 89
 
 ;
 ; *** ACCIONES SUELO ***
@@ -465,32 +588,6 @@ EX      PARED   AT 1
 EX      PARED   MESSAGE 4
                 DONE
 
-EX      PERGA   AT 1
-                CARRIED 1
-                NOUN2 VENTA
-                MESSAGE 72
-                DONE
-                
-EX      PERGA   AT 1
-                CARRIED 1
-                NOUN2 LUNA
-                MESSAGE 72
-                DONE
-
-EX      PERGA   CARRIED 1
-                NOUN2 VENTA
-                MESSAGE 81
-                DONE
-                
-EX      PERGA   CARRIED 1
-                NOUN2 LUNA
-                MESSAGE 81
-                DONE
-
-EX      PERGA   PRESENT 1
-                PROCESS 14
-                DONE
-
 EX      PASIL   AT 1
                 ZERO 105
                 NOTDONE
@@ -510,11 +607,6 @@ EX      RELIE   AT 1
                 NOTZERO 100
                 SET 103
                 MESSAGE 46
-                DONE
-
-EX      TELA    PRESENT 2
-                MESSAGE 43
-                SWAP 2 1
                 DONE
 
 EX      TROZO   AT 2
@@ -537,16 +629,6 @@ EX      VELA    AT 2
 ; *** Otras acciones ***
 
 ABRIR   PUERT   PROCESS 16
-
-ACERC   PERGA   AT 1
-                CARRIED 1
-                NOUN2 VENTA
-                MESSAGE 72
-                DONE
-
-ACERC   PERGA   CARRIED 1
-                NOUN2 VENTA
-                MESSAGE 81
 
 APAGA   CANDE   AT 2
                 MESSAGE 107
@@ -639,31 +721,6 @@ FROTA   LAMPA   PRESENT 0
 GRITA   _       MESSAGE 104
                 SET 109
 
-LEE     PERGA   AT 1
-                CARRIED 1
-                NOUN2 VENTA
-                MESSAGE 72
-                DONE
-                
-LEE     PERGA   AT 1
-                CARRIED 1
-                NOUN2 LUNA
-                MESSAGE 72
-                DONE
-
-LEE     PERGA   CARRIED 1
-                NOUN2 VENTA
-                MESSAGE 81
-                DONE
-                
-LEE     PERGA   CARRIED 1
-                NOUN2 LUNA
-                MESSAGE 81
-                DONE
-
-LEE     PERGA   PRESENT 1
-                PROCESS 14
-                
 LLORA   _       MES 102
                 MESSAGE 103
                 SET 109
@@ -688,16 +745,6 @@ PULSA   RELIE   AT 1
                 MESSAGE 10
 
 QUITAR  VIDA    SYNONYM SUICI _
-
-QUEMA   PERGA   AT 2
-                CARRIED 1
-                MES 106
-                MESSAGE 37
-                
-QUEMA   TELA    AT 2
-                CARRIED 2
-                MES 106
-                MESSAGE 37
 
 RELAJ   _       MES 120
                 MESSAGE 103
@@ -725,12 +772,6 @@ ROMPE   FRASC   AT 2
                 MESSAGE 98
 
 ROMPE   LAMPA   PRESENT 0
-                MESSAGE 101
-
-ROMPE   PERGA   PRESENT 1
-                MESSAGE 101
-                
-ROMPE   TELA    PRESENT 2
                 MESSAGE 101
 
 ROMPE   VELA    AT 2
@@ -797,13 +838,7 @@ TOCAR   PARED   AT 1
 
 TOCAR   PARED   MESSAGE 4
 
-TOCAR   PERGA   PRESENT 1
-                MESSAGE 89
-
 TOCAR   PUERT   AT 1
-                MESSAGE 89
-
-TOCAR   TELA    PRESENT 2
                 MESSAGE 89
 
 TOCAR   VELAS   AT 2
