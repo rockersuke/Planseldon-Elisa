@@ -184,3 +184,10 @@ IN      GIRUM   ADJECT1 IMUS
                 DONE
 
 _       _       NOTDONE
+
+/PRO 20
+
+; Mensaje de llevarte el libro al final
+
+_       _       CARRIED 4
+                MESSAGE 155

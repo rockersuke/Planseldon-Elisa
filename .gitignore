@@ -9,5 +9,6 @@
 *.txt
 *.TXT
 *.webp
+*.zip
 !flags.txt
 !TODO.txt

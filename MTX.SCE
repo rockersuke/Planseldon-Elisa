@@ -373,3 +373,9 @@ Encuadernado en piel algo ara¤ada y descolorida con numeros¡simos grabaditos de 
 Imposible entender que pone en sus p ginas. Si recordarais vuestros hechizos para interpretar lenguas extra¤as... pero parece que el nigromante ha nublado vuestra memoria y sois incapaz de recordar ninguno de los sortilegios que aprendisteis de Merl¡n 
 /154
 y Viviana.
+/155
+Durante un instante pens is en qu‚ podr¡a pasar al llegar a Aval¢n con el Necronomic¢n bajo el brazo...
+
+
+Pero esa ser  otra historia...
+

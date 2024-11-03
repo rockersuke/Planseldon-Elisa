@@ -274,6 +274,7 @@ RECIT   CONJU   ZERO 112
                 
 RECIT   CONJU   NOTZERO 113
                 MESSAGE 128
+                PROCESS 20
                 ANYKEY
                 CLS
                 WINDOW 2
