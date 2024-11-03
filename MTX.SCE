@@ -92,7 +92,7 @@ El cristal de la ventana, con su extra¤a geometr¡a no euclidiana, deja de mostra
 /34
 cerrar la puerta.
 /35
-Est  hecha en madera de roble y adornada con remaches de hierro. No tiene picaporte ni aldaba.
+Est  hecha en madera de roble y adornada con remaches de hierro. No tiene picaporte ni aldaba. 
 /36
 Imponente. Se sustenta en una pesada base de oro macizo. Una vela arde en cada uno de sus brazos sin consumirse.
 /37
@@ -132,7 +132,7 @@ Representa una estrella de David en cuyo interior hay incrustado alg£n tipo de f
 /47
 Palp is con atenci¢n la figura. Parece hecha de marfil o de alg£n material similar y, por la forma, dir¡ais que es un elefante.
 /48
-Al presionar la figura un mecanismo de cadenas y poleas se pone en marcha en el interior de los muros hasta terminar con un chasquido sordo procedente de la puerta de la celda.
+Al presionar la figura un mecanismo de cadenas y poleas se pone en marcha en el interior de los muros hasta terminar con un chasquido sordo procedente de la puerta de la celda. Ahora la puerta de la celda est  abierta.
 /49
 ­Ya lo hab‚is hecho!
 /50
@@ -201,7 +201,7 @@ Con un fulgor escarlata abraza el espejo como un uroboro de fuego.
 /77
 Ahora el marco de rub¡ est  vac¡o. Tras el solo hay una pared sin ning£n inter‚s.
 /78
- con detenimiento, recorriendo cada rinc¢n de piedra fr¡a y desnuda, pero no hall is nada fuera de lo com£n. Solo el eco de vuestra respiraci¢n acompa¤a el silencio de la celda.
+ con detenimiento, recorriendo cada rinc¢n de piedra fr¡a y desnuda, pero no hall is nada fuera de lo com£n. Solo el eco de vuestra respiraci¢n acompa¤a el silencio de
 /79
 suelo
 /80
@@ -303,7 +303,7 @@ Primero deb‚is volver a extenderla en el suelo.
 /127
 La alfombra comienza a levitar lentamente y... ­antes de que pod is reaccionar, sale disparada por la ventana! De inmediato sent¡s que los labios se os secan, el est¢mago se retuerce en un nudo de nervios, y una opresi¢n oscura nubla vuestra vista. 
 /128
-La alfombra comienza a levitar y sale sin ninguna dificultad por la gran ventana de la  celda volando hacia el occidente... en poco tiempo dej is atr s las fr¡as arenas del desierto y antes de lo que nunca hubierais imaginado divis is las amables campi¤as de Galia, los queridos bosques de Arm¢rica y por fin... la querida Isla de Aval¢n.
+La alfombra comienza a levitar y sale sin ninguna dificultad por la gran ventana de la  celda volando hacia el occidente... en poco tiempo dej is atr s las fr¡as arenas del desierto y antes de lo que nunca hubierais imaginado divis is las amables campi¤as de Galia, los queridos bosques de Breta¤a y por fin... la brumosa Isla de Aval¢n.
 
 
 ­Enhorabuena, do¤a Elisa hab‚is escapado la torre del brujo y hab‚is salvado vuestro precioso cuerpo de ser mancillado por el repugnante nigromante! 
@@ -343,3 +343,33 @@ Quienes lo dese‚is pod‚is colaborar con el evento solidario que la asociaci¢n Re
 
 /139
  DO¥A ELISA DE AVALON
+/140
+Gran programador.
+/141
+Excelente guionista.
+/142
+Gente tierna,
+/143
+Como un rel mpago surca por vuestra mente el recuerdo de un hechizo... de unas letras... como una antigua canci¢n olvidada de la que no pudierais recordar la m£sica ni la letra... tan solo el sentimiento de que... una vez... al pronunciar esa palabra... 
+/144
+fuisteis una ni¤a feliz.
+/145
+ la celda.
+/146
+l laboratorio.
+/147
+Os acerc is a la ventana y sent¡s el frescor de la noche envolveros. Las arenas se extienden bajo la luz de la luna, hipn¢ticas y fr¡as. Por un instante os tienta la idea de intentar saltar... pero un vistazo al abismo os llena de desesperaci¢n: la ca¡da 
+/148
+ser¡a mortal.
+/149
+Cog‚is un libro al azar. Su t¡tulo es "TO NEKPONOMIKON". La mayor parte del contenido est  en griego aunque tambi‚n hay algunas p ginas que parecen sortilegios en  rabe. Quiz s os resulte de utilidad si logr is regresar a Aval¢n. 
+/150
+Ahora ten‚is el Necronomic¢n.
+/151
+Es in£til seguir acumulando libros en lenguas que no entend‚is, con uno ya es suficiente.
+/152
+Encuadernado en piel algo ara¤ada y descolorida con numeros¡simos grabaditos de madera, signos y s¡mbolos m¡sticos. Parece un tratado de magia ceremonial. 
+/153
+Imposible entender que pone en sus p ginas. Si recordarais vuestros hechizos para interpretar lenguas extra¤as... pero parece que el nigromante ha nublado vuestra memoria y sois incapaz de recordar ninguno de los sortilegios que aprendisteis de Merl¡n 
+/154
+y Viviana.

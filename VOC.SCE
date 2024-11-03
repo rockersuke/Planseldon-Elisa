@@ -49,6 +49,7 @@ TODAS   20      noun
 ; Nombres
 ;
 LAMPA   50      noun
+L MPA   50      noun
 VENTA   51      noun
 PARED   52      noun
 LUNA    53      noun
@@ -63,7 +64,9 @@ TELA    60      noun
 PERGA   61      noun
 DESIE   62      noun
 BIBLI   63      noun
+ESTAN   63      noun
 CODIC   64      noun
+LIBRO   64      noun
 RELIE   65      noun
 FIGUR   66      noun
 ELEFA   66      noun
@@ -96,6 +99,7 @@ VACIO   79      noun
 VIDA    80      noun
 GIRUM   81      noun
 NOCTE   82      noun
+NECRO   83      noun
 ;
 ; Verbos
 ;
@@ -196,6 +200,11 @@ DESEN   56      verb
 SENTA   57      verb
 SIENT   57      verb
 IN      58      verb
+ROCKE   59      verb
+PLANS   60      verb
+CAAD    61      verb
+XYZZY   62      verb
+ASOMA   63      verb
 ;
 ; Preposiciones
 ;

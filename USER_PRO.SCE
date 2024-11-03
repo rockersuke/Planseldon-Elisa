@@ -118,7 +118,7 @@ _       _       AT 2
 
 ; Examinar puerta en loc 1
 
-_       _       MESSAGE 35
+_       _       MES 35
                 ZERO 105
                 MESSAGE 8
                 DONE

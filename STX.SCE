@@ -11,10 +11,10 @@ Tambi‚n pod‚is ver:
 ¨Qu‚ hac‚is ahora?
 /3
 
-¨Qu‚ quer‚is hacer?
+¨Qu‚ vais a hacer?
 /4
 
-¨Qu‚ quer‚is hacer ahora?
+¨Qu‚ vais a hacer ahora?
 /5
 
 ¨Qu‚ hac‚is?

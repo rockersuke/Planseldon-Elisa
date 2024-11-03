@@ -33,7 +33,9 @@ _       _       AT 4
 ; PRO 5 equivale a la antigua "events table" de Quill o a la "tabla de respeuestas" de PAWS.
 ; Se le llama desde PRO 1.
 
-; *** Bloqueo movimientos
+;
+; *** ACCIONES BLOQUEO MOVIMIENTO ***
+;
 
 SALIR   VENTA   PROCESS 17
                 DONE
@@ -58,7 +60,9 @@ PASIL   _       AT 1
                 MESSAGE 50
                 DONE
 
+;
 ; *** ACCIONES ALFOMBRA ***
+;
 
 _       ALFOM   AT 1
                 ZERO 114
@@ -156,7 +160,59 @@ SENTA   ALFOM   AT 1
 TOCAR   ALFOM   AT 1
                 MESSAGE 112
 
+;
+; *** ACCIONES BIBLIOTECA ***
+;
+
+COGER   BIBLI   AT 2
+                MESSAGE 12
+                DONE
+
+EMPUJ   BIBLI   AT 2
+                MESSAGE 12
+
+EX      BIBLI   AT 2
+                MES 44
+                MESSAGE 45
+                DONE
+
+TOCAR   BIBLI   AT 2
+                MESSAGE 89
+
+;
+; *** ACCIONES CODIC ***
+;
+
+COGER   CODIC   AT 2
+                ISAT 4 0
+                MES 149
+                MESSAGE 150
+                PLACE 4 254
+                DONE
+
+COGER   CODIC   AT 2
+                MESSAGE 151
+                DONE
+
+EMPUJ   CODIC   AT 2
+                MESSAGE 101
+
+EX      CODIC   AT 2
+                MESSAGE 45
+                DONE
+
+LEE     CODIC   AT 2
+                MESSAGE 45
+
+ROMPE   CODIC   AT 2
+                MESSAGE 101
+
+TOCAR   CODIC   AT 2
+                MESSAGE 89
+
+;
 ; *** ACCIONES COLCH‡N ***
+;
 
 COGER   COLCH   AT 1
                 MESSAGE 12
@@ -192,7 +248,9 @@ ROMPE   COLCH   AT 1
 TOCAR   COLCH   AT 1
                 MESSAGE 89
 
+;
 ; *** ACCIONES CONJURO ***
+;
 
 RECIT   _       PROCESS 19
                 ISNDONE
@@ -233,12 +291,112 @@ RECIT   CONJU   MES 127
                 ZERO 101
                 LET Turns 97
 
-; *** ACCIONES EXAMINAR ***
+;
+; *** ACCIONES HUEVO PASCUA ***
+;
 
-EX      BIBLI   AT 2
-                MES 44
-                MESSAGE 45
+CAAD    _       MESSAGE 142
+
+PLANSE  _       MESSAGE 141
+
+ROCKE   _       MESSAGE 140
+
+XYZZY   _       MES 143
+                MESSAGE 144
+
+;
+; *** ACCIONES NECRONOMICON ***
+;
+
+EX      NECRO   PRESENT 4
+                MESSAGE 152
                 DONE
+
+LEER    NECRO   PRESENT 4
+                MES 153
+                MESSAGE 154
+                DONE
+
+;
+; *** ACCIONES SUELO ***
+;
+
+EX      SUELO   AT 2
+                NOTZERO 107
+                MES 73
+                MES 79
+                MES 78
+                MES 146
+                MESSAGE 74
+                DONE
+
+EX      SUELO   AT 2
+                MES 73
+                MES 79
+                MES 78
+                MESSAGE 146
+                DONE
+
+EX      SUELO   MES 73
+                MES 79
+                MES 78
+                MESSAGE 145
+                DONE
+
+TOCAR   SUELO   MESSAGE 89
+
+;
+; *** ACCIONES TECHO ***
+;
+
+EX      TECHO   AT 1
+                MES 73
+                MES 80
+                MES 78
+                MESSAGE 145
+                DONE
+
+EX      TECHO   AT 2
+                MES 73
+                MES 80
+                MES 78
+                MESSAGE 146
+                DONE
+
+TOCAR   TECHO   MESSAGE 90
+
+;
+; ACCIONES VENTANA
+;
+
+ABRIR   VENTA   MESSAGE 11
+
+ASOMA   VENTA   AT 1
+                MES 147
+                MESSAGE 148
+
+EX      VENTA   AT 1
+                MESSAGE 3
+                DONE
+                
+EX      VENTA   AT 2
+                MESSAGE 40
+                DONE
+
+ROMPE   VENTA   AT 2
+                MESSAGE 60
+                
+SALTA   VENTA   PROCESS 17
+                SET 109
+
+TIRAR   VENTA   PROCESS 17
+                SET 109
+
+TOCAR   VENTA   MESSAGE 89
+
+;
+; *** ACCIONES EXAMINAR ***
+;
 
 EX      CANDE   AT 2
                 MESSAGE 36
@@ -246,10 +404,6 @@ EX      CANDE   AT 2
 
 EX      CELDA   AT 1
                 MESSAGE 4
-                DONE
-
-EX      CODIC   AT 2
-                MESSAGE 45
                 DONE
 
 EX      CRIST   AT 2
@@ -358,27 +512,9 @@ EX      RELIE   AT 1
                 MESSAGE 46
                 DONE
 
-EX      SUELO   AT 2
-                NOTZERO 107
-                MES 73
-                MES 79
-                MES 78
-                MESSAGE 74
-                DONE
-
-EX      SUELO   MES 73
-                MES 79
-                MESSAGE 78
-                DONE
-
 EX      TELA    PRESENT 2
                 MESSAGE 43
                 SWAP 2 1
-                DONE
-
-EX      TECHO   MES 73
-                MES 80
-                MESSAGE 78
                 DONE
 
 EX      TROZO   AT 2
@@ -398,19 +534,9 @@ EX      VELA    AT 2
                 MESSAGE 37
                 DONE
 
-EX      VENTA   AT 1
-                MESSAGE 3
-                DONE
-                
-EX      VENTA   AT 2
-                MESSAGE 40
-                DONE
-
 ; *** Otras acciones ***
 
 ABRIR   PUERT   PROCESS 16
-
-ABRIR   VENTA   MESSAGE 11
 
 ACERC   PERGA   AT 1
                 CARRIED 1
@@ -436,14 +562,6 @@ BEBER   FRASC   AT 2
 
 COGER   CANDE   AT 2
                 MESSAGE 57
-                DONE
-
-COGER   BIBLI   AT 2
-                MESSAGE 12
-                DONE
-
-COGER   CODIC   AT 2
-                MESSAGE 45
                 DONE
 
 COGER   ESPEJ   AT 2
@@ -485,15 +603,9 @@ COGER   VELA    AT 2
                 MESSAGE 37
                 DONE
 
-EMPUJ   BIBLI   AT 2
-                MESSAGE 12
-
 EMPUJ   CANDE   AT 2
                 MESSAGE 57
                 
-EMPUJ   CODIC   AT 2
-                MESSAGE 101
-
 EMPUJ   ESPEJ   AT 2
                 PROCESS 18
 
@@ -526,9 +638,6 @@ FROTA   LAMPA   PRESENT 0
 
 GRITA   _       MESSAGE 104
                 SET 109
-
-LEE     CODIC   AT 2
-                MESSAGE 45
 
 LEE     PERGA   AT 1
                 CARRIED 1
@@ -593,9 +702,6 @@ QUEMA   TELA    AT 2
 RELAJ   _       MES 120
                 MESSAGE 103
 
-ROMPE   CODIC   AT 2
-                MESSAGE 101
-
 ROMPE   CRIST   AT 2
                 MESSAGE 60
 
@@ -630,9 +736,6 @@ ROMPE   TELA    PRESENT 2
 ROMPE   VELA    AT 2
                 MESSAGE 101
 
-ROMPE   VENTA   AT 2
-                MESSAGE 60
-                
 ROMPE   VENA    CARRIED 3
                 MES 69
                 MESSAGE 59
@@ -644,8 +747,6 @@ ROMPE   VENA    SET 109
 
 SALTA   VACIO   PROCESS 17
 
-SALTA   VENTA   PROCESS 17
-
 SUICI   _       AT 1
                 MESSAGE 93
                 MESSAGE 92
@@ -656,17 +757,8 @@ SUICI   _       MESSAGE 93
                 MESSAGE 91
                 SET 109
 
-TIRAR   VENTA   PROCESS 17
-                SET 109
-
-TOCAR   BIBLI   AT 2
-                MESSAGE 89
-
 TOCAR   CANDE   AT 2
                 MESSAGE 37
-
-TOCAR   CODIC   AT 2
-                MESSAGE 89
 
 TOCAR   CRIST   AT 2
                 MESSAGE 89
@@ -711,10 +803,6 @@ TOCAR   PERGA   PRESENT 1
 TOCAR   PUERT   AT 1
                 MESSAGE 89
 
-TOCAR   SUELO   MESSAGE 89
-
-TOCAR   TECHO   MESSAGE 90
-
 TOCAR   TELA    PRESENT 2
                 MESSAGE 89
 
@@ -724,8 +812,6 @@ TOCAR   VELAS   AT 2
 TOCAR   VENAS   MES 100
                 MESSAGE 103
                 SET 109
-
-TOCAR   VENTA   MESSAGE 89
 
 VACIA   FRASC   MESSAGE 101
                 DONE

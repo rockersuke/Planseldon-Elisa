@@ -30,62 +30,16 @@ Respuestas a añadir
 >> Recitar/decir/pronunciar hechizo/conjuro/sortilegio/palabras mágicas ó Recitar/decir/pronunciar "In girum imus nocte et consumimur igni" (sin estar sentada en la alfombra)
 La alfombra comienza a levitar lentamente y… ¡antes de que podáis reaccionar, sale disparada por la ventana! De inmediato sentís que los labios se os secan, el estómago se retuerce en un nudo de nervios, y una opresión oscura nubla vuestra vista. La celda se envuelve en sombras más densas, como si fueran el símbolo inevitable del fin de vuestra última esperanza de escapar.
 
-
-
-
 MEJORAS Y CORRECCIONES
-
 
 Mejoras y correcciones:
 
-1) ¿Qué queréis hacer ahora? > ¿Qué vais a hacer ahora? (Lo de qué queréis me suena mal)
-
-2) > Asomarse por la ventana (en la celda)
-Os acercáis a la ventana y sentís el frescor de la noche envolveros. Las arenas se extienden bajo la luz de la luna, hipnóticas y frías. Por un instante os tienta la idea de intentar saltar… pero un vistazo al abismo os llena de desesperación: la caída sería mortal.
-
-3) > Presionar figura/elefante (he cambiado un poco la descripción para que quede claro que la puerta se abre... por los torpes)
-Al presionar la figura un mecanismo de cadenas y poleas se pone en marcha en el interior de los muros hasta terminar con un chasquido sordo procedente de la puerta de la celda. Ahora la puerta de la celda está abierta.
-
 4) Parece que la palabra lámpara, no la reconoce si va acentuada.
 
-5) He añadido un nuevo "red herring" -después de releer tu solución del Zipi y Zape me he venido arriba jajaja.
-
->Examinar examinar biblioteca /libros/estantería (añadir sinónimos a biblioteca)
- 
->Coger libro
-Cogéis un libro al azar. Su título es "TO NEKPONOMIKON". La mayor parte del contenido está en griego aunque también hay algunas páginas que parecen sortilegios en árabe. Quizás os resulte de utilidad si lográis regresar a Avalón. Ahora tenéis el Necronomicón. (esto es otro red herring, obviamente, pero me ha parecido divertido incluirlo)
-
->Examinar necronomicón
-Encuadernado en piel algo arañada y descolorida con numerosísimos grabaditos de madera, signos y símbolos místicos. Parece un tratado de magia ceremonial. 
-
->Leer necronomicón
-Imposible entender que pone en sus páginas. Si recordarais vuestros hechizos para interpretar lenguas extrañas... pero parece que el nigromante ha nublado vuestra memoria y sois incapaz de recordar ninguno de los sortilegios que aprendisteis de Merlín y Viviana.
-
-> Coger libro  (si ya tiene el Necronomicón)
-Es inútil seguir acumulando libros en lenguas que no entendéis, con uno ya es suficiente.
-
-6) > Examinar suelo (en el laboratorio)
-Observáis el suelo del laboratorio con detenimiento recorriendo cada rincón pero no halláis nada fuera de lo común.
-
-7) cambiar un detalle del texto final: 
-los queridos bosques de Armórica y por fin... la querida Isla de Avalón.  > queridos bosques de Bretaña y por fin... la brumosa Isla de Avalón.  
-
-8) Ampliar el mensaje:
+ 8) Ampliar el mensaje:
 Por un aterrador segundo os tienta la idea de escapar de vuestro destino dejando tan solo un cuerpo inerte en manos del oscuro hechicero... Quizás quitaros la vida y abandonar el mundo por vuestra propia mano sea mejor que el destino que os aguarda en manos del nigromante... pero una vez más las palabras de Merlín vienen a devolveros la cordura: "Nunca perdáis la esperanza... Cuando el miedo os atenace... ¡Apostad siempre por la vida!"
 
-9) Y unos cuantos huevos de pascua -puedes añadir los que te apetecan-
 
->rockersuke
-Gran programador.
-
->planseldon
-Excelente guionista.
-
->caad
-Gente tierna. 
-
->xyzzy
-Como un relámpago surca por vuestra mente el recuerdo de un hechizo... de unas letras... como una antigua canción olvidada de la que no pudierais recordar la música ni la letra... tan solo el sentimiento de que... una vez... al pronunciar esa palbra... fuisteis una niña feliz.
 
 
 
