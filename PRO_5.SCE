@@ -180,6 +180,35 @@ TOCAR   BIBLI   AT 2
                 MESSAGE 89
 
 ;
+; *** ACCIONES CANDELABRO ***
+;
+
+APAGA   CANDE   AT 2
+                MESSAGE 107
+
+COGER   CANDE   AT 2
+                MESSAGE 57
+                DONE
+
+EMPUJ   CANDE   AT 2
+                MESSAGE 57
+
+EX      CANDE   AT 2
+                MESSAGE 36
+                DONE
+
+TOCAR   CANDE   AT 2
+                MESSAGE 37
+
+;
+; *** ACCIONES CELDA ***
+;
+
+EX      CELDA   AT 1
+                MESSAGE 4
+                DONE
+
+;
 ; *** ACCIONES CODIC ***
 ;
 
@@ -296,6 +325,153 @@ RECIT   CONJU   MES 127
                 LET Turns 97
 
 ;
+; *** ACCIONES CRISTAL ***
+;
+
+EX      CRIST   AT 2
+                MESSAGE 40
+                DONE
+
+ROMPE   CRIST   AT 2
+                MESSAGE 60
+
+TOCAR   CRIST   AT 2
+                MESSAGE 89
+
+;
+; *** ACCIONES DESIERTO ***
+;
+
+EX      DESIE   MESSAGE 41
+                DONE
+
+;
+; *** ACCIONES ESPEJO ***
+;
+
+COGER   ESPEJ   AT 2
+                NOTZERO 107
+                MESSAGE 95
+                DONE
+
+COGER   ESPEJ   AT 2
+                MESSAGE 96
+                DONE
+
+EMPUJ   ESPEJ   AT 2
+                PROCESS 18
+
+EX      ESPEJ   AT 2
+                ZERO 107
+                MES 54
+                MESSAGE 55
+                DONE
+                
+EX      ESPEJ   AT 2
+                MESSAGE 63
+                DONE
+
+ROMPE   ESPEJ   AT 2
+                ZERO 107
+                SET 107
+                MES 61
+                MESSAGE 63
+                DONE
+                
+ROMPE   ESPEJ   AT 2
+                MESSAGE 49
+                
+TOCAR   ESPEJ   AT 2
+                ZERO 107
+                MESSAGE 75
+                DONE
+                
+TOCAR   ESPEJ   AT 2
+                MESSAGE 63
+
+;
+; *** ACCIONES ESTRELLA ***
+;
+
+_       ESTRE   ADJECT1 DAVID
+                SYNONYM _ RELIE
+
+EX      ESTRE   MESSAGE 7
+                DONE
+
+PULSA   ESTRE   AT 1
+                NOTZERO 103
+                MESSAGE 10
+
+;
+; *** ACCIONES FIGURA ***
+;
+
+COGER   FIGUR   AT 1
+                NOTZERO 103
+                MESSAGE 9
+                DONE
+
+EX      FIGUR   AT 1
+                NOTZERO 103
+                SET 104
+                MESSAGE 47
+                DONE
+
+PULSA   FIGUR   AT 1
+                NOTZERO 103
+                ZERO 105
+                MESSAGE 48
+                SET 105
+                DONE
+                
+PULSA   FIGUR   AT 1
+                NOTZERO 105
+                MESSAGE 49
+
+TOCAR   FIGUR   AT 1
+                NOTZERO 103
+                SET 104
+                MESSAGE 47
+                DONE
+
+;
+; *** ACCIONES FRASCOS ***
+;
+
+BEBER   FRASC   AT 2
+                MES 94
+                MES 69
+                MESSAGE 59
+                SET 109
+
+COGER   FRASC   AT 2
+                MESSAGE 13
+                DONE
+
+EMPUJ   FRASC   AT 2
+                MESSAGE 101
+
+EX      FRASC   AT 2
+                MESSAGE 13
+                DONE
+
+ROMPE   FRASC   AT 2
+                ZERO 107
+                MESSAGE 97
+                DONE
+                
+ROMPE   FRASC   AT 2
+                MES 97
+                MESSAGE 98
+
+TOCAR   FRASC   AT 2
+                MESSAGE 89
+
+VACIA   FRASC   MESSAGE 101
+                DONE
+
+;
 ; *** ACCIONES HUEVO PASCUA ***
 ;
 
@@ -309,24 +485,74 @@ XYZZY   _       MES 143
                 MESSAGE 144
 
 ;
-; *** ACCIONES TELA ***
+; *** ACCIONES LAMPARA ***
 ;
 
-EX      TELA    PRESENT 2
-                MESSAGE 43
-                SWAP 2 1
+EMPUJ   LAMPA   PRESENT 0
+                MESSAGE 42
+
+ENCEN   LAMPA   PRESENT 0
+                MESSAGE 53
+
+EX      LAMPA   PRESENT 0
+                MESSAGE 2
                 DONE
 
-QUEMA   TELA    AT 2
-                CARRIED 2
-                SETCO 2
-                MES 106
-                MESSAGE 37
+FROTA   LAMPA   PRESENT 0
+                MESSAGE 42
 
-ROMPE   TELA    PRESENT 2
+ROMPE   LAMPA   PRESENT 0
                 MESSAGE 101
 
-TOCAR   TELA    PRESENT 2
+TOCAR   LAMPA   PRESENT 0
+                MESSAGE 42
+
+;
+; *** ACCIONES LUNA ***
+;
+
+EX      LUNA    MESSAGE 6
+                DONE
+
+;
+; *** ACCIONES MARCO ***
+;
+
+EMPUJ   MARCO   AT 2
+                PROCESS 18
+
+EX      MARCO   AT 2
+                ZERO 107
+                MESSAGE 76
+                DONE
+                
+EX      MARCO   AT 2
+                MESSAGE 77
+                DONE
+
+TOCAR   MARCO   AT 2
+                MESSAGE 89
+
+;
+; *** ACCIONES MESA ***
+;
+
+COGER   MESA    AT 2
+                MESSAGE 12
+                DONE
+
+EMPUJ   MESA    AT 2
+                MES 82
+                MES 83
+                MES 84
+                MES 85
+                MESSAGE 86
+
+EX      MESA    AT 2
+                MESSAGE 13
+                DONE
+
+TOCAR   MESA    AT 2
                 MESSAGE 89
 
 ;
@@ -365,6 +591,42 @@ TOCAR   NECRO   PRESENT 4
 _       NECRO   NOTEQ 33 20
                 NOTEQ 33 21
                 NOTDONE                
+
+;
+; *** ACCIONES PARED ***
+;
+
+EX      PARED   AT 1
+                ZERO 100
+                SET 100
+                MESSAGE 5
+                DONE
+				
+EX      PARED   MESSAGE 4
+                DONE
+
+TOCAR   PARED   AT 1
+                ZERO 100
+                SET 100
+                MESSAGE 5
+                DONE
+
+TOCAR   PARED   MESSAGE 4
+
+;
+; *** ACCIONES PASILLO ***
+;
+
+EX      PASIL   AT 1
+                ZERO 105
+                NOTDONE
+                
+EX      PASIL   AT 1
+                MESSAGE 51
+                DONE
+                
+EX      PASIL   MESSAGE 64
+                DONE
 
 ;
 ; *** ACCIONES PERGAMINO ***
@@ -444,6 +706,39 @@ TOCAR   PERGA   PRESENT 1
                 MESSAGE 89
 
 ;
+; *** ACCIONES PUERTA ***
+;
+
+ABRIR   PUERT   PROCESS 16
+
+EMPUJ   PUERT   PROCESS 16
+
+EX      PUERT   AT 1
+                PROCESS 15
+                DONE
+
+TOCAR   PUERT   AT 1
+                MESSAGE 89
+
+;
+; *** ACCIONES RELIEVE ***
+;
+
+; Ojo, aqu¡ podemos llegar dedsde un SYNONYM con ESTRELLA
+
+EX      RELIE   AT 1
+                NOTZERO 100
+                SET 103
+                MESSAGE 46
+                DONE
+
+PULSA   RELIE   AT 1
+                NOTZERO 103
+                MESSAGE 10
+
+_       RELIE   NOTDONE
+
+;
 ; *** ACCIONES SUELO ***
 ;
 
@@ -492,7 +787,99 @@ EX      TECHO   AT 2
 TOCAR   TECHO   MESSAGE 90
 
 ;
-; ACCIONES VENTANA
+; *** ACCIONES TELA ***
+;
+
+EX      TELA    PRESENT 2
+                MESSAGE 43
+                SWAP 2 1
+                DONE
+
+QUEMA   TELA    AT 2
+                CARRIED 2
+                SETCO 2
+                MES 106
+                MESSAGE 37
+
+ROMPE   TELA    PRESENT 2
+                MESSAGE 101
+
+TOCAR   TELA    PRESENT 2
+                MESSAGE 89
+
+;
+; *** ACCIONES TROZO (de espejo) ***
+;
+
+COGER   TROZO   AT 2
+                NOTZERO 107
+                ISAT 3 0
+                PLACE 3 254
+                MESSAGE 65
+                DONE
+
+COGER   TROZO   AT 2
+                NOTZERO 107
+                ABSENT 3
+                MESSAGE 66
+                DONE
+
+EX      TROZO   AT 2
+                NOTZERO 107
+                ABSENT 3
+                MESSAGE 67
+                DONE
+                
+EX      TROZO   PRESENT 3
+                MESSAGE 68
+                DONE
+
+;
+; *** ACCIONES VELA ***
+;
+
+APAGA   VELAS   AT 2
+                MESSAGE 107
+
+COGER   VELAS   AT 2
+                MESSAGE 37
+                DONE
+
+EMPUJ   VELAS   AT 2
+                MESSAGE 37
+
+EX      VELAS   AT 2
+                MESSAGE 37
+                DONE
+
+ROMPE   VELAS   AT 2
+                MESSAGE 101
+
+TOCAR   VELAS   AT 2
+                MESSAGE 37
+
+;
+; *** ACCIONES VENAS ***
+;
+
+EX      VENAS   MESSAGE 99
+                DONE
+
+ROMPE   VENAS   CARRIED 3
+                MES 69
+                MESSAGE 59
+                SET 109
+                DONE
+
+ROMPE   VENAS    SET 109
+                MESSAGE 70
+
+TOCAR   VENAS   MES 100
+                MESSAGE 103
+                SET 109
+
+;
+; *** ACCIONES VENTANA ***
 ;
 
 ABRIR   VENTA   MESSAGE 11
@@ -521,205 +908,8 @@ TIRAR   VENTA   PROCESS 17
 TOCAR   VENTA   MESSAGE 89
 
 ;
-; *** ACCIONES EXAMINAR ***
+; *** OTRAS ACCIONES ***
 ;
-
-EX      CANDE   AT 2
-                MESSAGE 36
-                DONE
-
-EX      CELDA   AT 1
-                MESSAGE 4
-                DONE
-
-EX      CRIST   AT 2
-                MESSAGE 40
-                DONE
-
-EX      DESIE   MESSAGE 41
-                DONE
-
-EX      ESPEJ   AT 2
-                ZERO 107
-                MES 54
-                MESSAGE 55
-                DONE
-                
-EX      ESPEJ   AT 2
-                MESSAGE 63
-                DONE
-
-EX      ESTRE   MESSAGE 7
-                DONE
-
-EX      FIGUR   AT 1
-                NOTZERO 103
-                SET 104
-                MESSAGE 47
-                DONE
-
-EX      FRASC   AT 2
-                MESSAGE 13
-                DONE
-
-EX      LAMPA   PRESENT 0
-                MESSAGE 2
-                DONE
-				
-EX      LUNA    MESSAGE 6
-                DONE
-
-EX      MARCO   AT 2
-                ZERO 107
-                MESSAGE 76
-                DONE
-                
-EX      MARCO   AT 2
-                MESSAGE 77
-                DONE
-
-EX      MESA    AT 2
-                MESSAGE 13
-                DONE
-
-EX      PARED   AT 1
-                ZERO 100
-                SET 100
-                MESSAGE 5
-                DONE
-				
-EX      PARED   MESSAGE 4
-                DONE
-
-EX      PASIL   AT 1
-                ZERO 105
-                NOTDONE
-                
-EX      PASIL   AT 1
-                MESSAGE 51
-                DONE
-                
-EX      PASIL   MESSAGE 64
-                DONE
-
-EX      PUERTA  AT 1
-                PROCESS 15
-                DONE
-
-EX      RELIE   AT 1
-                NOTZERO 100
-                SET 103
-                MESSAGE 46
-                DONE
-
-EX      TROZO   AT 2
-                NOTZERO 107
-                ABSENT 3
-                MESSAGE 67
-                DONE
-                
-EX      TROZO   PRESENT 3
-                MESSAGE 68
-                DONE
-
-EX      VENAS   MESSAGE 99
-                DONE
-
-EX      VELA    AT 2
-                MESSAGE 37
-                DONE
-
-; *** Otras acciones ***
-
-ABRIR   PUERT   PROCESS 16
-
-APAGA   CANDE   AT 2
-                MESSAGE 107
-
-APAGA   VELAS   AT 2
-                MESSAGE 107
-
-BEBER   FRASC   AT 2
-                MES 94
-                MES 69
-                MESSAGE 59
-                SET 109
-
-COGER   CANDE   AT 2
-                MESSAGE 57
-                DONE
-
-COGER   ESPEJ   AT 2
-                NOTZERO 107
-                MESSAGE 95
-                DONE
-
-COGER   ESPEJ   AT 2
-                MESSAGE 96
-                DONE
-
-COGER   FIGUR   AT 1
-                NOTZERO 103
-                MESSAGE 9
-                DONE
-
-COGER   MESA    AT 2
-                MESSAGE 12
-                DONE
-
-COGER   FRASC   AT 2
-                MESSAGE 13
-                DONE
-
-COGER   TROZO   AT 2
-                NOTZERO 107
-                ISAT 3 0
-                PLACE 3 254
-                MESSAGE 65
-                DONE
-
-COGER   TROZO   AT 2
-                NOTZERO 107
-                ABSENT 3
-                MESSAGE 66
-                DONE
-
-COGER   VELA    AT 2
-                MESSAGE 37
-                DONE
-
-EMPUJ   CANDE   AT 2
-                MESSAGE 57
-                
-EMPUJ   ESPEJ   AT 2
-                PROCESS 18
-
-EMPUJ   FRASC   AT 2
-                MESSAGE 101
-
-EMPUJ   LAMPA   PRESENT 0
-                MESSAGE 42
-
-EMPUJ   MARCO   AT 2
-                PROCESS 18
-
-EMPUJ   MESA    AT 2
-                MES 82
-                MES 83
-                MES 84
-                MES 85
-                MESSAGE 86
-
-EMPUJ   PUERT   PROCESS 16
-
-EMPUJ   VELAS   AT 2
-                MESSAGE 37
-
-ENCEN   LAMPA   PRESENT 0
-                MESSAGE 53
-
-FROTA   LAMPA   PRESENT 0
-                MESSAGE 42
 
 GRITA   _       MESSAGE 104
                 SET 109
@@ -728,66 +918,10 @@ LLORA   _       MES 102
                 MESSAGE 103
                 SET 109
                 
-PULSA   FIGUR   AT 1
-                NOTZERO 103
-                ZERO 105
-                MESSAGE 48
-                SET 105
-                DONE
-                
-PULSA   FIGUR   AT 1
-                NOTZERO 105
-                MESSAGE 49
-
-PULSA   ESTRE   AT 1
-                NOTZERO 103
-                MESSAGE 10
-
-PULSA   RELIE   AT 1
-                NOTZERO 103
-                MESSAGE 10
-
 QUITAR  VIDA    SYNONYM SUICI _
 
 RELAJ   _       MES 120
                 MESSAGE 103
-
-ROMPE   CRIST   AT 2
-                MESSAGE 60
-
-ROMPE   ESPEJ   AT 2
-                ZERO 107
-                SET 107
-                MES 61
-                MESSAGE 63
-                DONE
-                
-ROMPE   ESPEJ   AT 2
-                MESSAGE 49
-
-ROMPE   FRASC   AT 2
-                ZERO 107
-                MESSAGE 97
-                DONE
-                
-ROMPE   FRASC   AT 2
-                MES 97
-                MESSAGE 98
-
-ROMPE   LAMPA   PRESENT 0
-                MESSAGE 101
-
-ROMPE   VELA    AT 2
-                MESSAGE 101
-
-ROMPE   VENA    CARRIED 3
-                MES 69
-                MESSAGE 59
-                SET 109
-                DONE
-
-ROMPE   VENA    SET 109
-                MESSAGE 70
 
 SALTA   VACIO   PROCESS 17
 
@@ -800,59 +934,6 @@ SUICI   _       AT 1
 SUICI   _       MESSAGE 93
                 MESSAGE 91
                 SET 109
-
-TOCAR   CANDE   AT 2
-                MESSAGE 37
-
-TOCAR   CRIST   AT 2
-                MESSAGE 89
-
-TOCAR   ESPEJ   AT 2
-                ZERO 107
-                MESSAGE 75
-                DONE
-                
-TOCAR   ESPEJ   AT 2
-                MESSAGE 63
-
-TOCAR   FIGUR   AT 1
-                NOTZERO 103
-                SET 104
-                MESSAGE 47
-                DONE
-
-TOCAR   FRASC   AT 2
-                MESSAGE 89
-
-TOCAR   LAMPA   PRESENT 0
-                MESSAGE 42
-
-TOCAR   MARCO   AT 2
-                MESSAGE 89
-
-TOCAR   MESA    AT 2
-                MESSAGE 89
-
-TOCAR   PARED   AT 1
-                ZERO 100
-                SET 100
-                MESSAGE 5
-                DONE
-
-TOCAR   PARED   MESSAGE 4
-
-TOCAR   PUERT   AT 1
-                MESSAGE 89
-
-TOCAR   VELAS   AT 2
-                MESSAGE 37
-
-TOCAR   VENAS   MES 100
-                MESSAGE 103
-                SET 109
-
-VACIA   FRASC   MESSAGE 101
-                DONE
 
 ; Entrada a¤adida por Triz2DAAD para pantallas de ayuda.
 
