@@ -24,6 +24,7 @@ AR      10      noun
 ARRIBA  10      noun
 SUBIR   10      verb
 SUBE    10      verb
+SUBET   10      verb
 AB      11      noun
 ABAJO   11      noun
 BAJAR   11      verb
@@ -32,6 +33,7 @@ ENTRA   12      verb
 DENTRO  12      noun
 SALIR   13      verb
 SAL     13      verb
+SALID   13      verb
 FUERA   13      noun
 ;
 ; Nombres <20 indica que se pueden usar como verbos
@@ -106,14 +108,19 @@ NECRO   83      noun
 COGER   20      verb
 COGE    20      verb
 COGEL   20      verb
+COGED   20      verb
 DEJAR   21      verb
 DEJA    21      verb
 DEJAL   21      verb
+DEJAD   21      verb
 SOLTAR  21      verb
 QUITAR  22      verb
 PONER   23      verb
 PONTE   23      verb
+PON     23      verb
+PONED   23      verb
 MIRAR   24      verb
+MIRAD   24      verb
 M       24      verb
 REDES   24      verb
 R       24      verb
@@ -208,6 +215,10 @@ PLANS   60      verb
 CAAD    61      verb
 XYZZY   62      verb
 ASOMA   63      verb
+DORMI   64      verb
+DUERM   64      verb
+TUMBA   65      verb
+CANTA   66      verb      
 ;
 ; Preposiciones
 ;
@@ -227,6 +238,7 @@ CONSU   14      preposition
 ;
 IMUS    1       adjective
 ET      2       adjective
+DAVID   3       adjective
 ;
 ; Adverbios
 ;

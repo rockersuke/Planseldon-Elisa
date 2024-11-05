@@ -10,7 +10,8 @@ _       _       AT 1
                 NOTZERO 113
                 NOTEQ 33 57
                 CLEAR 113
-                MESSAGE 133
+                MES 133
+                MESSAGE 156
                 DONE
 
 ; Mensajes de ambientaci¢n, con la probabilidad de una vez cada 5 tuirnos

@@ -276,9 +276,21 @@ EX      COLCH   AT 1
 
 ROMPE   COLCH   AT 1
                 MESSAGE 101
-                
+
+SUBIR   COLCH   AT 1
+                SYNONYM SENTA COLCH
+
+SENTA   COLCH   AT 1
+                MES 158
+                MES 133
+                MESSAGE 157
+                DONE
+
 TOCAR   COLCH   AT 1
                 MESSAGE 89
+
+TUMBA   COLCH   AT 1
+                SYNONYM DORMI _
 
 ;
 ; *** ACCIONES CONJURO ***
@@ -551,6 +563,13 @@ EMPUJ   MESA    AT 2
 EX      MESA    AT 2
                 MESSAGE 13
                 DONE
+
+SENTA   MESA    AT 2
+                MESSAGE 101
+                DONE
+                
+SUBIR   MESA    AT 2
+                MESSAGE 101
 
 TOCAR   MESA    AT 2
                 MESSAGE 89
@@ -911,6 +930,12 @@ TOCAR   VENTA   MESSAGE 89
 ; *** OTRAS ACCIONES ***
 ;
 
+DORMI   _       AT 1
+                MESSAGE 159
+                DONE
+                
+DORMI   _       MESSAGE 160                
+
 GRITA   _       MESSAGE 104
                 SET 109
 
@@ -922,6 +947,9 @@ QUITAR  VIDA    SYNONYM SUICI _
 
 RELAJ   _       MES 120
                 MESSAGE 103
+
+SENTAR  _       EQ 34 255
+                MESSAGE 161
 
 SALTA   VACIO   PROCESS 17
 

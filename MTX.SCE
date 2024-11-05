@@ -320,7 +320,7 @@ Est is sentada en la alfombra.
 /132
 Para sentaros apropiadamente en la alfombra ‚sta debe estar extendida sobre el suelo.
 /133
-En vuestro estado de nervios no pod‚is permanecer quieta en un mismo sitio. Os levant is de la alfombra.
+En vuestro estado de nervios no pod‚is permanecer quieta en un mismo sitio. Os levant is 
 /134
 ¨A qu‚ alfombra os refer¡s?
 /135
@@ -379,3 +379,15 @@ Durante un instante pens is en qu‚ podr¡a pasar al llegar a Aval¢n con el Necron
 
 Pero esa ser  otra historia...
 
+/156
+de la alfombra.
+/157
+con celeridad.
+/158
+Os sent is sobre el mullido colch¢n, pero... 
+/159
+Pens is en reposar sobre el blando colch¢n, pero no podr¡ais conciliar el sue¤o.
+/160
+No hay nada sobre lo que dormir en esta estancia.
+/161
+Deb‚is nombrar d¢nde os dese is sentar, princesa.
