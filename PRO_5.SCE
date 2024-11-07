@@ -135,7 +135,12 @@ EXTEN   ALFOM   AT 1
                 MES 122
                 MESSAGE 124
                 DONE
-                
+
+EXTEN   ALFOM   AT 1
+                NOTZERO 110
+                MESSAGE 162
+                DONE
+
 EXTEN   ALFOM   AT 1
                 MES 118
                 MESSAGE 117
@@ -155,7 +160,14 @@ SENTA   ALFOM   AT 1
                 DONE
                 
 SENTA   ALFOM   AT 1
+                NOTZERO 111
                 MESSAGE 132
+                DONE
+                
+SENTA   ALFOM   AT 1
+                MES 163
+                MES 133
+                MESSAGE 157
                 
 TOCAR   ALFOM   AT 1
                 MESSAGE 112

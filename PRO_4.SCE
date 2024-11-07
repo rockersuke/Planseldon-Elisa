@@ -10,6 +10,7 @@ _       _       AT 1
                 NOTZERO 113
                 NOTEQ 33 57
                 CLEAR 113
+                NEWLINE
                 MES 133
                 MESSAGE 156
                 DONE

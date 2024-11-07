@@ -33,7 +33,6 @@ ENTRA   12      verb
 DENTRO  12      noun
 SALIR   13      verb
 SAL     13      verb
-SALID   13      verb
 FUERA   13      noun
 ;
 ; Nombres <20 indica que se pueden usar como verbos
@@ -204,6 +203,7 @@ SOPLA   54      verb
 RELAJ   55      verb
 PENSA   55      verb
 PIENS   55      verb
+TRANQ   55      verb
 EXTEN   56      verb
 EXTIE   56      verb
 DESEN   56      verb

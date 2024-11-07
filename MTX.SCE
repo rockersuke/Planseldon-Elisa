@@ -391,3 +391,7 @@ Pens is en reposar sobre el blando colch¢n, pero no podr¡ais conciliar el sue¤o.
 No hay nada sobre lo que dormir en esta estancia.
 /161
 Deb‚is nombrar d¢nde os dese is sentar, princesa.
+/162
+Est  extendida.
+/163
+Os sent is sobre la alfombra, pero... 
