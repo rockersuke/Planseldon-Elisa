@@ -101,6 +101,7 @@ VIDA    80      noun
 GIRUM   81      noun
 NOCTE   82      noun
 NECRO   83      noun
+PIE     84      noun
 ;
 ; Verbos
 ;
@@ -118,6 +119,7 @@ PONER   23      verb
 PONTE   23      verb
 PON     23      verb
 PONED   23      verb
+PONEO   23      verb
 MIRAR   24      verb
 MIRAD   24      verb
 M       24      verb

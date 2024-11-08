@@ -32,6 +32,7 @@ _       _       PROCESS 5
 ; continua el bucle del juego recomenzando el PRO 0.
 
 _       _       MOVE Player
+                PROCESS 21
                 RESTART
 
 ; Si no, mira si el verbo de la SL (sentencia l¢gica) era de movimiento,

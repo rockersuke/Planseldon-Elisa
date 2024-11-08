@@ -64,39 +64,36 @@ PASIL   _       AT 1
 ; *** ACCIONES ALFOMBRA ***
 ;
 
-_       ALFOM   AT 1
-                ZERO 114
+_       ALFOM   NOTAT 1
+                MESSAGE 167
+                DONE
+
+_       ALFOM   ZERO 114
                 MESSAGE 134
                 DONE
                 
-COGER   ALFOM   AT 1
-                NOTZERO 110
+COGER   ALFOM   NOTZERO 110
                 MESSAGE 115
                 DONE
                 
-COGER   ALFOM   AT 1
-                MES 116
+COGER   ALFOM   MES 116
                 MESSAGE 117
                 DONE
 
-EMPUJ   ALFOM   AT 1
-                ZERO 110
+EMPUJ   ALFOM   ZERO 110
                 MES 118
                 MESSAGE 117
                 DONE
                 
-EMPUJ   ALFOM   AT 1
-                ZERO 111
+EMPUJ   ALFOM   ZERO 111
                 SET 111
                 MESSAGE 119
                 CREATE 2
                 DONE
 
-EMPUJ   ALFOM   AT 1
-                MESSAGE 49
+EMPUJ   ALFOM   MESSAGE 49
 
-EX      ALFOM   AT 1
-                NOTZERO 112
+EX      ALFOM   NOTZERO 112
                 MES 121
                 MES 122
                 MES 124
@@ -105,72 +102,69 @@ EX      ALFOM   AT 1
                 MESSAGE 114
                 DONE
 
-EX      ALFOM   AT 1
-                NOTZERO 111
+EX      ALFOM   NOTZERO 111
                 MES 121
                 MES 123
                 MESSAGE 124
                 DONE
 
-EX      ALFOM   AT 1
-                NOTZERO 110
+EX      ALFOM   NOTZERO 110
                 MES 112
                 MESSAGE 114
                 DONE
 
-EX      ALFOM   AT 1
-                MES 113
+EX      ALFOM   MES 113
                 MESSAGE 117
                 DONE
 
-EXTEN   ALFOM   AT 1
-                NOTZERO 112
+EXTEN   ALFOM   NOTZERO 112
                 MESSAGE 49
                 DONE
 
-EXTEN   ALFOM   AT 1
-                NOTZERO 111
+EXTEN   ALFOM   NOTZERO 111
                 SET 112
                 MES 121
                 MES 122
                 MESSAGE 124
                 DONE
 
-EXTEN   ALFOM   AT 1
-                NOTZERO 110
+EXTEN   ALFOM   NOTZERO 110
                 MESSAGE 162
                 DONE
 
-EXTEN   ALFOM   AT 1
-                MES 118
+EXTEN   ALFOM   MES 118
                 MESSAGE 117
 
-ROMPE   ALFOM   AT 1
-                MESSAGE 101
+ROMPE   ALFOM   MESSAGE 101
 
-SENTA   ALFOM   AT 1
-                NOTZERO 113
+SENTA   ALFOM   NOTZERO 113
                 MESSAGE 49
                 DONE
 
-SENTA   ALFOM   AT 1
-                NOTZERO 112
+SENTA   ALFOM   NOTZERO 112
                 SET 113
                 MESSAGE 131
                 DONE
                 
-SENTA   ALFOM   AT 1
-                NOTZERO 111
+SENTA   ALFOM   NOTZERO 111
                 MESSAGE 132
                 DONE
                 
-SENTA   ALFOM   AT 1
+SENTA   ALFOM   NOTZERO 110
                 MES 163
                 MES 133
                 MESSAGE 157
+                DONE
+                
+SENTA   ALFOM   MES 166
+                MESSAGE 117
+                
                 
 TOCAR   ALFOM   AT 1
                 MESSAGE 112
+                
+TUMBA   ALFOM   AT 1
+                MESSAGE 101
 
 ;
 ; *** ACCIONES BIBLIOTECA ***
@@ -293,6 +287,7 @@ SUBIR   COLCH   AT 1
                 SYNONYM SENTA COLCH
 
 SENTA   COLCH   AT 1
+                PROCESS 21
                 MES 158
                 MES 133
                 MESSAGE 157
@@ -951,10 +946,23 @@ DORMI   _       MESSAGE 160
 GRITA   _       MESSAGE 104
                 SET 109
 
+LEVAN   _       EQ 34 255
+                SYNONYM PONER PIE
+
 LLORA   _       MES 102
                 MESSAGE 103
                 SET 109
+
+; Ojo! A "PONTE DE PIE" se puede llegar con un SYNONYM
+
+PONER   PIE     NOTZERO 113
+                CLEAR 113
+                MESSAGE 164
+                DONE
                 
+PONER   PIE     MESSAGE 165
+                DONE
+
 QUITAR  VIDA    SYNONYM SUICI _
 
 RELAJ   _       MES 120

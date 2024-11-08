@@ -395,3 +395,11 @@ Deb‚is nombrar d¢nde os dese is sentar, princesa.
 Est  extendida.
 /163
 Os sent is sobre la alfombra, pero... 
+/164
+Os levant is de la alfombra.
+/165
+Ya est is de pie.
+/166
+No pod‚is sentaros sobre la alfombra 
+/167
+Aqu¡ no hay ninguna alfombra.

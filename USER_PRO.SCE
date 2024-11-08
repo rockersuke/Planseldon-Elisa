@@ -191,3 +191,14 @@ _       _       NOTDONE
 
 _       _       CARRIED 4
                 MESSAGE 155
+
+/PRO 21
+
+; Actualiza flag 113 para dejar de estar sentada
+
+_       _       NOTZERO 113
+                CLEAR 113
+                MESSAGE 164
+                NEWLINE
+                ANYKEY
+                NEWLINE
