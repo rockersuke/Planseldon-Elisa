@@ -65,7 +65,8 @@ PASIL   _       AT 1
 ;
 
 _       ALFOM   NOTAT 1
-                MESSAGE 167
+                MES 167
+                MESSAGE 168
                 DONE
 
 _       ALFOM   ZERO 114
@@ -226,6 +227,9 @@ COGER   CODIC   AT 2
                 MES 149
                 MESSAGE 150
                 PLACE 4 254
+                ZERO 117
+                SET 117
+                PROCESS 22
                 DONE
 
 COGER   CODIC   AT 2
@@ -252,53 +256,48 @@ TOCAR   CODIC   AT 2
 ; *** ACCIONES COLCH‡N ***
 ;
 
-COGER   COLCH   AT 1
-                MESSAGE 12
+_       COLCH   NOTAT 1
+                MES 167
+                MESSAGE 169
                 DONE
 
-EMPUJ   COLCH   AT 1
-                ZERO 110
+COGER   COLCH   MESSAGE 12
+                DONE
+
+EMPUJ   COLCH   ZERO 110
                 SET 110
                 SET 114
                 MESSAGE 111
                 DONE
                 
-EMPUJ   COLCH   AT 1
-                MESSAGE 49
+EMPUJ   COLCH   MESSAGE 49
 
-EX      COLCH   AT 1
-                ZERO 110
+EX      COLCH   ZERO 110
                 MES 108
                 MES 109
                 MESSAGE 110
                 SET 114
                 DONE
                 
-EX      COLCH   AT 1
-                MES 108
+EX      COLCH   MES 108
                 MESSAGE 110
                 SET 114
                 DONE
 
-ROMPE   COLCH   AT 1
-                MESSAGE 101
+ROMPE   COLCH   MESSAGE 101
 
-SUBIR   COLCH   AT 1
-                SYNONYM SENTA COLCH
+SUBIR   COLCH   SYNONYM SENTA COLCH
 
-SENTA   COLCH   AT 1
-                PROCESS 21
+SENTA   COLCH   PROCESS 21
                 MES 158
                 MES 133
                 MESSAGE 157
                 DONE
 
-TOCAR   COLCH   AT 1
-                PROCESS 21
+TOCAR   COLCH   PROCESS 21
                 MESSAGE 89
 
-TUMBA   COLCH   AT 1
-                SYNONYM DORMI _
+TUMBA   COLCH   SYNONYM DORMI _
 
 ;
 ; *** ACCIONES CONJURO ***
@@ -326,6 +325,7 @@ RECIT   CONJU   NOTZERO 113
                 PROCESS 20
                 ANYKEY
                 CLS
+                PROCESS 24
                 WINDOW 2
                 CLS
                 MES 137
@@ -508,6 +508,10 @@ ROCKE   _       MESSAGE 140
 
 XYZZY   _       MES 143
                 MESSAGE 144
+                SET 109
+                ZERO 116
+                SET 116
+                PROCESS 22
 
 ;
 ; *** ACCIONES LAMPARA ***
@@ -948,6 +952,7 @@ ROMPE   VENTA   AT 2
 SALTA   VENTA   PROCESS 21
                 PROCESS 17
                 SET 109
+                DONE
 
 TIRAR   VENTA   PROCESS 21
                 PROCESS 17
@@ -959,6 +964,17 @@ TOCAR   VENTA   PROCESS 21
 ;
 ; *** OTRAS ACCIONES ***
 ;
+
+CANTA   _       ZERO 116
+                MESSAGE 173
+                DONE
+                
+CANTA   _       MES 174
+                MESSAGE 175
+                SET 109
+                ZERO 118
+                SET 118
+                PROCESS 22
 
 DORMI   _       AT 1
                 MESSAGE 159
@@ -975,6 +991,9 @@ LEVAN   _       EQ 34 255
 LLORA   _       MES 102
                 MESSAGE 103
                 SET 109
+                
+LOGRO   _       PROCESS 23
+
 
 ; Ojo! A "PONTE DE PIE" se puede llegar con un SYNONYM
 
@@ -995,6 +1014,9 @@ SENTAR  _       EQ 34 255
                 MESSAGE 161
 
 SALTA   VACIO   PROCESS 17
+                DONE
+
+SALTA   _       MESSAGE 101
 
 SUICI   _       AT 1
                 MESSAGE 93

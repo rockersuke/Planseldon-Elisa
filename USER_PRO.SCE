@@ -67,6 +67,16 @@ _       _       AT 3
                 
 _       _       AT 4
                 MES 15
+                
+; Actualiza logros
+
+_       _       ATLT 3
+                TAB COLS-13
+                MES 171
+                PRINT 115
+                MES 172
+
+; Retorna a la ventana de texto
 
 _       _       WINDOW 1
 
@@ -204,3 +214,67 @@ _       _       NOTZERO 113
                 NEWLINE
                 ANYKEY
                 NEWLINE
+
+/PRO 22
+
+; Actualiza logros
+
+_       _       MESSAGE 170
+                PLUS 115 1
+                PROCESS 11
+                SET 109
+
+/PRO 23
+
+; Listado de logros desbloqueados
+
+_       _       MESSAGE 177
+                MES 178
+                ZERO 116
+                MESSAGE 176
+                
+_       _       NOTZERO 116
+                MESSAGE 181
+
+_       _       MES 179
+                ZERO 117
+                MESSAGE 176
+                
+_       _       NOTZERO 117
+                MESSAGE 182
+                
+_       _       MES 180
+                ZERO 118
+                MESSAGE 176
+                
+_       _       NOTZERO 118
+                MESSAGE 183
+
+/PRO 24
+
+; Explicaci¢n de los logros en el fin del juego
+
+_       _       ZERO 115
+                DONE
+                
+_       _       WINDOW 2
+                CLS
+                MES 177
+                WINDOW 1
+                
+_       _       NOTZERO 116
+                MES 184
+                MESSAGE 187
+                ANYKEY
+                CLS
+
+_       _       NOTZERO 117
+                MES 185
+                MESSAGE 188
+                ANYKEY
+                CLS
+                
+_       _       NOTZERO 118
+                MESSAGE 186
+                ANYKEY
+                CLS

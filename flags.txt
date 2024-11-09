@@ -13,4 +13,7 @@
 112 - Alfombra extendida
 113 - Sentada en la alfombra
 114 - Colchón examinado
-
+115 - Nº de logros desbloqueados (0 - 3)
+116 - Logro 1 XYZZY
+117 - Logro 2 NECRONOMICÓN
+118 - Logro 3 CANTAR tras XYZZY

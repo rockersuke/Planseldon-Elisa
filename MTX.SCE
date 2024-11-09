@@ -402,4 +402,110 @@ Ya est is de pie.
 /166
 No pod‚is sentaros sobre la alfombra 
 /167
-Aqu¡ no hay ninguna alfombra.
+Aqu¡ no hay 
+/168
+ninguna alfombra.
+/169
+ning£n colch¢n.
+/170
+
+** LOGRO DESBLOQUEADO **
+/171
+Logros (
+/172
+\/3)
+/173
+La mezcla de desaz¢n y pavor os impiden tener la alegr¡a requerida para entonar versos. Si acaso encontraseis la forma de recuperar, aunque fugazmente fuera, el  nimo...
+/174
+De lo m s profundo de vuestra alma surgen las fuerzas para no sucumbir ante el miedo. Y con ellas, el recuerdo de un poema. Una historia triste y hermosa de vuestra Breta¤a natal aunque proveniente de otro tiempo, de otro lugar... seg£n las hadas de Aval¢n 
+/175
+que os la ense¤aron... La recit is al son de una m£sica de vuestra propia creaci¢n.
+
+
+Escucha la antigua canci¢n
+
+de Autrou y su amad¡sima Itroun.
+
+
+Dos nobles bretones lloraban
+
+los hijos que nunca llegaban.
+
+
+Un d¡a una bruja furtiva
+
+di¢ a Autrou una respuesta cautiva.
+
+
+De aquella promesa nacieron
+
+gemelos, m s pronto exigieron
+
+
+su pago: La bruja clamaba
+
+"la vida o el lecho", gritaba.
+
+
+Autrou, como buen caballero
+
+cristiano le dijo: "No quiero
+
+
+faltar a mi amada, te niego."
+
+La bruja lo mata con fuego.
+
+
+E Itroun al saber la desgracia
+
+muri¢. Dios los tenga en su Gracia.
+
+
+Os sent¡s con mayores  nimos para hacer frente a vuestro destino. Habr  alguna forma de escapar y la encontrar‚is.
+/176
+SIN DESBLOQUEAR.
+/177
+LOGROS DESBLOQUEADOS:
+/178
+-1: 
+/179
+-2: 
+/180
+-3: 
+/181
+Hab‚is dicho la palabra m gica XYZZY.
+/182
+Hab‚is encontrado el NECRONOMICON.
+/183
+Hab‚is recuperado el  nimo para CANTAR.
+/184
+LOGRO 1: Decir la palabra XYZZY.
+
+
+La palabra m gica XYZZY fue empleada como "huevo de pascua" en la primera aventura conversacional conocida, COLOSSAL CAVE o ADVENT (Crowther - Woods, 1976). Ten¡a el efecto m gico de transportar al jugador entre distintas localidades. Ya se encontraba 
+/185
+LOGRO 2: Encontrar el NECRONOMICON.
+
+
+El Necronomic¢n es un libro que aparece mencionado reiteradamente en los relatos del escritor H. P. Lovecraft (1890-1937) ambientados en el universo de "Los Mitos de Cthulhu". Escrito originalmente por el  rabe loco Abdul Alhazred, contendr¡a una serie de 
+/186
+LOGRO 3: CANTAR
+
+
+La canci¢n que Elisa de Aval¢n consigue reunir fuerzas para recitar es una creaci¢n en espa¤ol de Carlos Aguirre basada en la historia narrada en el poema "La balada de Aotrou e Itroun", escrito por J. R. Tolkien en 1930. Al igual que en la pieza tolkeniana, 
+/187
+presente en la versi¢n preliminar de William Crowther antes de ser terminada por Don Woods, de la que se puede jugar una versi¢n en espa¤ol realizada por F‚lix Garillete y Pedro Fern ndez. 
+
+Desde entonces su uso ha sido tradicional en las aventuras de texto, incluyendo, como no, la primera versi¢n comercial en espa¤ol de ADVENT, "La Aventura Original" (Aventuras AD, 1989)
+
+/188
+ritos arcanos para contactar con seres extradimensionales y un escaso n£mero de copias de su traducci¢n al lat¡n se conservar¡an escondidas en algunas bibliotecas y universidades del mundo.
+
+
+A pesar de ser una obra enteramente ficticia todav¡a hay estudiosos e investigadores que lo buscan creyendo ingenuamente en su existencia.
+
+/189
+relata una historia caballeresca de la Breta¤a francesa medieval en forma de lay, respetando la m‚trica bretona (eneas¡labos con base de yambo y anapestos y rima consonante pareada)
+
+
