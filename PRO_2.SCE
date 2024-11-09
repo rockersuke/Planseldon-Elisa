@@ -4,6 +4,8 @@
 
 _       _       HASAT TIMEOUT
                 SYSMESS 35
+                PLUS Turns 1
+                PROCESS 12
                 DONE
 
 ; Para que no salga el mensaje de sistema 6 en las localidades 3 y 4

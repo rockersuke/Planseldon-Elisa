@@ -86,11 +86,11 @@ _       _       WINDOW 1
 ; o de 20 (modo dif¡cil)
 
 _       _       ZERO 101
-                EQ Turns 100
+                GT Turns 100
                 PROCESS 13
                 
 _       _       NOTZERO 101
-                EQ Turns 21
+                GT Turns 20
                 PROCESS 13
                 
 /PRO 13

@@ -71,6 +71,7 @@ Encerrada en una fr¡a celda sab‚is que os queda muy poco tiempo antes de que reg
 odalisca y ahora se acicala para disfrutar de su bot¡n y cometer todo tipo de tropel¡as con el cuerpo de diosa de la inocente Elisa...
 
 /26
+
 De pronto las luces del candelabro se apagan. El
 /27
 A trav‚s de la ventana la p lida luz de la noche parece brillar con resplandores surgidos del mism¡simo infierno. Espantada, sin saber qu‚ hacer, os acurruc is en un rinc¢n de la celda.
@@ -86,6 +87,7 @@ desvanecido. Su mirada lasciva os envuelve como una oscura serpiente... sent¡s s
    FIN
 
 /32
+
 De pronto el
 /33
 El cristal de la ventana, con su extra¤a geometr¡a no euclidiana, deja de mostrar el desierto y la noche y comienza a brillar con resplandores que parecen surgir del mism¡simo infierno. Espantada, sin saber qu‚ hacer, corr‚is hacia la celda y trat is de 

@@ -22,7 +22,7 @@ _       1       AT 4
                 RESTART
                 
 _       2       AT 4
-                TIME 30 0
+                TIME 5 0
                 CLEAR Prompt
                 GOTO 1
                 RESTART
