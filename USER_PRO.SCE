@@ -133,6 +133,7 @@ _       _       NOTAT 1
                 NOTDONE
                 
 _       _       ZERO 105
+                PROCESS 21
                 MESSAGE 50
                 DONE
                 
@@ -146,7 +147,8 @@ _       _       AT 2
                 MESSAGE 62
                 DONE
 
-_       _       MES 58
+_       _       PROCESS 21
+                MES 58
                 MESSAGE 59
 
 /PRO 18

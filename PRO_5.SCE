@@ -93,6 +93,8 @@ EMPUJ   ALFOM   ZERO 111
 
 EMPUJ   ALFOM   MESSAGE 49
 
+ENRRO   ALFOM   MESSAGE 101
+
 EX      ALFOM   NOTZERO 112
                 MES 121
                 MES 122
@@ -160,11 +162,9 @@ SENTA   ALFOM   MES 166
                 MESSAGE 117
                 
                 
-TOCAR   ALFOM   AT 1
-                MESSAGE 112
+TOCAR   ALFOM   MESSAGE 112
                 
-TUMBA   ALFOM   AT 1
-                MESSAGE 101
+TUMBA   ALFOM   MESSAGE 101
 
 ;
 ; *** ACCIONES BIBLIOTECA ***
@@ -294,6 +294,7 @@ SENTA   COLCH   AT 1
                 DONE
 
 TOCAR   COLCH   AT 1
+                PROCESS 21
                 MESSAGE 89
 
 TUMBA   COLCH   AT 1
@@ -420,6 +421,7 @@ EX      ESTRE   MESSAGE 7
 
 PULSA   ESTRE   AT 1
                 NOTZERO 103
+                PROCESS 21
                 MESSAGE 10
 
 ;
@@ -428,11 +430,13 @@ PULSA   ESTRE   AT 1
 
 COGER   FIGUR   AT 1
                 NOTZERO 103
+                PROCESS 21
                 MESSAGE 9
                 DONE
 
 EX      FIGUR   AT 1
                 NOTZERO 103
+                PROCESS 21
                 SET 104
                 MESSAGE 47
                 DONE
@@ -440,6 +444,7 @@ EX      FIGUR   AT 1
 PULSA   FIGUR   AT 1
                 NOTZERO 103
                 ZERO 105
+                PROCESS 21
                 MESSAGE 48
                 SET 105
                 DONE
@@ -450,6 +455,7 @@ PULSA   FIGUR   AT 1
 
 TOCAR   FIGUR   AT 1
                 NOTZERO 103
+                PROCESS 21
                 SET 104
                 MESSAGE 47
                 DONE
@@ -624,6 +630,7 @@ _       NECRO   NOTEQ 33 20
 
 EX      PARED   AT 1
                 ZERO 100
+                PROCESS 21
                 SET 100
                 MESSAGE 5
                 DONE
@@ -633,6 +640,7 @@ EX      PARED   MESSAGE 4
 
 TOCAR   PARED   AT 1
                 ZERO 100
+                PROCESS 21
                 SET 100
                 MESSAGE 5
                 DONE
@@ -661,6 +669,7 @@ EX      PASIL   MESSAGE 64
 ACERC   PERGA   AT 1
                 CARRIED 1
                 NOUN2 VENTA
+                PROCESS 21
                 MESSAGE 72
                 DONE
 
@@ -671,12 +680,14 @@ ACERC   PERGA   CARRIED 1
 EX      PERGA   AT 1
                 CARRIED 1
                 NOUN2 VENTA
+                PROCESS 21
                 MESSAGE 72
                 DONE
 
 EX      PERGA   AT 1
                 CARRIED 1
                 NOUN2 LUNA
+                PROCESS 21
                 MESSAGE 72
                 DONE
 
@@ -697,12 +708,14 @@ EX      PERGA   PRESENT 1
 LEE     PERGA   AT 1
                 CARRIED 1
                 NOUN2 VENTA
+                PROCESS 21
                 MESSAGE 72
                 DONE
                 
 LEE     PERGA   AT 1
                 CARRIED 1
                 NOUN2 LUNA
+                PROCESS 21
                 MESSAGE 72
                 DONE
 
@@ -744,6 +757,7 @@ EX      PUERT   AT 1
                 DONE
 
 TOCAR   PUERT   AT 1
+                PROCESS 21
                 MESSAGE 89
 
 ;
@@ -754,12 +768,14 @@ TOCAR   PUERT   AT 1
 
 EX      RELIE   AT 1
                 NOTZERO 100
+                PROCESS 21
                 SET 103
                 MESSAGE 46
                 DONE
 
 PULSA   RELIE   AT 1
                 NOTZERO 103
+                PROCESS 21
                 MESSAGE 10
 
 _       RELIE   NOTDONE
@@ -784,7 +800,8 @@ EX      SUELO   AT 2
                 MESSAGE 146
                 DONE
 
-EX      SUELO   MES 73
+EX      SUELO   PROCESS 21
+                MES 73
                 MES 79
                 MES 78
                 MESSAGE 145
@@ -797,6 +814,7 @@ TOCAR   SUELO   MESSAGE 89
 ;
 
 EX      TECHO   AT 1
+                PROCESS 21
                 MES 73
                 MES 80
                 MES 78
@@ -810,7 +828,8 @@ EX      TECHO   AT 2
                 MESSAGE 146
                 DONE
 
-TOCAR   TECHO   MESSAGE 90
+TOCAR   TECHO   PROCESS 21
+                MESSAGE 90
 
 ;
 ; *** ACCIONES TELA ***
@@ -897,7 +916,7 @@ ROMPE   VENAS   CARRIED 3
                 SET 109
                 DONE
 
-ROMPE   VENAS    SET 109
+ROMPE   VENAS   SET 109
                 MESSAGE 70
 
 TOCAR   VENAS   MES 100
@@ -911,6 +930,7 @@ TOCAR   VENAS   MES 100
 ABRIR   VENTA   MESSAGE 11
 
 ASOMA   VENTA   AT 1
+                PROCESS 21
                 MES 147
                 MESSAGE 148
 
@@ -925,13 +945,16 @@ EX      VENTA   AT 2
 ROMPE   VENTA   AT 2
                 MESSAGE 60
                 
-SALTA   VENTA   PROCESS 17
+SALTA   VENTA   PROCESS 21
+                PROCESS 17
                 SET 109
 
-TIRAR   VENTA   PROCESS 17
+TIRAR   VENTA   PROCESS 21
+                PROCESS 17
                 SET 109
 
-TOCAR   VENTA   MESSAGE 89
+TOCAR   VENTA   PROCESS 21
+                MESSAGE 89
 
 ;
 ; *** OTRAS ACCIONES ***

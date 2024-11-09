@@ -220,7 +220,8 @@ ASOMA   63      verb
 DORMI   64      verb
 DUERM   64      verb
 TUMBA   65      verb
-CANTA   66      verb      
+CANTA   66      verb
+ENRRO   67      verb 
 ;
 ; Preposiciones
 ;
