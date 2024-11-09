@@ -2,6 +2,7 @@
 *.DDB
 *.DSK
 *.EXE
+*.exe
 *.lnk
 *.pdf
 *.session

@@ -275,6 +275,7 @@ _       _       NOTZERO 117
                 CLS
                 
 _       _       NOTZERO 118
-                MESSAGE 186
+                MES 186
+                MESSAGE 189
                 ANYKEY
                 CLS
