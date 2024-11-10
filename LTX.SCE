@@ -14,9 +14,13 @@ Programaci¢n:
 
    PEDRO FERNANDEZ
 
-Gr ficos:
+Testeadores:
 
-   LIZZY WEIZENBAUM
+   AMADO SANCHEZ, JUAN JOSE TORRES, NANDOVE
+
+Car tula y pantallas de carga:
+
+   LIZZY WEIZENBAUM, JUAN JOSE TORRES, IGNACIO PRINI
 
 
 /1
