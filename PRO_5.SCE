@@ -300,7 +300,24 @@ TOCAR   COLCH   PROCESS 21
 TUMBA   COLCH   SYNONYM DORMI _
 
 ;
-; *** ACCIONES CONJURO ***
+; *** ACCIONES HUEVO PASCUA ***
+;
+
+; Por log¡stica es importante que vayan antes de las de DECIR y CONJURO
+
+_       CAAD    MESSAGE 142
+                DONE
+
+_       PLANS   MESSAGE 141
+                DONE
+
+_       ROCKE   MESSAGE 140
+                DONE
+
+_       XYZZY   PROCESS 25
+                DONE
+;
+; *** ACCIONES DECIR y CONJURO ***
 ;
 
 RECIT   _       PROCESS 19
@@ -495,23 +512,6 @@ TOCAR   FRASC   AT 2
 
 VACIA   FRASC   MESSAGE 101
                 DONE
-
-;
-; *** ACCIONES HUEVO PASCUA ***
-;
-
-CAAD    _       MESSAGE 142
-
-PLANSE  _       MESSAGE 141
-
-ROCKE   _       MESSAGE 140
-
-XYZZY   _       MES 143
-                MESSAGE 144
-                SET 109
-                ZERO 116
-                SET 116
-                PROCESS 22
 
 ;
 ; *** ACCIONES LAMPARA ***

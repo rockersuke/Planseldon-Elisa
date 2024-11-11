@@ -102,6 +102,10 @@ GIRUM   81      noun
 NOCTE   82      noun
 NECRO   83      noun
 PIE     84      noun
+ROCKE   85      noun
+PLANS   86      noun
+CAAD    87      noun
+XYZZY   88      noun
 ;
 ; Verbos
 ;
@@ -212,10 +216,6 @@ DESEN   56      verb
 SENTA   57      verb
 SIENT   57      verb
 IN      58      verb
-ROCKE   59      verb
-PLANS   60      verb
-CAAD    61      verb
-XYZZY   62      verb
 ASOMA   63      verb
 DORMI   64      verb
 DUERM   64      verb

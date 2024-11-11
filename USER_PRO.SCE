@@ -179,7 +179,7 @@ _       _       MES 82
 
 /PRO 19
 
-; Recitar conjuro (literalmente)
+; Acciones DECIR y Recitar conjuro (literalmente)
 
 _       CONJU   DONE       
 
@@ -193,6 +193,18 @@ IN      GIRUM   ADJECT1 IMUS
                 ADVERB IGNI
                 NOTZERO 102
                 SYNONYM RECIT CONJU
+                DONE
+
+_       CAAD    MESSAGE 142
+                DONE
+
+_       PLANS   MESSAGE 141
+                DONE
+
+_       ROCKE   MESSAGE 140
+                DONE
+
+_       XYZZY   PROCESS 25
                 DONE
 
 _       _       NOTDONE
@@ -279,3 +291,14 @@ _       _       NOTZERO 118
                 MESSAGE 189
                 ANYKEY
                 CLS
+
+/PRO 25
+
+; XYZZY
+
+_       _       MES 143
+                MESSAGE 144
+                SET 109
+                ZERO 116
+                SET 116
+                PROCESS 22

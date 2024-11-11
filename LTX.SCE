@@ -8,7 +8,7 @@
 
 Idea original, guion y direcci¢n:
 
-   CARLOS AGUIRRE
+   CARLOS MARTINEZ AGUIRRE
 
 Programaci¢n:
 
@@ -16,7 +16,7 @@ Programaci¢n:
 
 Testeadores:
 
-   AMADO SANCHEZ, JUAN JOSE TORRES, NANDOVE
+   AMADO SANCHEZ, JUAN JOSE TORRES, NANDOVE, EDUARDO JOSE VILLALOBOS
 
 Car tula y pantallas de carga:
 

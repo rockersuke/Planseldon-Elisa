@@ -17,3 +17,4 @@
 116 - Logro 1 XYZZY
 117 - Logro 2 NECRONOMICÓN
 118 - Logro 3 CANTAR tras XYZZY
+119 - Has dicho XYZZY mediante DECIR "XYZZY" (con comillas)
