@@ -1,61 +1,19 @@
-1 *** PRIMERA LOCALIDAD ***
+Lo del gráfico nuevo en el espejo como 4 logro me parece genial. Siempre que los grafistas se animen, claro. Veré si chatGPT puede hacer algo... por cierto, no habría que poner en los créditos que la ilustración original es suya?
 
-Acciones posibles:
+Unas cuantas cosas:
 
-> Retirar Alfombra ó > Empujar alfombra ó > Tirar de Alfombra ó > Apartar alfombra ó > Levantar alfombra
-Empujáis la alfombra hacia el otro rincón de la celda y... ¡Debajo hay algo! Parece un trozo de tela... 
+1. Añadir ">Enrollar alfombra" y ">Desenrollar alfombra" como sinónimos a ">Empujar alfombra" y  ">Extender alfombra"
 
+2. Cambiar la respuesta a ">Decir hechizo" (antes de haber leído el pergamino) por:
+Por más que intentáis recordar alguno de los hechizos que Merlín y Viviana os enseñaron en Avalón las palabras no acuden a vuestra mente. Parece que el nigromante hubiera nublado vuestra razón.
 
-3. Resolución de la aventura 
+Mejor:  Por más que intentáis recordar alguno de los hechizos que Merlín y Viviana os enseñaron en Avalón las palabras no acuden a vuestra mente. Parece que el nigromante os hubiera nublado la razón.
 
-Una vez hemos leído el pergamino (salvo que al jugador se le cruce una neurona y no caiga en ello, que todo es posible) hay que volver a la celda, colocar otra vez la alfombra en el suelo, sentarse en ella y pronunciar las palabras mágicas. La alfombra se pondrá a levitar y saldrá volando rumbo a Avalón...
+3.En la respuesta a sentarte hay una errata: "Debéis nombrar dónde os deseáis sentar , princesa" (antes de la coma hay que quitar el espacio)
 
-> Sentarme en la alfombra ó >Sentar en la alfombra ó > Sentarse en la alfombra (antes de haberla colocado)
-Primero debéis volver a extenderla en el suelo.
+4. En la explicación final del los logros hay una errata aparece separado tol keninana 
 
-> Extender alfombra en el suelo ó > Extender alfombra ó > Colocar alfombra ó > Poner alfombra
-Ahora la alfombra está otra vez extendida en medio de la celda.
-
-> Sentarme en la alfombra ó > Sentar en la alfombra ó > Sentarse en la alfombra
-Estáis sentada en la alfombra.
-
-> Recitar/decir/pronunciar hechizo/conjuro/sortilegio/palabras mágicas ó Recitar/decir/pronunciar "In girum imus nocte et consumimur igni"
-La alfombra comienza a levitar y sale sin ninguna dificultad por la gran ventana de la  celda volando hacia el occidente... en poco tiempo dejáis atrás las frías arenas del desierto y antes de lo que nunca hubierais imaginado divisáis las amables campiñas de Galia, los queridos bosques de Armórica y por fin... la querida Isla de Avalón. 
-¡Enhorabuena, doña Elisa habéis escapado la torre del brujo y habéis salvado vuestro precioso cuerpo de ser mancillado por el repugnante nigromante! 
-
-FINIS CORONAT OPVS 
-
-MEJORAS Y CORRECCIONES
-
-8) Ampliar el mensaje:
-Por un aterrador segundo os tienta la idea de escapar de vuestro destino dejando tan solo un cuerpo inerte en manos del oscuro hechicero... Quizás quitaros la vida y abandonar el mundo por vuestra propia mano sea mejor que el destino que os aguarda en manos del nigromante... pero una vez más las palabras de Merlín vienen a devolveros la cordura: "Nunca perdáis la esperanza... Cuando el miedo os atenace... ¡Apostad siempre por la vida!"
+5. Lo de colaborar con el evento de retroparla del 9 de noviembre, al haber pasado, quizás habría que cambiarlo.
 
 
-POEMA
-
-A modo de divertimento, y sin ninguna pretensión literaria, ha escrito este mini-lay -respetando la métrica bretona (eneasílabos con base de yambo y anapestos y rima consonante pareada) 
-
-Escucha la antigua canción
-de Autrou y su amadísima Itroun.
-
-Dos nobles bretones lloraban
-los hijos que nunca llegaban.
-
-Un día una bruja furtiva
-dió a Autrou una respuesta cautiva.
-
-De aquella promesa nacieron
-gemelos, más pronto exigieron
-
-su pago: La bruja clamaba
-"la vida o el lecho", gritaba.
-
-Autrou, como buen caballero
-cristiano le dijo: "No quiero
-
-faltar a mi amada, te niego."
-La bruja lo mata con fuego.
-
-E Itroun al saber la desgracia
-murió. Dios los tenga en su Gracia.
 
