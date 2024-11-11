@@ -67,6 +67,7 @@ DESIE   62      noun
 BIBLI   63      noun
 ESTAN   63      noun
 CODIC   64      noun
+C¢DIC   64      noun
 LIBRO   64      noun
 RELIE   65      noun
 FIGUR   66      noun
@@ -126,6 +127,8 @@ PONED   23      verb
 PONEO   23      verb
 MIRAR   24      verb
 MIRAD   24      verb
+MIRA    24      verb
+MIRAL   24      verb
 M       24      verb
 REDES   24      verb
 R       24      verb
@@ -223,6 +226,8 @@ TUMBA   65      verb
 CANTA   66      verb
 ENRRO   67      verb
 LOGRO   68      verb
+MIRAT   69      verb
+MIRAO   69      verb
 ;
 ; Preposiciones
 ;

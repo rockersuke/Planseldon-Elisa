@@ -398,8 +398,18 @@ COGER   ESPEJ   AT 2
 EMPUJ   ESPEJ   AT 2
                 PROCESS 18
 
+MIRAT   ESPEJ   AT 2
+                SYNONYM EX ESPEJ
+
 EX      ESPEJ   AT 2
                 ZERO 107
+                CLS
+                PICTURE 14
+                DISPLAY 0
+                PRINTAT 21 0
+                MES 190
+                ANYKEY
+                CLS
                 MES 54
                 MESSAGE 55
                 DONE

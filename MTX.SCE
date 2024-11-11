@@ -511,3 +511,5 @@ A pesar de ser una obra enteramente ficticia todav¡a hay estudiosos e investigad
 relata una historia caballeresca de la Breta¤a francesa medieval en forma de lay, respetando la m‚trica bretona (eneas¡labos con base de yambo y anapestos y rima consonante pareada)
 
 
+/190
+          
