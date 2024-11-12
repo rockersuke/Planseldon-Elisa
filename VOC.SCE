@@ -224,7 +224,7 @@ DORMI   64      verb
 DUERM   64      verb
 TUMBA   65      verb
 CANTA   66      verb
-ENRRO   67      verb
+ENROL   67      verb
 LOGRO   68      verb
 MIRAT   69      verb
 MIRAO   69      verb

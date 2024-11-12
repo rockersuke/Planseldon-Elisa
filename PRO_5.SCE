@@ -81,6 +81,8 @@ COGER   ALFOM   MES 116
                 MESSAGE 117
                 DONE
 
+ENROL   ALFOM   SYNONYM EMPUJ ALFOM
+
 EMPUJ   ALFOM   ZERO 110
                 MES 118
                 MESSAGE 117
@@ -93,8 +95,6 @@ EMPUJ   ALFOM   ZERO 111
                 DONE
 
 EMPUJ   ALFOM   MESSAGE 49
-
-ENRRO   ALFOM   MESSAGE 101
 
 EX      ALFOM   NOTZERO 112
                 MES 121

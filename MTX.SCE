@@ -314,7 +314,7 @@ La alfombra comienza a levitar y sale sin ninguna dificultad por la gran ventana
    FINIS CORONAT OPVS
 
 /129
-No conoc‚is ning£n conjuro que recitar.
+Por m s que intent is recordar alguno de los hechizos que Merl¡n y Viviana os ense¤aron en Aval¢n las palabras no acuden a vuestra mente. Parece que el nigromante os hubiera nublado la raz¢n.
 /130
 La celda se envuelve en sombras m s densas, como si fueran el s¡mbolo inevitable del fin de vuestra £ltima esperanza de escapar.
 /131
@@ -338,7 +338,7 @@ Do¤a Elisa de Aval¢n se termin¢ de escribir a finales de Octubre de 2024, coinci
 Nuestros mayores  nimos para todos las personas afectadas.
 
 
-Quienes lo dese‚is pod‚is colaborar con el evento solidario que la asociaci¢n RetroParla (www.retroparla.com) organiza el 9 de Noviembre de 2024.
+El pasado 9 de noviembre la asociaci¢n RetroParla (www.retroparla.com) organiz¢ un evento solidario para recaudar fondos destinados a C ritas Valencia. Se pueden hacer aportaciones directamente a ‚sta en el Bizum 38026.
 
 
    GRACIAS Y UN ABRAZO A TODAS Y TODOS.
@@ -495,7 +495,7 @@ El Necronomic¢n es un libro que aparece mencionado reiteradamente en los relatos
 LOGRO 3: CANTAR
 
 
-La canci¢n que Elisa de Aval¢n consigue reunir fuerzas para recitar es una creaci¢n en espa¤ol de Carlos Mart¡nez Aguirre basada en la historia narrada en el poema "La balada de Aotrou e Itroun", escrito por J. R. Tolkien en 1930. Al igual que en la pieza tolkeniana, 
+La canci¢n que Elisa de Aval¢n consigue reunir fuerzas para recitar es una creaci¢n en espa¤ol de Carlos Mart¡nez Aguirre basada en la historia narrada en el poema "La balada de Aotrou e Itroun", escrito por J. R. Tolkien en 1930. Al igual que en la pieza
 /187
 presente en la versi¢n preliminar de William Crowther antes de ser terminada por Don Woods, de la que se puede jugar una versi¢n en espa¤ol realizada por F‚lix Garillete y Pedro Fern ndez. 
 
@@ -508,7 +508,7 @@ ritos arcanos para contactar con seres extradimensionales y un escaso n£mero de 
 A pesar de ser una obra enteramente ficticia todav¡a hay estudiosos e investigadores que lo buscan creyendo ingenuamente en su existencia.
 
 /189
-relata una historia caballeresca de la Breta¤a francesa medieval en forma de lay, respetando la m‚trica bretona (eneas¡labos con base de yambo y anapestos y rima consonante pareada)
+ tolkeniana, relata una historia caballeresca de la Breta¤a francesa medieval en forma de lay, respetando la m‚trica bretona (eneas¡labos con base de yambo y anapestos y rima consonante pareada)
 
 
 /190
