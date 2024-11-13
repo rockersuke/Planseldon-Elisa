@@ -302,3 +302,11 @@ _       _       MES 143
                 ZERO 116
                 SET 116
                 PROCESS 22
+
+/PRO 26
+
+; Hace aparecer la tela
+
+_       _       ISAT 2 0
+                MESSAGE 191
+                CREATE 2

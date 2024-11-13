@@ -287,7 +287,7 @@ ya que la mayor parte de ella est  bajo el colch¢n.
 /118
 No pod‚is moverla bien 
 /119
-Empuj is la alfombra hacia el otro rinc¢n de la celda y... ­Debajo hay algo! Parece un trozo de tela...
+Empuj is la alfombra hacia el otro rinc¢n de la celda.
 /120
 Trat is de relajaros y pensar... 
 /121
@@ -513,3 +513,7 @@ A pesar de ser una obra enteramente ficticia todav¡a hay estudiosos e investigad
 
 /190
           
+/191
+­Debajo hay algo! Parece un trozo de tela...
+/192
+Ya est  extendida.

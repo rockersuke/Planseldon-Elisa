@@ -83,6 +83,8 @@ COGER   ALFOM   MES 116
 
 ENROL   ALFOM   SYNONYM EMPUJ ALFOM
 
+EMPUJ   ALFOM   PROCESS 21
+
 EMPUJ   ALFOM   ZERO 110
                 MES 118
                 MESSAGE 117
@@ -90,8 +92,9 @@ EMPUJ   ALFOM   ZERO 110
                 
 EMPUJ   ALFOM   ZERO 111
                 SET 111
+                CLEAR 112
                 MESSAGE 119
-                CREATE 2
+                PROCESS 26
                 DONE
 
 EMPUJ   ALFOM   MESSAGE 49
@@ -120,23 +123,25 @@ EX      ALFOM   MES 113
                 MESSAGE 117
                 DONE
 
-EXTEN   ALFOM   NOTZERO 112
-                MESSAGE 49
+EXTEN   ALFOM   ZERO 110
+                MES 118
+                MESSAGE 117
                 DONE
 
-EXTEN   ALFOM   NOTZERO 111
-                SET 112
+EXTEN   ALFOM   ZERO 111
+                MESSAGE 192
+                DONE
+
+EXTEN   ALFOM   CLEAR 111
+;                SET 112
                 MES 121
                 MES 122
                 MESSAGE 124
                 DONE
 
-EXTEN   ALFOM   NOTZERO 110
-                MESSAGE 162
-                DONE
-
-EXTEN   ALFOM   MES 118
-                MESSAGE 117
+;EXTEN   ALFOM   NOTZERO 110
+;                MESSAGE 162
+;                DONE
 
 ROMPE   ALFOM   MESSAGE 101
 
@@ -266,6 +271,7 @@ COGER   COLCH   MESSAGE 12
 
 EMPUJ   COLCH   ZERO 110
                 SET 110
+                SET 112
                 SET 114
                 MESSAGE 111
                 DONE
