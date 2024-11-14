@@ -318,7 +318,7 @@ Por m s que intent is recordar alguno de los hechizos que Merl¡n y Viviana os en
 /130
 La celda se envuelve en sombras m s densas, como si fueran el s¡mbolo inevitable del fin de vuestra £ltima esperanza de escapar.
 /131
-Est is sentada en la alfombra.
+Os sent is sobre la alfombra.
 /132
 Para sentaros apropiadamente en la alfombra ‚sta debe estar extendida sobre el suelo.
 /133
@@ -527,3 +527,5 @@ Est is sentada sobre ella.
 No encontr is nada.
 /197
 Parece haber una alfombra.
+/198
+Despleg is la alfombra hasta que ‚sta queda extendida sobre el suelo 

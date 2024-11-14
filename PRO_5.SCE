@@ -100,7 +100,6 @@ EMPUJ   ALFOM   ZERO 110
                 
 EMPUJ   ALFOM   ZERO 111
                 SET 111
-                CLEAR 112
                 MESSAGE 119
                 PROCESS 26
                 DONE
@@ -143,8 +142,7 @@ EXTEN   ALFOM   ZERO 111
                 DONE
 
 EXTEN   ALFOM   CLEAR 111
-                MES 121
-                MES 122
+                MES 198
                 MESSAGE 124
 
 ROMPE   ALFOM   MESSAGE 101
@@ -153,24 +151,23 @@ SENTA   ALFOM   NOTZERO 113
                 MESSAGE 49
                 DONE
 
-SENTA   ALFOM   NOTZERO 112
-                SET 113
-                MESSAGE 131
+SENTA   ALFOM   ZERO 110
+                MES 166
+                MESSAGE 117
                 DONE
-                
+
 SENTA   ALFOM   NOTZERO 111
                 MESSAGE 132
                 DONE
-                
-SENTA   ALFOM   NOTZERO 110
+
+SENTA   ALFOM   ZERO 102
                 MES 163
                 MES 133
                 MESSAGE 157
                 DONE
-                
-SENTA   ALFOM   MES 166
-                MESSAGE 117
-                
+
+SENTA   ALFOM   SET 113
+                MESSAGE 131
                 
 TOCAR   ALFOM   MESSAGE 112
                 
@@ -275,7 +272,6 @@ COGER   COLCH   MESSAGE 12
 
 EMPUJ   COLCH   ZERO 110
                 SET 110
-                SET 112
                 SET 114
                 MESSAGE 111
                 DONE
@@ -353,7 +349,7 @@ RECIT   CONJU   AT 2
                 MESSAGE 135
                 DONE
 
-RECIT   CONJU   ZERO 112
+RECIT   CONJU   NOTZERO 111
                 MESSAGE 125
                 DONE
                 
@@ -876,6 +872,7 @@ TOCAR   TECHO   PROCESS 21
 EX      TELA    PRESENT 2
                 MESSAGE 43
                 SWAP 2 1
+                DESTROY 2
                 DONE
 
 QUEMA   TELA    AT 2
