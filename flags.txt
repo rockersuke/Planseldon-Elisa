@@ -9,8 +9,8 @@
 108 - Flag de frases aleatorias de ambiente
 109 - Frases de ambiente bloqueadas
 110 - Colchón apartado
-111 - Alfombra apartada (y enrollada)
-112 - Alfombra extendida
+111 - 0 = Alfombra extendida - 255 = Alfombra apartada (y enrollada)
+112 - 
 113 - Sentada en la alfombra
 114 - Colchón examinado
 115 - Nº de logros desbloqueados (0 - 3)

@@ -291,9 +291,9 @@ Empuj is la alfombra hacia el otro rinc¢n de la celda.
 /120
 Trat is de relajaros y pensar... 
 /121
-Ahora la alfombra est  
+La alfombra est  
 /122
-otra vez extendida en medio
+extendida en medio
 /123
 medio enrollada, apartada en un rinc¢n
 /124
@@ -516,4 +516,14 @@ A pesar de ser una obra enteramente ficticia todav¡a hay estudiosos e investigad
 /191
 ­Debajo hay algo! Parece un trozo de tela...
 /192
-Ya est  extendida.
+extendida sobre el suelo de la estancia.
+/193
+apartada, enrollada en un rinc¢n de la estancia.
+/194
+La alfombra ya se encuentra 
+/195
+Est is sentada sobre ella.
+/196
+No encontr is nada.
+/197
+Parece haber una alfombra.

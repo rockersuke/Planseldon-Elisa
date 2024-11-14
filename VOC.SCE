@@ -237,6 +237,7 @@ EN      4       preposition
 POR     5       preposition
 TRAVES  5       preposition
 BAJO    7       preposition
+DEBAJ   7       preposition
 JUNTO   8       preposition
 MENOS   13      preposition
 CONSU   14      preposition

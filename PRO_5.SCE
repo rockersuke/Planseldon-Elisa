@@ -83,6 +83,14 @@ COGER   ALFOM   MES 116
 
 ENROL   ALFOM   SYNONYM EMPUJ ALFOM
 
+MIRAR   ALFOM   PREP BAJO
+                ISAT 2 0
+                SYNONYM EMPUJ ALFOM
+                
+MIRAR   ALFOM   PREP BAJO
+                MESSAGE 196
+                DONE
+
 EMPUJ   ALFOM   PROCESS 21
 
 EMPUJ   ALFOM   ZERO 110
@@ -97,31 +105,32 @@ EMPUJ   ALFOM   ZERO 111
                 PROCESS 26
                 DONE
 
-EMPUJ   ALFOM   MESSAGE 49
+EMPUJ   ALFOM   MES 194
+                MESSAGE 193
 
-EX      ALFOM   NOTZERO 112
+EX      ALFOM   ZERO 110
+                MES 113
+                MESSAGE 117
+                DONE
+
+EX      ALFOM   ZERO 111
                 MES 121
                 MES 122
                 MES 124
                 SPACE
-                MES 112
-                MESSAGE 114
-                DONE
-
+                
 EX      ALFOM   NOTZERO 111
                 MES 121
                 MES 123
-                MESSAGE 124
-                DONE
+                MES 124
+                SPACE
 
-EX      ALFOM   NOTZERO 110
-                MES 112
+EX      ALFOM   MES 112
                 MESSAGE 114
-                DONE
-
-EX      ALFOM   MES 113
-                MESSAGE 117
-                DONE
+                NOTZERO 113
+                MESSAGE 195
+                
+EX      ALFOM   DONE
 
 EXTEN   ALFOM   ZERO 110
                 MES 118
@@ -129,19 +138,14 @@ EXTEN   ALFOM   ZERO 110
                 DONE
 
 EXTEN   ALFOM   ZERO 111
+                MES 194
                 MESSAGE 192
                 DONE
 
 EXTEN   ALFOM   CLEAR 111
-;                SET 112
                 MES 121
                 MES 122
                 MESSAGE 124
-                DONE
-
-;EXTEN   ALFOM   NOTZERO 110
-;                MESSAGE 162
-;                DONE
 
 ROMPE   ALFOM   MESSAGE 101
 
@@ -277,6 +281,16 @@ EMPUJ   COLCH   ZERO 110
                 DONE
                 
 EMPUJ   COLCH   MESSAGE 49
+
+EX      COLCH   PREP BAJO
+                ZERO 110
+                MESSAGE 197
+                SET 114
+                DONE
+                
+EX      COLCH   PREP BAJO
+                MESSAGE 196
+                DONE
 
 EX      COLCH   ZERO 110
                 MES 108
@@ -592,6 +606,10 @@ EMPUJ   MESA    AT 2
                 MES 84
                 MES 85
                 MESSAGE 86
+
+EX      MESA    PREP BAJO
+                MESSAGE 196
+                DONE
 
 EX      MESA    AT 2
                 MESSAGE 13
