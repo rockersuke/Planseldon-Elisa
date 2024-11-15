@@ -122,7 +122,8 @@ _       _       AT 1
                 
 _       _       AT 2
                 MESSAGE 39
-                SET 102                
+                SET 102
+                SET 109
 
 /PRO 15
 
@@ -261,6 +262,13 @@ _       _       MES 180
                 
 _       _       NOTZERO 118
                 MESSAGE 183
+                
+_       _       MES 201
+                ZERO 119
+                MESSAGE 176
+                
+_       _       NOTZERO 119
+                MESSAGE 200
 
 /PRO 24
 
@@ -291,6 +299,11 @@ _       _       NOTZERO 118
                 MESSAGE 189
                 ANYKEY
                 CLS
+                
+_       _       NOTZERO 119
+                MESSAGE 199
+                ANYKEY
+                CLS
 
 /PRO 25
 
@@ -310,3 +323,11 @@ _       _       MES 143
 _       _       ISAT 2 0
                 MESSAGE 191
                 CREATE 2
+
+/PRO 27
+
+; Logro mirar espejo
+
+_       _       ZERO 119
+                SET 119
+                PROCESS 22

@@ -428,6 +428,7 @@ EX      ESPEJ   AT 2
                 CLS
                 MES 54
                 MESSAGE 55
+                PROCESS 27
                 DONE
                 
 EX      ESPEJ   AT 2

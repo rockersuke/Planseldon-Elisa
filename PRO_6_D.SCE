@@ -62,7 +62,13 @@ _       _       RESET
                 SET CPNoun
                 SET CPAdject
                 LET OFlags 64
-                LET 105 255
+                set 105
+                set 102
+                set 116
+                set 117
+                set 118
+                set 119
+                let 115 4
                 LET Prompt 11
                 GOTO 3
 

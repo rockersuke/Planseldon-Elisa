@@ -415,7 +415,7 @@ ning£n colch¢n.
 /171
 Logros (
 /172
-\/3)
+\/4)
 /173
 La mezcla de desaz¢n y pavor os impiden tener la alegr¡a requerida para entonar versos. Si acaso encontraseis la forma de recuperar, aunque fugazmente fuera, el  nimo...
 /174
@@ -492,7 +492,7 @@ LOGRO 2: Encontrar el NECRONOMICON.
 
 El Necronomic¢n es un libro que aparece mencionado reiteradamente en los relatos del escritor H. P. Lovecraft (1890-1937) ambientados en el universo de "Los Mitos de Cthulhu". Escrito originalmente por el  rabe loco Abdul Alhazred, contendr¡a una serie de 
 /186
-LOGRO 3: CANTAR
+LOGRO 3: CANTAR.
 
 
 La canci¢n que Elisa de Aval¢n consigue reunir fuerzas para recitar es una creaci¢n en espa¤ol de Carlos Mart¡nez Aguirre basada en la historia narrada en el poema "La balada de Aotrou e Itroun", escrito por J. R. Tolkien en 1930. Al igual que en la pieza
@@ -529,3 +529,20 @@ No encontr is nada.
 Parece haber una alfombra.
 /198
 Despleg is la alfombra hasta que ‚sta queda extendida sobre el suelo 
+/199
+LOGRO 4: MIRAR el ESPEJO.
+
+
+Al contemplaros en el espejo hab‚is visto el £nico gr fico del juego (aparte de la pantalla de carga). Los gr ficos han sido creados por ChatGPT, al que se ha acreditado en la presentaci¢n con el seud¢nimo de LIZZY WEIZENBAUM en homenaje a ELIZA, programa de psicoterapia por ordenador creado por Joseph Weizenbaum que fue pionero de la IA en los a¤os 60 del pasado siglo.
+
+
+ChatGPT tambi‚n fue usado de un modo innovador en el argumento, mediante un peculiar "juego" que manten¡a con ‚l el autor Carlos M. Aguirre en el que ‚ste ajerc¡a de "parser" y la IA propon¡a las acciones para resolver la aventura.
+
+
+Las ilustraciones de ChatGPT fueron cuidadosamente convertidas al formato de DAAD de 16 bits por Juan Jos‚ Torres y la pantalla de carga para Spectrum fue realizada manualmente por el artista Ignacio Prini.
+
+
+/200
+Os hab‚is mirado en el ESPEJO.
+/201
+-4: 
