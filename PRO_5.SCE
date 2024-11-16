@@ -60,6 +60,18 @@ PASIL   _       AT 1
                 MESSAGE 50
                 DONE
 
+; Desambiguaci¢n TROZO
+
+_       TROZO   NOUN2 TELA
+                SYNONYM _ TELA
+                
+_       TROZO   NOUN2 ESPEJ
+                SYNONYM _ TROZO
+                SKIP 1
+                
+_       TROZO   MESSAGE 202
+                DONE
+
 ;
 ; *** ACCIONES ALFOMBRA ***
 ;
@@ -508,37 +520,44 @@ TOCAR   FIGUR   AT 1
 ; *** ACCIONES FRASCOS ***
 ;
 
-BEBER   FRASC   AT 2
-                MES 94
+_       FRASC   NOTAT 2
+                NOTDONE
+
+TOMAR   FRASC   SYNONYM BEBER FRASC
+
+BEBER   FRASC   MES 94
                 MES 69
                 MESSAGE 59
                 SET 109
 
-COGER   FRASC   AT 2
-                MESSAGE 13
+COGER   FRASC   MESSAGE 13
                 DONE
 
-EMPUJ   FRASC   AT 2
-                MESSAGE 101
+EMPUJ   FRASC   MESSAGE 101
 
-EX      FRASC   AT 2
-                MESSAGE 13
+EX      FRASC   MESSAGE 13
                 DONE
 
-ROMPE   FRASC   AT 2
-                ZERO 107
+MANIP   FRASC   MESSAGE 13
+
+ROMPE   FRASC   ZERO 107
                 MESSAGE 97
                 DONE
                 
-ROMPE   FRASC   AT 2
-                MES 97
+ROMPE   FRASC   MES 97
                 MESSAGE 98
 
-TOCAR   FRASC   AT 2
-                MESSAGE 89
+TOCAR   FRASC   MESSAGE 89
 
 VACIA   FRASC   MESSAGE 101
                 DONE
+
+;
+; *** ACCIONES LABORATORIO
+;
+
+EX      LABOR   AT 2
+                RESTART
 
 ;
 ; *** ACCIONES LAMPARA ***
@@ -669,7 +688,12 @@ EX      PARED   AT 1
                 SET 100
                 MESSAGE 5
                 DONE
-				
+
+EX      PARED   AT 1
+                MES 4
+                MESSAGE 204
+                DONE
+
 EX      PARED   MESSAGE 4
                 DONE
 
@@ -680,7 +704,7 @@ TOCAR   PARED   AT 1
                 MESSAGE 5
                 DONE
 
-TOCAR   PARED   MESSAGE 4
+TOCAR   PARED   MESSAGE 89
 
 ;
 ; *** ACCIONES PASILLO ***
@@ -888,6 +912,8 @@ ROMPE   TELA    PRESENT 2
 TOCAR   TELA    PRESENT 2
                 MESSAGE 89
 
+_       TELA    NOTDONE
+
 ;
 ; *** ACCIONES TROZO (de espejo) ***
 ;
@@ -914,6 +940,8 @@ EX      TROZO   AT 2
 EX      TROZO   PRESENT 3
                 MESSAGE 68
                 DONE
+
+_       TROZO   NOTDONE
 
 ;
 ; *** ACCIONES VELA ***
@@ -1012,7 +1040,11 @@ DORMI   _       AT 1
                 MESSAGE 159
                 DONE
                 
-DORMI   _       MESSAGE 160                
+DORMI   _       MESSAGE 160         
+
+ESPER   _       MES 203
+                MESSAGE 103
+                DONE
 
 GRITA   _       MESSAGE 104
                 SET 109

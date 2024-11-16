@@ -53,6 +53,7 @@ LAMPA   50      noun
 L MPA   50      noun
 VENTA   51      noun
 PARED   52      noun
+PIEDR   52      noun
 LUNA    53      noun
 ESTRE   54      noun
 1       55      noun
@@ -102,6 +103,7 @@ VIDA    80      noun
 GIRUM   81      noun
 NOCTE   82      noun
 NECRO   83      noun
+TRATA   83      noun
 PIE     84      noun
 ROCKE   85      noun
 PLANS   86      noun
@@ -144,9 +146,9 @@ EX      30      verb
 EXAMI   30      verb
 DECIR   31      verb
 DI      31      verb
-PREGUNT 31      verb
 HABLAR  31      verb
 RECIT   31      verb
+PRONU   31      verb
 SALIDAS 32      verb
 X       32      verb
 AYUDA   33      verb
@@ -231,6 +233,9 @@ PLIEG   67      verb
 LOGRO   68      verb
 MIRAT   69      verb
 MIRAO   69      verb
+ESPER   70      verb
+MANIP   71      verb
+TOMAR   72      verb
 ;
 ; Preposiciones
 ;

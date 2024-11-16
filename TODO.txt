@@ -1,7 +1,11 @@
+*** PLANSELDON ***
+
 Lo del gráfico nuevo en el espejo como 4 logro me parece genial. Siempre que los grafistas se animen, claro. Veré si chatGPT puede hacer algo... por cierto, no habría que poner en los créditos que la ilustración original es suya?
 
 3.En la respuesta a sentarte hay una errata: "Debéis nombrar dónde os deseáis sentar , princesa" (antes de la coma hay que quitar el espacio)
 
 
+*** EDU ***
 
+Me ha resultado relativamente fácil, sólo me atasqué al principio un poco, y es quiza un único pero,  que cuando con EX PARED te dice que es de "fria piedra maciza y hay un relieve", si EX PIEDRA, te dice que no puede hacer eso (yo, personalmente, habría repetido el mensaje), y si ahora vuelves a EX PARED, ya no te dice lo del relieve, con lo que si se te pasó, redescribiste, o se te olvida, puedes quedar atascado (cuando el relieve seguiría estando y debería decírtelo). 
 

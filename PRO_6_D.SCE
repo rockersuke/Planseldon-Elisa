@@ -69,6 +69,7 @@ _       _       RESET
                 set 118
                 set 119
                 let 115 4
+                PLACE 2 254
                 LET Prompt 11
                 GOTO 3
 

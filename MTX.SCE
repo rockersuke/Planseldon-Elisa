@@ -546,3 +546,9 @@ Las ilustraciones de ChatGPT fueron cuidadosamente convertidas al formato de DAA
 Os hab‚is mirado en el ESPEJO.
 /201
 -4: 
+/202
+¨Trozo de qu‚?
+/203
+El tiempo pasa... pero ello solo acerca la inevitable llegada del mago, y con ella, vuestra desdicha.
+/204
+ Un relieve ha llamado vuestra atenci¢n.
