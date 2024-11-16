@@ -24,6 +24,8 @@
 *.jpeg
 *.LNK
 *.lnk
+*.MGT
+*.mgt
 *.PDF
 *.pdf
 *.PI1

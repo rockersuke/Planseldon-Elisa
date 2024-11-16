@@ -825,17 +825,24 @@ TOCAR   PUERT   AT 1
 
 ; Ojo, aqu¡ podemos llegar dedsde un SYNONYM con ESTRELLA
 
-EX      RELIE   AT 1
-                NOTZERO 100
-                PROCESS 21
+_       RELIE   NOTAT 1
+                NOTDONE
+                
+_       RELIE   ZERO 100
+                NOTDONE
+
+EX      RELIE   PROCESS 21
                 SET 103
                 MESSAGE 46
                 DONE
 
-PULSA   RELIE   AT 1
-                NOTZERO 103
-                PROCESS 21
+PULSA   RELIE   PROCESS 21
                 MESSAGE 10
+                DONE
+
+TOCAR   RELIE   PROCESS 21
+                MESSAGE 89
+                DONE
 
 _       RELIE   NOTDONE
 
@@ -912,7 +919,9 @@ ROMPE   TELA    PRESENT 2
 TOCAR   TELA    PRESENT 2
                 MESSAGE 89
 
-_       TELA    NOTDONE
+_       TELA    NOTEQ 33 20
+                NOTEQ 33 21
+                NOTDONE
 
 ;
 ; *** ACCIONES TROZO (de espejo) ***
