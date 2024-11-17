@@ -432,15 +432,28 @@ MIRAT   ESPEJ   AT 2
 EX      ESPEJ   AT 2
                 ZERO 107
                 CLS
-#IF !Z80
+#IF SPE
+                 MESSAGE 205
+                 ANYKEY
+#ENDIF
+#IF CPC
+                 MESSAGE 205
+                 ANYKEY
+#ENDIF
+#IF PC
                  PICTURE 14
                  DISPLAY 0
-#ELSE
-                 MESSAGE 205
+                 PRINTAT 21 0
+                 MES 190
+                 ANYKEY
 #ENDIF
-                PRINTAT 21 0
-                MES 190
-                ANYKEY
+#IF AMIGA
+                 PICTURE 14
+                 DISPLAY 0                  
+                 PRINTAT 21 0
+                 MES 190
+                 ANYKEY
+#ENDIF
                 CLS
                 MES 54
                 MESSAGE 55
