@@ -552,3 +552,5 @@ Os hab‚is mirado en el ESPEJO.
 El tiempo pasa... pero ello solo acerca la inevitable llegada del mago, y con ella, vuestra desdicha.
 /204
  Un relieve ha llamado vuestra atenci¢n.
+/205
+­AQUI VENDRA UN GRAFICO!

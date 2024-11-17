@@ -432,8 +432,12 @@ MIRAT   ESPEJ   AT 2
 EX      ESPEJ   AT 2
                 ZERO 107
                 CLS
-                PICTURE 14
-                DISPLAY 0
+#IF !Z80
+                 PICTURE 14
+                 DISPLAY 0
+#ELSE
+                 MESSAGE 205
+#ENDIF
                 PRINTAT 21 0
                 MES 190
                 ANYKEY
