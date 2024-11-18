@@ -371,17 +371,17 @@ RECIT   CONJU   NOTZERO 113
                 ANYKEY
                 CLS
                 PROCESS 24
-                WINDOW 2
-                CLS
-                MES 137
-                WINDOW 1
+;                WINDOW 2
+;                CLS
+;                MES 137
+;                WINDOW 1
                 MESSAGE 138
                 ANYKEY
                 CLS
-                WINDOW 2
-                CLS
-                MES 139
-                WINDOW 1
+;                WINDOW 2
+;                CLS
+;                MES 139
+;                WINDOW 1
                 END
                 
 RECIT   CONJU   MES 127
@@ -1121,10 +1121,10 @@ SUICI   _       MESSAGE 93
 ; Entrada a¤adida por Triz2DAAD para pantallas de ayuda.
 
 AYUDA   _       PROCESS 7
-                WINDOW 2
-                CLS
-                MES 18
-                WINDOW 1
+;                WINDOW 2
+;                CLS
+;                MES 18
+;                WINDOW 1
                 MES 19
                 MESSAGE 56
                 ANYKEY

@@ -5,18 +5,18 @@
 
 ; Crea la ventana de la barra de estado.
 
-_       _       WINDOW 2
-                WINAT slrow 0
-                WINSIZE 1 COLS
+;_       _       WINDOW 2
+;                WINAT slrow 0
+;                WINSIZE 1 COLS
 
-_       _       LT GFlags 128
-                WINSIZE 1 80
+;_       _       LT GFlags 128
+;                WINSIZE 1 80
 
-_       _       PAPER bg_colour
-                INK fg_colour
-                CLS
-                PAPER sb_bg_colour
-                INK sb_fg_colour
+;_       _       PAPER bg_colour
+;                INK fg_colour
+;                CLS
+;                PAPER sb_bg_colour
+;                INK sb_fg_colour
 
 ; -Colores de papel-tinta iniciales.
 ; -Recoloca las ventanas de texto y gr ficos.

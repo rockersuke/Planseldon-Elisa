@@ -14,7 +14,7 @@
 ; Define valores por defecto para la posici¢n de la ventana de texto.
 ;
 #define textrow1 14 ; Posici¢n de la ventana de texto en localidades con gr fico.
-#define textrow2 1 ; Posici¢n de la ventana de texto en localidades sin gr fico.
+#define textrow2 0 ; Posici¢n de la ventana de texto en localidades sin gr fico.
 ;
 ; Define posici¢n de la barra de estado.
 #define slrow 0

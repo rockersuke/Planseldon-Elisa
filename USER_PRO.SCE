@@ -38,6 +38,10 @@ _       _       AT 2
 
 /PRO 11
 
+; Retorna sin contemplaciones ya que este rama no lleva barra de estado
+
+_       _       DONE
+
 ; Actualiza barra de estado
 
 _       _       WINDOW 2
@@ -277,10 +281,10 @@ _       _       NOTZERO 119
 _       _       ZERO 115
                 DONE
                 
-_       _       WINDOW 2
-                CLS
-                MES 177
-                WINDOW 1
+;_       _       WINDOW 2
+;                CLS
+;                MES 177
+;                WINDOW 1
                 
 _       _       NOTZERO 116
                 MES 184
