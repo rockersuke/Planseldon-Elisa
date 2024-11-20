@@ -28,6 +28,8 @@ Est is en una celda obscura y fr¡a. Las paredes son de piedra maciza. A trav‚s d
 /2
 El laboratorio del nigromante es un inmenso sal¢n circular iluminado por un candelabro de dos brazos. Una imponente ventana deja ver tras sus cristales la belleza de la noche estrellada y la inmensidad del desierto. A un lado est  la biblioteca del brujo y 
 /3
+NIVEL DE DIFICULTAD.
+
 Nunca sabr‚is con certeza cu ndo volver  el mago, pero pod‚is elegir el nivel de dificultad:
 
 

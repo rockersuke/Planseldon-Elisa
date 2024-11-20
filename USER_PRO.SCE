@@ -42,48 +42,6 @@ _       _       AT 2
 
 _       _       DONE
 
-; Actualiza barra de estado
-
-_       _       WINDOW 2
-                CLS
-
-; Si no hay luz, lo indica en la barra de estado y sale del proceso.
-
-_       _       NOTZERO DarkF
-                MES 20
-                DONE
-
-; Imprime el texto de la localidad en la barra.
-; Si a¤ades m s localidades tras el uso de trizbort,
-; Puedes poner su texto aqu¡ con una condici¢n del tipo:
-; _  _       AT n§ de loc
-;            MES XX
-; siendo XX el mensaje donde has puesto el texto a poner en la barra.
-
-_       _       AT 1
-                MES 16
-
-_       _       AT 2
-                MES 17
-                
-_       _       AT 3
-                MES 15
-                
-_       _       AT 4
-                MES 15
-                
-; Actualiza logros
-
-_       _       ATLT 3
-                TAB COLS-13
-                MES 171
-                PRINT 115
-                MES 172
-
-; Retorna a la ventana de texto
-
-_       _       WINDOW 1
-
 /PRO 12
 
 ; Finaliza el juego si los turnos son m s de 99 (modo f cil)
@@ -236,16 +194,17 @@ _       _       NOTZERO 113
 
 ; Actualiza logros
 
-_       _       MESSAGE 170
+_       _       MES 170
                 PLUS 115 1
-                PROCESS 11
+                PROCESS 28
                 SET 109
 
 /PRO 23
 
 ; Listado de logros desbloqueados
 
-_       _       MESSAGE 177
+_       _       MES 177
+                PROCESS 28
                 MES 178
                 ZERO 116
                 MESSAGE 176
@@ -281,10 +240,8 @@ _       _       NOTZERO 119
 _       _       ZERO 115
                 DONE
                 
-;_       _       WINDOW 2
-;                CLS
-;                MES 177
-;                WINDOW 1
+_       _       CLS
+                PROCESS 29
                 
 _       _       NOTZERO 116
                 MES 184
@@ -293,18 +250,21 @@ _       _       NOTZERO 116
                 CLS
 
 _       _       NOTZERO 117
+                PROCESS 29
                 MES 185
                 MESSAGE 188
                 ANYKEY
                 CLS
                 
 _       _       NOTZERO 118
+                PROCESS 29
                 MES 186
                 MESSAGE 189
                 ANYKEY
                 CLS
                 
 _       _       NOTZERO 119
+                PROCESS 29
                 MESSAGE 199
                 ANYKEY
                 CLS
@@ -335,3 +295,19 @@ _       _       ISAT 2 0
 _       _       ZERO 119
                 SET 119
                 PROCESS 22
+
+/PRO 28
+
+; cantidad de logros (X/4)
+
+_       _       MES 171
+                PRINT 115
+                MESSAGE 172
+
+/PRO 29
+
+; Mensaje de logros
+
+_       _       MES 177
+                PROCESS 28
+

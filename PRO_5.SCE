@@ -371,17 +371,9 @@ RECIT   CONJU   NOTZERO 113
                 ANYKEY
                 CLS
                 PROCESS 24
-;                WINDOW 2
-;                CLS
-;                MES 137
-;                WINDOW 1
                 MESSAGE 138
                 ANYKEY
                 CLS
-;                WINDOW 2
-;                CLS
-;                MES 139
-;                WINDOW 1
                 END
                 
 RECIT   CONJU   MES 127
@@ -441,18 +433,22 @@ EX      ESPEJ   AT 2
                  ANYKEY
 #ENDIF
 #IF PC
+                 WINDOW 0
                  PICTURE 14
                  DISPLAY 0
                  PRINTAT 21 0
                  MES 190
                  ANYKEY
+                 WINDOW 1
 #ENDIF
 #IF AMIGA
+                 WINDOW 0
                  PICTURE 14
                  DISPLAY 0                  
                  PRINTAT 21 0
                  MES 190
                  ANYKEY
+                 WINDOW 1
 #ENDIF
                 CLS
                 MES 54
@@ -1120,11 +1116,8 @@ SUICI   _       MESSAGE 93
 
 ; Entrada a¤adida por Triz2DAAD para pantallas de ayuda.
 
-AYUDA   _       PROCESS 7
-;                WINDOW 2
-;                CLS
-;                MES 18
-;                WINDOW 1
+AYUDA   _       CLS
+                MESSAGE 18
                 MES 19
                 MESSAGE 56
                 ANYKEY

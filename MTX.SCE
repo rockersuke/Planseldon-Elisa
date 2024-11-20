@@ -37,25 +37,12 @@ Pesa demasiado.
 En los viejos buenos tiempos, cuando el Rey Arturo gobernaba sobre la querida tierra de Logres, hab¡a caballeros andantes que eran valientes y esforzados y tambi‚n doncellas bell¡simas y muy prudentes que aprend¡an la ciencia de las hadas y viv¡an en la islade Aval¢n junto al mago Merl¡n y la Dama del Lago.
 
 /15
-; Mensaje para la barra de estado en la pantalla de elecci¢n de nivel
- NIVEL DE DIFICULTAD
-;
-; Tras el mensaje 15, Triz2DAAD usar  un n§ variable de mensajes para los nombres de localidad en la barra de estado.
-;
 /16
- LA CELDA
 /17
- EL LABORATORIO
-;
-; Tras los mensajes con los nombres de las localidades, Triz2DAAD usa 2 mensajes para la pantalla de ayuda.
-;
 /18
- PANTALLA DE AYUDA
+ PANTALLA DE AYUDA.
 /19
 El ordenador te dar  una breve descripci¢n del lugar donde te encuentras. T£ debes escribir ¢rdenes utilizando un verbo en infinitivo, acompa¤ado de un sustantivo. Por ejemplo "abrir ventana". Tambi‚n puedes construir ¢rdenes m s complejas como "golpear 
-;
-; Tras los mensajes de ayuda, Triz2DAAD usa un mensaje m s para la barra de estado en localidades sin luz.
-;
 /20
 al otro un gran espejo con marco de rub¡. En el centro hay una gran mesa llena de frasquitos de diversas formas y colores. No parece haber m s salidas que el pasillo de regreso a la celda.
 /21
@@ -330,8 +317,10 @@ Recit is el conjuro que hab‚is memorizado... sin ning£n efecto.
 /136
 Est is en tal estado de tensi¢n que ni vos misma entend‚is lo que acab is de decir.
 /137
- AYUDA AFECTADOS DANA VALENCIA
 /138
+ AYUDA POR LOS DA¥OS DE LA DANA EN VALENCIA
+
+
 Do¤a Elisa de Aval¢n se termin¢ de escribir a finales de Octubre de 2024, coincidiendo con las desastrosas inundaci¢nes que asolaron el sur y el levante de Espa¤a causando numerosas p‚rdidas materiales y humanas.
 
 
@@ -411,9 +400,9 @@ ninguna alfombra.
 ning£n colch¢n.
 /170
 
-** LOGRO DESBLOQUEADO **
+** LOGRO DESBLOQUEADO ** 
 /171
-Logros (
+(
 /172
 \/4)
 /173
@@ -468,7 +457,7 @@ Os sent¡s con mayores  nimos para hacer frente a vuestro destino. Habr  alguna f
 /176
 SIN DESBLOQUEAR.
 /177
-LOGROS DESBLOQUEADOS:
+LOGROS DESBLOQUEADOS 
 /178
 -1: 
 /179
