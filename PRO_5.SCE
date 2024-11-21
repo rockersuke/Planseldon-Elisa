@@ -425,11 +425,11 @@ EX      ESPEJ   AT 2
                 ZERO 107
                 CLS
 #IF SPE
-                 MESSAGE 205
+                 MESSAGE 206
                  ANYKEY
 #ENDIF
 #IF CPC
-                 MESSAGE 205
+                 MESSAGE 206
                  ANYKEY
 #ENDIF
 #IF PC
@@ -1120,6 +1120,7 @@ AYUDA   _       CLS
                 MESSAGE 18
                 MES 19
                 MESSAGE 56
+                MESSAGE 205
                 ANYKEY
                 RESTART
 

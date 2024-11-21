@@ -542,4 +542,10 @@ El tiempo pasa... pero ello solo acerca la inevitable llegada del mago, y con el
 /204
  Un relieve ha llamado vuestra atenci¢n.
 /205
+Como objetivo adicional puedes desbloquear una serie de logros. La orden "logros" ofrecer  un listado de los logros conseguidos hasta el momento.
+
+
+Los comandos "save" y "load" guardar n y recuperar n la partida en disco o cinta. A su vez "ramsave" y "ramload" servir n para guardar/cargar una £nica posici¢n del juego en la memoria del ordenador.
+
+/206
 ­AQUI VENDRA UN GRAFICO!
