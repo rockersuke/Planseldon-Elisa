@@ -18,3 +18,4 @@
 117 - Logro 2 NECRONOMICÓN
 118 - Logro 3 CANTAR tras XYZZY
 119 - Logro 4 MIRAR ESPEJO
+120 - Alfombra voló (ella sola)

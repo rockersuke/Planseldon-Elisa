@@ -81,6 +81,10 @@ _       ALFOM   NOTAT 1
                 MESSAGE 168
                 DONE
 
+_       ALFOM   NOTZERO 120
+                MESSAGE 206
+                DONE
+
 _       ALFOM   ZERO 114
                 MESSAGE 134
                 DONE
@@ -378,6 +382,7 @@ RECIT   CONJU   NOTZERO 113
                 
 RECIT   CONJU   MES 127
                 MESSAGE 130
+                SET 120
                 ZERO 101
                 LET Turns 97
 
@@ -425,11 +430,11 @@ EX      ESPEJ   AT 2
                 ZERO 107
                 CLS
 #IF SPE
-                 MESSAGE 206
+                 MESSAGE 207
                  ANYKEY
 #ENDIF
 #IF CPC
-                 MESSAGE 206
+                 MESSAGE 207
                  ANYKEY
 #ENDIF
 #IF PC

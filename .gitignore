@@ -2,12 +2,16 @@
 *.bak
 *.BAT
 *.bat
+*.BIN
+*.bin
 *.CHR
 *.chr
 *.DAT
 *.dat
 *.DDB
 *.ddb
+*.DOC
+*.doc
 *.DSK
 *.dsk
 *.EXE
@@ -26,6 +30,8 @@
 *.lnk
 *.MGT
 *.mgt
+*.ODT
+*.odt
 *.PDF
 *.pdf
 *.PI1

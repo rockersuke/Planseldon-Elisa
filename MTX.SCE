@@ -548,4 +548,6 @@ Como objetivo adicional puedes desbloquear una serie de logros. La orden "logros
 Los comandos "save" y "load" guardar n y recuperar n la partida en disco o cinta. A su vez "ramsave" y "ramload" servir n para guardar/cargar una £nica posici¢n del juego en la memoria del ordenador.
 
 /206
+La alfombra se fue volando...
+/207
 ­AQUI VENDRA UN GRAFICO!
