@@ -241,9 +241,8 @@ _       _       ZERO 115
                 DONE
                 
 _       _       CLS
+                NOTZERO 116
                 PROCESS 29
-                
-_       _       NOTZERO 116
                 MES 184
                 MESSAGE 187
                 ANYKEY
