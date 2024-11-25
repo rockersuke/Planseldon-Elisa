@@ -3,29 +3,14 @@
 ; Proceso de inicializaci¢n.
 ; Llamado desde PRO 0.
 
-; Crea la ventana de la barra de estado.
-
-;_       _       WINDOW 2
-;                WINAT slrow 0
-;                WINSIZE 1 COLS
-
-;_       _       LT GFlags 128
-;                WINSIZE 1 80
-
-;_       _       PAPER bg_colour
-;                INK fg_colour
-;                CLS
-;                PAPER sb_bg_colour
-;                INK sb_fg_colour
-
 ; -Colores de papel-tinta iniciales.
-; -Recoloca las ventanas de texto y gr ficos.
 
 _       _       WINDOW 1
                 PAPER bg_colour
                 INK fg_colour
+                WINAT 0 0
+                WINSIZE ROWS 127
                 CLS
-                PROCESS 9
 
 ; -Describe localidad 0 (normalmente pantalla de presentaci¢n).
 ; -Muestra texto de introducci¢n.

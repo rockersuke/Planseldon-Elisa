@@ -430,7 +430,12 @@ EX      ESPEJ   AT 2
                 ZERO 107
                 CLS
 #IF SPE
-                 MESSAGE 207
+ ;                 MESSAGE 207
+                 WINDOW 0
+                 PICTURE 0
+                 DISPLAY 0
+                 WINDOW 1
+                 PRINTAT 17 5
                  ANYKEY
 #ENDIF
 #IF CPC

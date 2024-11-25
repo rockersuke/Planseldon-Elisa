@@ -8,9 +8,7 @@
 _       _       AT 0
                 PROCESS 6
 
-; Establece la posici¢n de la ventana de texto.
-
-_       _       PROCESS 9
+_       _       CLS
 
 ; Establece el flag DarkF en funci¢n del flag Dark y de la
 ; presencia o no de fuentes de luz (en principio el objeto 0, aunque Triz2DAAD puede cambiar eso).
@@ -27,9 +25,9 @@ _       _       PROCESS 11
 ; Si hay un gr fico en la posici¢n correspondiente a la localidad del jugador
 ; lo carga y, si no est  oscuro, lo dibuja.
 
-_       _       WINDOW  0
-                PICTURE [Player]
-                DISPLAY [DarkF]
+;_       _       WINDOW  0
+;                PICTURE [Player]
+;                DISPLAY [DarkF]
 
 ; Pasa a la ventana de texto. Si no hay luz, imprime el mensaje de sistema 0
 ; "No se ve nada".

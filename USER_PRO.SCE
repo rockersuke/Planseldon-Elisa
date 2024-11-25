@@ -38,7 +38,7 @@ _       _       AT 2
 
 /PRO 11
 
-; Retorna sin contemplaciones ya que este rama no lleva barra de estado
+; Retorna sin contemplaciones ya que esta rama no lleva barra de estado
 
 _       _       DONE
 
