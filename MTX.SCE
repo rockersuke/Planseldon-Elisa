@@ -41,6 +41,7 @@ En los viejos buenos tiempos, cuando el Rey Arturo gobernaba sobre la querida ti
 /17
 /18
  PANTALLA DE AYUDA.
+
 /19
 El ordenador te dar  una breve descripci¢n del lugar donde te encuentras. T£ debes escribir ¢rdenes utilizando un verbo en infinitivo, acompa¤ado de un sustantivo. Por ejemplo "abrir ventana". Tambi‚n puedes construir ¢rdenes m s complejas como "golpear 
 /20

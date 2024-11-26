@@ -1,30 +1,14 @@
 /PRO 7
 
-; Texto "arriba."
-
-_       _       WINDOW 1
-                WINAT textrow2 0
-                WINSIZE ROWS 127
-                CLS
+; Sin usar en esta aventura.
 
 /PRO 8
 
-; Texto "abajo."
-
-_       _       WINDOW 1
-                WINAT textrow1 0
-                WINSIZE ROWS 127
-                CLS
+; Sin usar en esta aventura.
 
 /PRO 9
 
-; Recoloca la ventana de texto.
-
-_       _       PICTURE [Player]
-                PROCESS 8
-                DONE
-
-_       _       PROCESS 7
+; Sin usar en esta aventura.
 
 /PRO 10
 
@@ -38,9 +22,7 @@ _       _       AT 2
 
 /PRO 11
 
-; Retorna sin contemplaciones ya que esta rama no lleva barra de estado
-
-_       _       DONE
+; Sin usar en esta aventura.
 
 /PRO 12
 
@@ -205,6 +187,7 @@ _       _       MES 170
 
 _       _       MES 177
                 PROCESS 28
+                NEWLINE
                 MES 178
                 ZERO 116
                 MESSAGE 176
@@ -242,6 +225,7 @@ _       _       ZERO 115
                 
 _       _       CLS
                 NOTZERO 116
+                SPACE
                 PROCESS 29
                 MES 184
                 MESSAGE 187
@@ -249,6 +233,7 @@ _       _       CLS
                 CLS
 
 _       _       NOTZERO 117
+                SPACE
                 PROCESS 29
                 MES 185
                 MESSAGE 188
@@ -256,6 +241,7 @@ _       _       NOTZERO 117
                 CLS
                 
 _       _       NOTZERO 118
+                SPACE
                 PROCESS 29
                 MES 186
                 MESSAGE 189
@@ -263,6 +249,7 @@ _       _       NOTZERO 118
                 CLS
                 
 _       _       NOTZERO 119
+                SPACE
                 PROCESS 29
                 MESSAGE 199
                 ANYKEY
@@ -309,4 +296,5 @@ _       _       MES 171
 
 _       _       MES 177
                 PROCESS 28
+                NEWLINE
 
