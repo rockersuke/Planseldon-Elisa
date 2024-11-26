@@ -12,10 +12,11 @@ _       _       AT 2
                 CLEAR 113
                 MESSAGE 20
 
-; Listado de objetos (si no est  oscuro).
+; Listado de objetos.
 
-_       _       NEWLINE
-                ZERO DarkF
+_       _       SAVEAT
+                NEWLINE
                 LISTOBJ
-
+                HASNAT 55
+                BACKAT
 ;------------------------------------------------------------------------------

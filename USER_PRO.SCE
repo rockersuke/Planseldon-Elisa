@@ -143,6 +143,9 @@ IN      GIRUM   ADJECT1 IMUS
 _       CAAD    MESSAGE 142
                 DONE
 
+_       DAAD    MESSAGE 207
+                DONE
+
 _       PLANS   MESSAGE 141
                 DONE
 

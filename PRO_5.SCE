@@ -340,6 +340,9 @@ TUMBA   COLCH   SYNONYM DORMI _
 _       CAAD    MESSAGE 142
                 DONE
 
+_       DAAD    MESSAGE 207
+                DONE
+
 _       PLANS   MESSAGE 141
                 DONE
 
@@ -348,6 +351,7 @@ _       ROCKE   MESSAGE 140
 
 _       XYZZY   PROCESS 25
                 DONE
+                
 ;
 ; *** ACCIONES DECIR y CONJURO ***
 ;

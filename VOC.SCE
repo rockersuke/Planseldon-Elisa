@@ -109,6 +109,7 @@ ROCKE   85      noun
 PLANS   86      noun
 CAAD    87      noun
 XYZZY   88      noun
+DAAD    88      noun
 ;
 ; Verbos
 ;
@@ -152,6 +153,8 @@ PRONU   31      verb
 SALIDAS 32      verb
 X       32      verb
 AYUDA   33      verb
+INFO    33      verb
+INSTR   33      verb
 METER   34      verb
 METE    34      verb
 METEL   34      verb

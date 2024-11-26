@@ -40,7 +40,7 @@ En los viejos buenos tiempos, cuando el Rey Arturo gobernaba sobre la querida ti
 /16
 /17
 /18
- PANTALLA DE AYUDA.
+ INSTRUCCIONES.
 
 /19
 El ordenador te dar  una breve descripci¢n del lugar donde te encuentras. T£ debes escribir ¢rdenes utilizando un verbo en infinitivo, acompa¤ado de un sustantivo. Por ejemplo "abrir ventana". Tambi‚n puedes construir ¢rdenes m s complejas como "golpear 
@@ -340,7 +340,7 @@ Gran programador.
 /141
 Excelente guionista.
 /142
-Gente tierna,
+Gente tierna.
 /143
 Como un rel mpago surca por vuestra mente el recuerdo de un hechizo... de unas letras... como una antigua canci¢n olvidada de la que no pudierais recordar la m£sica ni la letra... tan solo el sentimiento de que... una vez... al pronunciar esa palabra... 
 /144
@@ -551,4 +551,4 @@ Los comandos "save" y "load" guardar n y recuperar n la partida en disco o cinta
 /206
 La alfombra se fue volando...
 /207
-­AQUI VENDRA UN GRAFICO!
+Tim Gilberts... uno di noi.
