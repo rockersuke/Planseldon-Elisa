@@ -3,3 +3,8 @@
 >Empujar lo que sea que no exista en el juego, p.ej. antorcha  y >Tirar de  lo que sea que no exista en el juego, p.ej. antorcha
 Da como respuesta "Ya estáis de pie."
 
+
+
+
+Respecto a los mensajes aleatorios, tengo la impresión de que salen con demasiada frecuencia. Yo los pondría más espaciados en el tiempo. No sé si lo has programado como algo aleatorio -con un % de probabilidad- o cada cierto número de turnos... en cualquier caso yo doblaría el número de turnos entre mensaje y mensaje o reduciría a la mitad la probabilidad. 
+

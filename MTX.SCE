@@ -552,3 +552,5 @@ Los comandos "save" y "load" guardar n y recuperar n la partida en disco o cinta
 La alfombra se fue volando...
 /207
 Tim Gilberts... uno di noi.
+/208
+Os qued is inm¢vil, conteniendo la respiraci¢n mientras trat is de afinar el o¡do. Por un momento cre‚is escuchar un eco de pasos distantes.... pero finalmente: solo hay silencio. Cada murmullo del viento contra la piedra os hace temer que el nigromante est‚ya de vuelta. El tiempo se agota, y un sudor fr¡o recorre vuestra frente mientras sent¡s que cada segundo os acerca m s hacia el terrible destino que intent is evitar a toda costa.

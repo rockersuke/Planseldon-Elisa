@@ -1076,7 +1076,10 @@ DORMI   _       AT 1
                 MESSAGE 159
                 DONE
                 
-DORMI   _       MESSAGE 160         
+DORMI   _       MESSAGE 160     
+
+ESCUC   _       MESSAGE 208    
+                SET 109
 
 ESPER   _       MES 203
                 MESSAGE 103

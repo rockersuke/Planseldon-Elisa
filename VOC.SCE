@@ -239,6 +239,9 @@ MIRAO   69      verb
 ESPER   70      verb
 MANIP   71      verb
 TOMAR   72      verb
+ESCUC   73      verb
+OIR     73      verb
+O¡R     73      verb
 ;
 ; Preposiciones
 ;

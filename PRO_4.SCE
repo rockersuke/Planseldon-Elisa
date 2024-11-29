@@ -28,9 +28,9 @@ _       _       NOTZERO 109
                 CLEAR 109
                 DONE
 
-; Probabilidad del 20%
+; Probabilidad del 10% - TODO: afinar la probabilidad
 
-_       _       CHANCE 80
+_       _       CHANCE 90
                 DONE
                 
 _       _       NEWLINE
@@ -38,25 +38,31 @@ _       _       NEWLINE
 
 ; LLorar
 
-_       _       GT 108 75
+_       _       GT 108 80
                 MES 102
                 MESSAGE 103
                 DONE
 
 ; Gritar
 
-_       _       GT 108 50
+_       _       GT 108 60
                 MESSAGE 104
                 DONE
 
 ; Tocar mu¤ecas
 
-_       _       GT 108 25
+_       _       GT 108 40
                 MES 100
                 MESSAGE 103
                 DONE
                 
 ; Suicidio
 
-_       _       MES 69
+_       _       GT 108 20
+                MES 69
                 MESSAGE 105
+                DONE
+
+; Escuchar
+
+_       _       MESSAGE 208
