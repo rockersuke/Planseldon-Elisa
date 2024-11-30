@@ -109,7 +109,7 @@ ROCKE   85      noun
 PLANS   86      noun
 CAAD    87      noun
 XYZZY   88      noun
-DAAD    88      noun
+DAAD    89      noun
 ;
 ; Verbos
 ;
