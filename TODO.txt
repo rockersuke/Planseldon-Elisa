@@ -4,7 +4,46 @@
 Da como respuesta "Ya estáis de pie."
 
 
+Me han gustado muchísimo los gráficos de las versiones CGA y EGA que ha hecho Juan José torres, son más que una mera conversión de los dibujos de Elisa, están realmente currados. Creo que sería justo reconocer ese trabajo en los créditos iniciales, que yo dejaría de la siguiente manera:
+
+Idea original, guion y dirección:
+CARLOS MARTINEZ AGUIRRE
+
+Programación: 
+PEDRO FERNÁNDEZ
+
+Graficos PC: 
+JUAN JOSE TORRES
+
+Gráficos Spectrum: 
+IGNACIO PRINI
+
+Carátula e Ilustraciones originales: 
+LIZZY WEIZENBAUM  
+
+Testadores: 
+AMADO SANCHEZ, JUAN JOSE TORRES, NANDOVE, EDUARDO JOSE VILLALOBOS
 
 
-Respecto a los mensajes aleatorios, tengo la impresión de que salen con demasiada frecuencia. Yo los pondría más espaciados en el tiempo. No sé si lo has programado como algo aleatorio -con un % de probabilidad- o cada cierto número de turnos... en cualquier caso yo doblaría el número de turnos entre mensaje y mensaje o reduciría a la mitad la probabilidad. 
+No sé si Prini y Juan José Torres tienen "nicks" para incluirles como dos huevos de pascua más. Si los tienen, mejor, y si no, los podemos incluir simplemente con el nombre completo -o si eso es complicado con el apellido-:
+
+>JUAN JOSÉ TORRES ó >TORRES
+Un artista del píxel.
+
+>IGNACIO PRINI Ó >PRINI
+Grafista colosal.
+
+Y, por si a alguien se le ocurre poner
+
+>LIZZY ó >LIZZY WEIZENBAUM
+Gran ilustradora y mejor IA. 
+
+Y una última ocurrencia: en los juegos de PC de AD, si no recuerdo mal, las versiones CGA/EGA eran programas distintos -cada uno en un disco-. ¿Sería posible incluir todos los gráficos que ha hecho Juanjo en el mismo "disco" -es decir fichero- y que al principio, antes de cargar el juego, apareciese un menú para escoger la versión? Algo así como :
+
+Seleccione modo gráfico:
+1. CGA 
+2. EGA
+3. VGA
+
+Y según lo que escoja el jugador que cargue uno u otro, lo digo porque creo que merece la pena que los jugadores puedan disfrutar de todas las pantallas que ha hecho Juanjo.
 

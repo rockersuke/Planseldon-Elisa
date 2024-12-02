@@ -12,6 +12,8 @@
 *.ddb
 *.DOC
 *.doc
+*.DOCX
+*.docx
 *.DSK
 *.dsk
 *.EXE
