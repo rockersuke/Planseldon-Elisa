@@ -4,40 +4,6 @@
 Da como respuesta "Ya estáis de pie."
 
 
-Me han gustado muchísimo los gráficos de las versiones CGA y EGA que ha hecho Juan José torres, son más que una mera conversión de los dibujos de Elisa, están realmente currados. Creo que sería justo reconocer ese trabajo en los créditos iniciales, que yo dejaría de la siguiente manera:
-
-Idea original, guion y dirección:
-CARLOS MARTINEZ AGUIRRE
-
-Programación: 
-PEDRO FERNÁNDEZ
-
-Graficos PC: 
-JUAN JOSE TORRES
-
-Gráficos Spectrum: 
-IGNACIO PRINI
-
-Carátula e Ilustraciones originales: 
-LIZZY WEIZENBAUM  
-
-Testadores: 
-AMADO SANCHEZ, JUAN JOSE TORRES, NANDOVE, EDUARDO JOSE VILLALOBOS
-
-
-No sé si Prini y Juan José Torres tienen "nicks" para incluirles como dos huevos de pascua más. Si los tienen, mejor, y si no, los podemos incluir simplemente con el nombre completo -o si eso es complicado con el apellido-:
-
->JUAN JOSÉ TORRES ó >TORRES
-Un artista del píxel.
-
->IGNACIO PRINI Ó >PRINI
-Grafista colosal.
-
-Y, por si a alguien se le ocurre poner
-
->LIZZY ó >LIZZY WEIZENBAUM
-Gran ilustradora y mejor IA. 
-
 Y una última ocurrencia: en los juegos de PC de AD, si no recuerdo mal, las versiones CGA/EGA eran programas distintos -cada uno en un disco-. ¿Sería posible incluir todos los gráficos que ha hecho Juanjo en el mismo "disco" -es decir fichero- y que al principio, antes de cargar el juego, apareciese un menú para escoger la versión? Algo así como :
 
 Seleccione modo gráfico:

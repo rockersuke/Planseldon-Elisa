@@ -39,6 +39,9 @@ _       _       AT 4
 
 SALIR   VENTA   PROCESS 17
                 DONE
+                
+SALIR   TORRE   MESSAGE 215
+                DONE
 
 SALIR   _       AT 1
                 ZERO 105
@@ -332,6 +335,24 @@ TOCAR   COLCH   PROCESS 21
 TUMBA   COLCH   SYNONYM DORMI _
 
 ;
+; *** ACCIONES TORRE ***
+;
+
+; Es importante que vengan antes de DECIR para evitar choque con el huevo
+; de pascua de TORRES
+
+EX      TORRE   PROCESS 21
+                MESSAGE 214
+                DONE
+
+ESCAP   TORRE   MESSAGE 215
+                DONE
+
+QUEMA   TORRE   NOTDONE
+
+SALTA   TORRE   SYNONYM SALTA VENTA
+                
+;
 ; *** ACCIONES HUEVO PASCUA ***
 ;
 
@@ -350,6 +371,21 @@ _       ROCKE   MESSAGE 140
                 DONE
 
 _       XYZZY   PROCESS 25
+                DONE
+                
+_       LIZZY   MESSAGE 209
+                DONE
+
+_       IGNAC   MESSAGE 210
+                DONE
+                
+_       JUAN    MESSAGE 211
+                DONE
+                
+_       AMADO   MESSAGE 212
+                DONE
+
+_       NANDO   MESSAGE 213
                 DONE
                 
 ;
@@ -1076,7 +1112,10 @@ DORMI   _       AT 1
                 MESSAGE 159
                 DONE
                 
-DORMI   _       MESSAGE 160     
+DORMI   _       MESSAGE 160
+
+ESCAP   _       MESSAGE 215
+                DONE
 
 ESCUC   _       MESSAGE 208    
                 SET 109

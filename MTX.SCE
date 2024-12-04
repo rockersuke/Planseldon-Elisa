@@ -554,3 +554,17 @@ La alfombra se fue volando...
 Tim Gilberts... uno di noi.
 /208
 Os qued is inm¢vil, conteniendo la respiraci¢n mientras trat is de afinar el o¡do. Por un momento cre‚is escuchar un eco de pasos distantes.... pero finalmente: solo hay silencio. Cada murmullo del viento contra la piedra os hace temer que el nigromante est‚ya de vuelta. El tiempo se agota, y un sudor fr¡o recorre vuestra frente mientras sent¡s que cada segundo os acerca m s hacia el terrible destino que intent is evitar a toda costa.
+/209
+Gran ilustradora y mejor IA.
+/210
+Grafista colosal.
+/211
+Un artista del p¡xel.
+/212
+Magn¡fico testeador.
+/213
+Gran amiguero.
+/214
+Asom ndoos por la ventana pod‚is discernir que, contra el cielo nocturno, la silueta de la torre asemeja un siniestro monolito de negra maldad.
+/215
+Escapar de la torre es, ciertamente, vuestro objetivo.

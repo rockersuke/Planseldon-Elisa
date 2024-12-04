@@ -11,14 +11,24 @@ Idea original, guion y direcci¢n:
    CARLOS MARTINEZ AGUIRRE
 
 
+Gr ficos PC:
+
+   JUAN JOSE TORRES
+
+
+PANTALL DE CARGA SPECTRUM:
+
+  IGNACIO PRINI
+
+
+Car tula e Ilustraciones originales: 
+
+   LIZZY WEIZENBAUM
+
+
 Testeadores:
 
    AMADO SANCHEZ, JUAN JOSE TORRES, NANDOVE, EDUARDO JOSE VILLALOBOS
-
-
-Car tula y pantallas de carga:
-
-   LIZZY WEIZENBAUM, JUAN JOSE TORRES, IGNACIO PRINI
 
 
 Programaci¢n:

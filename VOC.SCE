@@ -106,10 +106,31 @@ NECRO   83      noun
 TRATA   83      noun
 PIE     84      noun
 ROCKE   85      noun
+PEDRO   85      noun
+FERNA   85      noun
+FERN    85      noun
 PLANS   86      noun
+CARLO   86      noun
+MARTI   86      noun
+MART¡   86      noun
+AGUIR   86      noun
 CAAD    87      noun
 XYZZY   88      noun
 DAAD    89      noun
+LIZZY   90      noun
+WEIZE   90      noun
+IGNAC   91      noun
+PRINI   91      noun
+NEIL    91      noun
+PARSO   91      noun
+JUAN    92      noun
+JUANJ   92      noun
+JOSE    92      noun
+TORRE   92      noun
+NANDO   93      noun
+AMADO   94      noun
+SANCH   94      noun
+S NCH   94      noun
 ;
 ; Verbos
 ;
@@ -242,6 +263,7 @@ TOMAR   72      verb
 ESCUC   73      verb
 OIR     73      verb
 O¡R     73      verb
+ESCAP   74      verb
 ;
 ; Preposiciones
 ;
