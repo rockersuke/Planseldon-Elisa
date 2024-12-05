@@ -486,10 +486,10 @@ EX      ESPEJ   AT 2
                  WINDOW 0
                  PICTURE 14
                  DISPLAY 0
-                 PRINTAT 21 0
+                 WINDOW 1
+                 PRINTAT 24 0
                  MES 190
                  ANYKEY
-                 WINDOW 1
 #ENDIF
 #IF AMIGA
                  WINDOW 0

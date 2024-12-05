@@ -4,8 +4,14 @@
 *.bat
 *.BIN
 *.bin
+*.CGA
+*.cga
+*.CGS
+*.cgs
 *.CHR
 *.chr
+*.COM
+*.com
 *.DAT
 *.dat
 *.DDB
@@ -16,6 +22,10 @@
 *.docx
 *.DSK
 *.dsk
+*.EGA
+*.ega
+*.EGS
+*.egs
 *.EXE
 *.exe
 *.GIF
@@ -49,8 +59,10 @@
 *.txt
 *.VGS
 *.vgs
+*.WEBP
 *.webp
 *.ZIP
 *.zip
 !flags.txt
 !TODO.txt
+/pics
