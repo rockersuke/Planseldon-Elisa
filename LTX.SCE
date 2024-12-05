@@ -16,7 +16,7 @@ Gr ficos PC:
    JUAN JOSE TORRES
 
 
-PANTALL DE CARGA SPECTRUM:
+Pantalla de carga Spectrum:
 
   IGNACIO PRINI
 
