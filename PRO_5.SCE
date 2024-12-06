@@ -1146,8 +1146,10 @@ PONER   PIE     NOTZERO 113
                 MESSAGE 164
                 DONE
                 
-PONER   PIE     MESSAGE 165
-                DONE
+;PONER   PIE     MESSAGE 165
+;                DONE
+
+PONER    PIE    NOTDONE
 
 QUITAR  VIDA    SYNONYM SUICI _
 
