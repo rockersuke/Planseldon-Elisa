@@ -207,7 +207,6 @@ GIRA    40      verb
 GIRAL   40      verb
 RETIR   40      verb
 APART   40      verb
-LEVAN   40      verb
 ABRIR   41      verb
 ABRE    41      verb
 ABREL   41      verb
@@ -264,6 +263,7 @@ ESCUC   73      verb
 OIR     73      verb
 O¡R     73      verb
 ESCAP   74      verb
+LEVAN   75      verb
 ;
 ; Preposiciones
 ;
