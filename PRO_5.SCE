@@ -493,14 +493,14 @@ EX      ESPEJ   AT 2
                  MES 190
                  ANYKEY
 #ENDIF
-#IF AMIGA
+#IF M68000
                  WINDOW 0
                  PICTURE 14
-                 DISPLAY 0                  
-                 PRINTAT 21 0
+                 DISPLAY 0
+                 WINDOW 1               
+                 PRINTAT 24 0
                  MES 190
                  ANYKEY
-                 WINDOW 1
 #ENDIF
                 CLS
                 MES 54
