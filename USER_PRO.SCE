@@ -22,7 +22,14 @@ _       _       AT 2
 
 /PRO 11
 
-; Sin usar en esta aventura.
+; Espera tecla tras pantalla de carga
+
+$bucle
+
+_       _       INKEY
+                DONE
+                
+_       _       SKIP $bucle
 
 /PRO 12
 

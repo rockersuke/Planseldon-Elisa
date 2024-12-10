@@ -17,10 +17,6 @@ _       _       PARSE 0
 _       _       PLUS Turns 1
                 PROCESS 12      
 
-; Actualiza (de nuevo) la barra de estado.
-
-_       _       PROCESS 11
-
 ; Llama a PRO 5. Si al volver se ha ejecutado una acci¢n
 ; continua el bucle del juego recomenzando el PRO 1.
 

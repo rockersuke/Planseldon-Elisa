@@ -3,6 +3,19 @@
 ; Proceso de inicializaci¢n.
 ; Llamado desde PRO 0.
 
+#IF M68000
+ 
+ _       _       WINDOW 0
+                 PICTURE 15
+                 DISPLAY 0
+                 PROCESS 11
+                 PICTURE 16
+                 DISPLAY 0
+                 PROCESS 11
+                 CLS
+                 
+#ENDIF
+
 ; -Colores de papel-tinta iniciales.
 
 _       _       WINDOW 1
