@@ -195,6 +195,17 @@ TOCAR   ALFOM   MESSAGE 112
 TUMBA   ALFOM   MESSAGE 101
 
 ;
+; *** ACCIONES BARRA ESTADO ***
+;
+
+BARRA   _       ZERO 121
+                SET 121
+                RESTART
+                
+BARRA   _       CLEAR 121                
+                RESTART
+
+;
 ; *** ACCIONES BIBLIOTECA ***
 ;
 
@@ -486,12 +497,10 @@ EX      ESPEJ   AT 2
 #ENDIF
 #IF PC
                  WINDOW 0
+                 CLS
                  PICTURE 14
                  DISPLAY 0
-                 WINDOW 1
-                 PRINTAT 24 0
-                 MES 190
-                 ANYKEY
+                 PROCESS 11
 #ENDIF
 #IF M68000
                  WINDOW 0
@@ -506,7 +515,9 @@ EX      ESPEJ   AT 2
                 MES 54
                 MESSAGE 55
                 PROCESS 27
-                DONE
+                NEWLINE
+                ANYKEY
+                RESTART
                 
 EX      ESPEJ   AT 2
                 MESSAGE 63
@@ -1178,7 +1189,9 @@ SUICI   _       MESSAGE 93
 
 ; Entrada a¤adida por Triz2DAAD para pantallas de ayuda.
 
-AYUDA   _       CLS
+AYUDA   _       WINDOW 1
+                WINAT 0 0
+                CLS
                 MESSAGE 18
                 MES 19
                 MESSAGE 56

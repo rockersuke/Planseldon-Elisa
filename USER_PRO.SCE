@@ -1,6 +1,23 @@
 /PRO 7
 
-; Sin usar en esta aventura.
+_       _       ZERO 121
+                DONE
+
+_       _       WINDOW 2
+                CLS
+
+_       _       AT 1
+                MES 216
+                
+_       _       AT 2
+                MES 217
+                
+_       _       TAB COLS-12
+                MES 218
+                MES 171
+                PRINT 115
+                MES 172
+                WINDOW 1
 
 /PRO 8
 
@@ -196,7 +213,7 @@ _       _       NOTZERO 113
                 NEWLINE
                 ANYKEY
                 NEWLINE
-                NEWLINE
+;                NEWLINE
 
 /PRO 22
 

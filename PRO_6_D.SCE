@@ -74,7 +74,7 @@ _       _       RESET
 ;                set 118
 ;                set 119
 ;                let 115 4
-                SET 121
+;                SET 121
                 place 1 254
                 LET Prompt 11
                 GOTO 3

@@ -45,6 +45,7 @@ Vale.
 
 /16
  PULSAD UNA TECLA PARA CONTINUAR.
+
 /17 ;*Has jugado
 /18 ;*\sturno
 /19 ;*s

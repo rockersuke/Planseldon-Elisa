@@ -15,8 +15,13 @@ _       _       NOTZERO 121
                 INK sb_fg_colour
                 PAPER sb_bg_colour
                 CLS
+                PROCESS 7
                 WINDOW 1
                 WINAT 1 0
+                
+_       _       ZERO 121
+                WINDOW 1
+                WINAT 0 0
 
 _       _       CLS
                 WINDOW 1
