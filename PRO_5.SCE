@@ -426,6 +426,7 @@ RECIT   CONJU   NOTZERO 113
                 MESSAGE 128
                 PROCESS 20
                 ANYKEY
+                WINAT 0 0
                 CLS
                 PROCESS 24
                 MESSAGE 138
@@ -495,22 +496,16 @@ EX      ESPEJ   AT 2
                  MESSAGE 207
                  ANYKEY
 #ENDIF
-#IF PC
+#IF 16BITS
                  WINDOW 0
                  CLS
                  PICTURE 14
                  DISPLAY 0
                  PROCESS 11
 #ENDIF
-#IF M68000
-                 WINDOW 0
-                 PICTURE 14
-                 DISPLAY 0
-                 WINDOW 1               
-                 PRINTAT 24 0
-                 MES 190
-                 ANYKEY
-#ENDIF
+                CLS
+                WINDOW 1
+                PROCESS 30
                 CLS
                 MES 54
                 MESSAGE 55
@@ -1196,6 +1191,7 @@ AYUDA   _       WINDOW 1
                 MES 19
                 MESSAGE 56
                 MESSAGE 205
+                MESSAGE 219
                 ANYKEY
                 RESTART
 

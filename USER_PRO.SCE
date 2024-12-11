@@ -18,6 +18,7 @@ _       _       TAB COLS-12
                 PRINT 115
                 MES 172
                 WINDOW 1
+                
 
 /PRO 8
 
@@ -222,6 +223,7 @@ _       _       NOTZERO 113
 _       _       MES 170
                 PLUS 115 1
                 PROCESS 28
+                PROCESS 7
                 SET 109
 
 /PRO 23
@@ -341,3 +343,12 @@ _       _       MES 177
                 PROCESS 28
                 NEWLINE
 
+/PRO 30
+
+; Parche
+
+_       _       ZERO 121
+                WINAT 0 0
+                DONE
+
+_       _       WINAT 1 0

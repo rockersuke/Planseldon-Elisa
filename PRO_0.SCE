@@ -9,12 +9,6 @@ _       _       AT 0
                 PROCESS 6
 
 _       _       NOTZERO 121
-                WINDOW 2
-                WINAT 0 0
-                WINSIZE 1 127
-                INK sb_fg_colour
-                PAPER sb_bg_colour
-                CLS
                 PROCESS 7
                 WINDOW 1
                 WINAT 1 0

@@ -574,3 +574,6 @@ LA CELDA.
 EL LABORATORIO.
 /218
 Logros 
+/219
+La orden "barra de estado" o "be" quita o pone una l¡nea de estado en la parte superior de la pantalla.
+

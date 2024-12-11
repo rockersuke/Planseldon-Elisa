@@ -183,4 +183,5 @@
 #define M6502 CBM64
 #define M68000 ST+AMIGA
 #define I86 PC
+#define 16BITS ST+AMIGA+PC
 ;
