@@ -755,6 +755,7 @@ EX      PARED   AT 1
                 DONE
 
 EX      PARED   AT 1
+                PROCESS 21
                 MES 4
                 MESSAGE 204
                 DONE
@@ -769,7 +770,8 @@ TOCAR   PARED   AT 1
                 MESSAGE 5
                 DONE
 
-TOCAR   PARED   MESSAGE 89
+TOCAR   PARED   PROCESS 21
+                MESSAGE 89
 
 ;
 ; *** ACCIONES PASILLO ***
