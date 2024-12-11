@@ -19,3 +19,4 @@
 118 - Logro 3 CANTAR tras XYZZY
 119 - Logro 4 MIRAR ESPEJO
 120 - Alfombra voló (ella sola)
+121 - Barra de estado 0 -> OFF, 255 -> ON

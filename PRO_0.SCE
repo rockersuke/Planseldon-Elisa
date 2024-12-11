@@ -8,7 +8,15 @@
 _       _       AT 0
                 PROCESS 6
 
-; Pasa a la ventana de texto.
+_       _       NOTZERO 121
+                WINDOW 2
+                WINAT 0 0
+                WINSIZE 1 127
+                INK sb_fg_colour
+                PAPER sb_bg_colour
+                CLS
+                WINDOW 1
+                WINAT 1 0
 
 _       _       CLS
                 WINDOW 1
