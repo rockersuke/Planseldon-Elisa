@@ -72,7 +72,7 @@
 #IF ST
  #define bg_colour 0      ; Color de fondo (papel) de la ventana principal de texto.
  #define fg_colour 1      ; Color del texto (tinta) de la ventana principal de texto.
- #define sb_bg_colour 7   ; Color de fondo (papel) de la barra de estado.
+ #define sb_bg_colour 1   ; Color de fondo (papel) de la barra de estado.
  #define sb_fg_colour 0   ; Color del texto (tinta) de la barra de estado.
 #ENDIF
 ;
