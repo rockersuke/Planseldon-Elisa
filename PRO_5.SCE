@@ -483,7 +483,7 @@ MIRAT   ESPEJ   AT 2
 EX      ESPEJ   AT 2
                 ZERO 107
                 CLS
-#IF SPE
+#IF 8BITS
  ;                 MESSAGE 207
                  WINDOW 0
                  PICTURE 0
@@ -498,6 +498,17 @@ EX      ESPEJ   AT 2
 #ENDIF
 #IF 16BITS
                  WINDOW 0
+                 CLS
+                 PICTURE 14
+                 DISPLAY 0
+                 PROCESS 11
+#ENDIF
+#IF PCW
+                 WINDOW 1
+                 WINAT 0 0
+                 CLS
+                 WINDOW 0
+                 WINAT 0 5
                  CLS
                  PICTURE 14
                  DISPLAY 0
