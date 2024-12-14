@@ -508,7 +508,7 @@ EX      ESPEJ   AT 2
                  WINAT 0 0
                  CLS
                  WINDOW 0
-                 WINAT 0 5
+                 WINAT 3 5
                  CLS
                  PICTURE 14
                  DISPLAY 0
