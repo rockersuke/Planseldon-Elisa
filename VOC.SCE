@@ -264,6 +264,10 @@ OIR     73      verb
 O¡R     73      verb
 ESCAP   74      verb
 LEVAN   75      verb
+BARRA   76      verb
+ESTAD   76      verb
+SL      76      verb
+BE      76      verb
 ;
 ; Preposiciones
 ;

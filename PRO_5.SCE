@@ -195,6 +195,17 @@ TOCAR   ALFOM   MESSAGE 112
 TUMBA   ALFOM   MESSAGE 101
 
 ;
+; *** ACCIONES BARRA ESTADO ***
+;
+
+BARRA   _       ZERO 121
+                SET 121
+                RESTART
+                
+BARRA   _       CLEAR 121                
+                RESTART
+
+;
 ; *** ACCIONES BIBLIOTECA ***
 ;
 
@@ -415,6 +426,7 @@ RECIT   CONJU   NOTZERO 113
                 MESSAGE 128
                 PROCESS 20
                 ANYKEY
+                WINAT 0 0
                 CLS
                 PROCESS 24
                 MESSAGE 138
@@ -471,7 +483,7 @@ MIRAT   ESPEJ   AT 2
 EX      ESPEJ   AT 2
                 ZERO 107
                 CLS
-#IF SPE
+#IF 8BITS
  ;                 MESSAGE 207
                  WINDOW 0
                  PICTURE 0
@@ -484,29 +496,34 @@ EX      ESPEJ   AT 2
                  MESSAGE 207
                  ANYKEY
 #ENDIF
-#IF PC
+#IF 16BITS
                  WINDOW 0
+                 CLS
                  PICTURE 14
                  DISPLAY 0
+                 PROCESS 11
+#ENDIF
+#IF PCW
                  WINDOW 1
-                 PRINTAT 24 0
-                 MES 190
-                 ANYKEY
-#ENDIF
-#IF M68000
+                 WINAT 0 0
+                 CLS
                  WINDOW 0
+                 WINAT 0 5
+                 CLS
                  PICTURE 14
                  DISPLAY 0
-                 WINDOW 1               
-                 PRINTAT 24 0
-                 MES 190
-                 ANYKEY
+                 PROCESS 11
 #ENDIF
+                CLS
+                WINDOW 1
+                PROCESS 30
                 CLS
                 MES 54
                 MESSAGE 55
                 PROCESS 27
-                DONE
+                NEWLINE
+                ANYKEY
+                RESTART
                 
 EX      ESPEJ   AT 2
                 MESSAGE 63
@@ -1178,11 +1195,14 @@ SUICI   _       MESSAGE 93
 
 ; Entrada a¤adida por Triz2DAAD para pantallas de ayuda.
 
-AYUDA   _       CLS
+AYUDA   _       WINDOW 1
+                WINAT 0 0
+                CLS
                 MESSAGE 18
                 MES 19
                 MESSAGE 56
                 MESSAGE 205
+                MESSAGE 219
                 ANYKEY
                 RESTART
 

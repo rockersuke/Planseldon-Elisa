@@ -72,7 +72,7 @@
 #IF ST
  #define bg_colour 0      ; Color de fondo (papel) de la ventana principal de texto.
  #define fg_colour 1      ; Color del texto (tinta) de la ventana principal de texto.
- #define sb_bg_colour 7   ; Color de fondo (papel) de la barra de estado.
+ #define sb_bg_colour 1   ; Color de fondo (papel) de la barra de estado.
  #define sb_fg_colour 0   ; Color del texto (tinta) de la barra de estado.
 #ENDIF
 ;
@@ -183,4 +183,6 @@
 #define M6502 CBM64
 #define M68000 ST+AMIGA
 #define I86 PC
+#define 16BITS ST+AMIGA+PC
+#define 8BITS SPE+MSX
 ;

@@ -8,7 +8,14 @@
 _       _       AT 0
                 PROCESS 6
 
-; Pasa a la ventana de texto.
+_       _       NOTZERO 121
+                PROCESS 7
+                WINDOW 1
+                WINAT 1 0
+                
+_       _       ZERO 121
+                WINDOW 1
+                WINAT 0 0
 
 _       _       CLS
                 WINDOW 1

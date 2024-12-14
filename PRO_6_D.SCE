@@ -18,6 +18,12 @@
 
 ; -Colores de papel-tinta iniciales.
 
+_       _       WINDOW 2
+                PAPER sb_bg_colour
+                INK sb_fg_colour
+                WINAT 0 0
+                WINSIZE 1 127
+
 _       _       WINDOW 1
                 PAPER bg_colour
                 INK fg_colour
@@ -74,6 +80,7 @@ _       _       RESET
 ;                set 118
 ;                set 119
 ;                let 115 4
+;                SET 121
                 place 1 254
                 LET Prompt 11
                 GOTO 3

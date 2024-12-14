@@ -568,3 +568,12 @@ Gran amiguero.
 Asom ndoos por la ventana pod‚is discernir que, contra el cielo nocturno, la silueta de la torre asemeja un siniestro monolito de negra maldad.
 /215
 Escapar de la torre es, ciertamente, vuestro objetivo.
+/216
+LA CELDA.
+/217
+EL LABORATORIO.
+/218
+Logros 
+/219
+La orden "barra de estado" o "be" quita o pone una l¡nea de estado en la parte superior de la pantalla.
+

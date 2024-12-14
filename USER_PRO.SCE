@@ -1,6 +1,24 @@
 /PRO 7
 
-; Sin usar en esta aventura.
+_       _       ZERO 121
+                DONE
+
+_       _       WINDOW 2
+                CLS
+
+_       _       AT 1
+                MES 216
+                
+_       _       AT 2
+                MES 217
+                
+_       _       TAB COLS-12
+                MES 218
+                MES 171
+                PRINT 115
+                MES 172
+                WINDOW 1
+                
 
 /PRO 8
 
@@ -196,7 +214,7 @@ _       _       NOTZERO 113
                 NEWLINE
                 ANYKEY
                 NEWLINE
-                NEWLINE
+;                NEWLINE
 
 /PRO 22
 
@@ -205,6 +223,7 @@ _       _       NOTZERO 113
 _       _       MES 170
                 PLUS 115 1
                 PROCESS 28
+                PROCESS 7
                 SET 109
 
 /PRO 23
@@ -324,3 +343,12 @@ _       _       MES 177
                 PROCESS 28
                 NEWLINE
 
+/PRO 30
+
+; Parche
+
+_       _       ZERO 121
+                WINAT 0 0
+                DONE
+
+_       _       WINAT 1 0
