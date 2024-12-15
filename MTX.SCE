@@ -54,7 +54,7 @@ Entre ellas destacaba por su buen juicio y gentil hermosura una joven castellana
 /23
 Un d¡a do¤a Elisa se encontraba solaz ndose en la floresta de Brocelianda, cuando un horrible nigromante venido de oriente la secuestr¢ y se la llev¢ muy lejos, a tierra de infieles. Nada m s llegar a su torre de alta hechicer¡a el brujo orden¢ vestirla de 
 /24
-Encerrada en una fr¡a celda sab‚is que os queda muy poco tiempo antes de que regrese el brujo.... A miles de jornadas de Aval¢n, en lo alto de una torre en medio de un desierto que parece infinito, sin la ayuda de Merl¡n y Viviana, privada del poder de 
+Encerrada en una fr¡a celda sab‚is que os queda muy poco tiempo antes de que regrese el brujo... A miles de jornadas de Aval¢n, en lo alto de una torre en medio de un desierto que parece infinito, sin la ayuda de Merl¡n y Viviana, privada del poder de 
 /25
 odalisca y ahora se acicala para disfrutar de su bot¡n y cometer todo tipo de tropel¡as con el cuerpo de diosa de la inocente Elisa...
 
