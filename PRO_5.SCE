@@ -410,6 +410,11 @@ RECIT   _       PROCESS 19
                 MESSAGE 136
                 DONE
 
+RECIT   CONJU   NOTZERO 120
+                MESSAGE 220
+                SET 109
+                DONE
+
 RECIT   CONJU   ZERO 102
                 MESSAGE 129
                 DONE

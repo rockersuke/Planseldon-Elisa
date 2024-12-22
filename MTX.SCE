@@ -518,7 +518,7 @@ No encontr is nada.
 /197
 Parece haber una alfombra.
 /198
-Despleg is la alfombra hasta que ‚sta queda extendida sobre el suelo 
+Despleg is la alfombra hasta que ‚sta queda extendida sobre el suelo
 /199
 LOGRO 4: MIRAR el ESPEJO.
 
@@ -577,3 +577,5 @@ Logros
 /219
 La orden "barra de estado" o "be" quita o pone una l¡nea de estado en la parte superior de la pantalla.
 
+/220
+Recit is con voz helada las palabras... como si no supierais que ya no servir n de nada.
