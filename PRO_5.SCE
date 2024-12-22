@@ -400,6 +400,9 @@ _       AMADO   MESSAGE 212
 
 _       NANDO   MESSAGE 213
                 DONE
+
+_       RUBER   MESSAGE 212
+                DONE
                 
 ;
 ; *** ACCIONES DECIR y CONJURO ***

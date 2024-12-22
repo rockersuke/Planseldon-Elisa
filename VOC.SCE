@@ -131,6 +131,8 @@ NANDO   93      noun
 AMADO   94      noun
 SANCH   94      noun
 S NCH   94      noun
+RUBER   95      noun
+EAGLE   95      noun
 ;
 ; Verbos
 ;
