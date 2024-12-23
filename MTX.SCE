@@ -485,7 +485,7 @@ El Necronomic¢n es un libro que aparece mencionado reiteradamente en los relatos
 LOGRO 3: CANTAR.
 
 
-La canci¢n que Elisa de Aval¢n consigue reunir fuerzas para recitar es una creaci¢n en espa¤ol de Carlos Mart¡nez Aguirre basada en la historia narrada en el poema "La balada de Aotrou e Itroun", escrito por J. R. R. Tolkien en 1930. Al igual que en la pieza
+La canci¢n que Elisa de Aval¢n consigue reunir fuerzas para recitar es una creaci¢n en espa¤ol de Carlos Mart¡nez Aguirre basada en la historia narrada en el poema "La balada de Aotrou e Itroun", escrito por J. R. R. Tolkien en 1930. Al igual que en la 
 /187
 presente en la versi¢n preliminar de William Crowther antes de ser terminada por Don Woods, de la que se puede jugar una versi¢n en espa¤ol realizada por F‚lix Garillete y Pedro Fern ndez. 
 
@@ -498,7 +498,7 @@ ritos arcanos para contactar con seres extradimensionales y un escaso n£mero de 
 A pesar de ser una obra enteramente ficticia todav¡a hay estudiosos e investigadores que lo buscan creyendo ingenuamente en su existencia.
 
 /189
- tolkeniana, relata una historia caballeresca de la Breta¤a francesa medieval en forma de lay, respetando la m‚trica bretona (eneas¡labos con base de yambo y anapestos y rima consonante pareada)
+pieza tolkeniana, relata una historia caballeresca de la Breta¤a francesa medieval en forma de lay, respetando la m‚trica bretona (eneas¡labos con base de yambo y anapestos y rima consonante pareada).
 
 
 /190
