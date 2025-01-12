@@ -31,6 +31,13 @@ Testeadores:
    AMADO SANCHEZ, JUAN JOSE TORRES, NANDOVE, EDUARDO JOSE VILLALOBOS, RUBER EAGLENEST
 
 
+#IF PCW
+ Versi¢n del int‚rprete de DAAD PCW modificada para juegos de una sola carga:
+
+    JAVIER CHOCANO
+#ENDIF
+
+
 Programaci¢n:
 
    PEDRO FERNANDEZ
