@@ -16,7 +16,11 @@ Gr ficos PC:
    JUAN JOSE TORRES
 
 
-Pantalla de carga Spectrum:
+#IF MSX
+ Pantalla de carga MSX:
+#ELSE
+ Pantalla de carga Spectrum:
+#ENDIF
 
   IGNACIO PRINI
 
