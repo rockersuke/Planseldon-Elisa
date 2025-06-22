@@ -11,18 +11,14 @@ Idea original, guion y direcci¢n:
    CARLOS MARTINEZ AGUIRRE
 
 
-Gr ficos PC:
+Gr ficos PC, ST, AMIGA:
 
    JUAN JOSE TORRES
 
 
-#IF MSX
- Pantalla de carga MSX:
-#ELSE
- Pantalla de carga Spectrum:
-#ENDIF
+Pantallas de carga ZX, MSX, CPC:
 
-  IGNACIO PRINI
+   IGNACIO PRINI
 
 
 Car tula e Ilustraciones originales: 

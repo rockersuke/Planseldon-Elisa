@@ -494,17 +494,16 @@ EX      ESPEJ   AT 2
                 ZERO 107
                 CLS
 #IF 8BITS
- ;                 MESSAGE 207
                  WINDOW 0
                  PICTURE 0
                  DISPLAY 0
                  WINDOW 1
-                 PRINTAT 17 5
-                 ANYKEY
-#ENDIF
-#IF CPC
-                 MESSAGE 207
-                 ANYKEY
+ #IF 40COL
+                  PRINTAT 17 3
+ #ELSE 
+                  PRINTAT 17 5
+ #ENDIF                 
+                 ANYKEY                
 #ENDIF
 #IF 16BITS
                  WINDOW 0
