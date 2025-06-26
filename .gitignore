@@ -6,6 +6,8 @@
 *.bin
 *.CAS
 *.cas
+*.CDT
+*.cdt
 *.CGA
 *.cga
 *.CGS
@@ -14,6 +16,8 @@
 *.chr
 *.COM
 *.com
+*.D64
+*.d64
 *.DAT
 *.dat
 *.DDB
@@ -40,6 +44,10 @@
 *.jpg
 *.JPEG
 *.jpeg
+*.KOA
+*.koa
+*.KLA
+*.kla
 *.LNK
 *.lnk
 *.MDG

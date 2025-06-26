@@ -11,12 +11,12 @@ Idea original, guion y direcci¢n:
    CARLOS MARTINEZ AGUIRRE
 
 
-Gr ficos PC, ST, AMIGA:
+Gr ficos PC, ST, AMIGA, PCW:
 
    JUAN JOSE TORRES
 
 
-Pantallas de carga ZX, MSX, CPC:
+Pantallas de carga ZX, MSX, CPC, C64:
 
    IGNACIO PRINI
 
